@@ -165,7 +165,7 @@ const script = scriptReplaced
   .trim()
   .split(/\n\n+/g)
   .filter(v => v.length > 0)
-  .reverse()
+  // .reverse()
   .map(v => ({ pt: v.split('\n')[0].trim(), en: v.split('\n')[1].trim() }))
 
 const scripts = [
