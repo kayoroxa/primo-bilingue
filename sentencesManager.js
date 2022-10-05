@@ -1,8 +1,8 @@
 /* eslint-disable */
 
 const rawScript = `
-I want to go
-Eu quero ir
+i want to go
+eu quero ir
 
 she wants to go
 ela quer ir
@@ -10,14 +10,14 @@ ela quer ir
 to the apartment
 para o apartamento
 
-I want to go to the apartment
-Eu quero ir para o apartamento
+i want to go to the apartment
+eu quero ir para o apartamento
 
-I want to go to the restaurant
-Eu quero ir ao restaurante
+i want to go to the restaurant
+eu quero ir ao restaurante
 
-I want to go home
-Eu quero ir para casa
+i want to go home
+eu quero ir para casa
 
 do you want to go?
 você quer ir?
@@ -46,30 +46,30 @@ ela não quer ir ao restaurante comigo
 she doesn't want to go home with me
 ela não quer ir para casa comigo
 
-I would like
-eu gostaria de
+William would like
+William gostaria de
 
-I would like to go to the supermarket
-eu gostaria de ir ao supermercado
+William would like to go to the supermarket
+William gostaria de ir ao supermercado
 
 too
 também
 
-she would like to go too
-ela gostaria de ir também
+Jessica would like to go too
+Jessica gostaria de ir também
 
-i would like to go to the market too
-eu gostaria de ir para o mercado também 
+William would like to go to the market too
+William gostaria de ir para o mercado também 
 
-she would like to go to the market with me too
-ela gostaria de ir para o mercado comigo também
+Jessica would like to go to the market with me too
+Jessica gostaria de ir para o mercado comigo também
 
 
 but
 mas
 
-I would like to go to a restaurant, but she doesn't want to go
-eu gostaria de ir para restaurante, mas ela não quer ir
+William would like to go to a restaurant, but she doesn't want to go
+William gostaria de ir para restaurante, mas ela não quer ir
   
 
 
@@ -78,17 +78,17 @@ eu gostaria de ir para restaurante, mas ela não quer ir
 I have to
 eu tenho que 
 
-call my mother
+call my mom
 chamar minha mãe
 
-I have to call my mother
+I have to call my mom
 eu tenho que chamar minha mãe
 
 i have to call my mom to go home
 eu tenho que chamar minha mãe para ir pra casa
 
-she would like to go so i have to call
-ela gostaria de ir então eu tenho que chamar
+Jessica would like to go so i have to call
+Jessica gostaria de ir então eu tenho que chamar
 
 she doesn't want to go
 ela não quer ir
@@ -99,20 +99,61 @@ ela não quer ir mas eu tenho que chamar
 she doesn't want to go but i have to go to the restaurant
 ela não quer ir mas eu tenho que ir para o restaurante
 
-I want to go but she doesn't want to go
+i want to go but she doesn't want to go
 eu quero ir mas ela não quer ir
 
-I want to go
+i want to go
 eu quero ir
 
-I want to go but my mother doesn't want to go
+i want to go but my mom doesn't want to go
 eu quero ir mas minha mãe não quer ir
 
-I want to call my mother
+i want to call my mom
 eu quero chamar minha mãe
 
-I want to call my mother to go with me
+i want to call my mom to go with me
 eu quero chamar minha mãe para ir comigo
+
+
+
+she wants to go home with my mom
+ela quer ir para casa with my mom
+
+i have to call William to go to the restaurant
+eu tenho que chamar William para ir ao restaurante
+
+my mom doesn't want to go to the supermarket with William
+minha mãe não quer ir ao supermercado com William
+
+do you want to go to the restaurant with William?
+você quer ir ao restaurante com William?
+
+do you want to go home too?
+você quer ir pra casa também?
+
+she wants to go with you but you don't want to go
+ela quer ir com você mas você não quer ir
+
+Jessica has to
+Jessica tem que
+
+William has to
+William tem que
+
+Jessica has to call William
+Jessica tem que chamar William
+
+Jessica tem que ligar pra minha mãe para ir ao super mercado
+Jessica has to call my mom to go to the supermarket
+
+do you want to go to the restaurant with Jessica?
+você quer ir ao restaurante com Jéssica?
+
+Jessica wants to go but you need to call my mom
+Jéssica quer ir mas você precisa chamar minha mãe
+
+she wants to call me but i don't want to go
+ela quer me chamar mas eu não quero ir
 
 `
 
@@ -121,24 +162,25 @@ with me
 comigo
 so
 então
-(she|you|i) (does|do)n't want
-(do|does)? (she|i|you) wants?
-(ela|eu|você) (não)? quero?
-(she|i|you) have to
-(ela|eu|você) (não)? (tem|tenho) que
-(she|i|you) would like
-(ela|eu|você) (não)? gostaria de
+(she|you|i|William|Jessica) (does|do)n't want
+(do|does)? (she|i|you|William|Jessica) wants?
+(ela|eu|você|Jessica) (não)? quero?
+(she|i|you|William|Jessica) (have|has) to
+(ela|eu|você|William|Jessica) (não)? (tem|tenho) que
+(she|i|you|Jessica|William) would like
+(ela|eu|você|Jessica|William) (não)? gostaria de
 with
 com
 perfume
 (to)? go
-ir
+(para)? ir
 também
 too
 mas
 but
 also
 `
+  .replace(/J[eé]ssica/gi, 'Jessica')
   .split(/\n/g)
   .filter(Boolean)
   .map(v =>
@@ -159,7 +201,6 @@ const scriptReplaced = teach
   .replace(/\?/g, '{?}')
 
 console.log(scriptReplaced)
-// debugger
 
 const script = scriptReplaced
   .trim()
@@ -168,28 +209,7 @@ const script = scriptReplaced
   // .reverse()
   .map(v => ({ pt: v.split('\n')[0].trim(), en: v.split('\n')[1].trim() }))
 
-const scripts = [
-  // {
-  //   pt: 'quão longe | temos | nós | vindo',
-  //   en: `how far | have | we | gone`,
-  // },
-  // {
-  //   pt: 'quão alto | você | é | ?',
-  //   en: `how tall | you | are | ?`,
-  // },
-  // {
-  //   pt: 'quanto | dinheiro | você tem | ?',
-  //   en: `how much | money | do you have | ?`,
-  // },
-  // {
-  //   pt: 'quanto tempo |você | ficou | lá | ?',
-  //   en: `How much time |you | was | there | ?`,
-  // },
-  // {
-  //   pt: 'quão | velho | você está | ?',
-  //   en: `how | old |are you | ?`,
-  // },
-]
+console.log('quantidade: ', script.length)
 
 const template = (en, pt) => {
   const str = `
@@ -200,6 +220,7 @@ const template = (en, pt) => {
   `
   return str //new DOMParser().parseFromString(str, 'text/xml')
 }
+
 const template2 = word => `<div class="block hidden">${word}</div>`
 
 // [["Tudo bem", "all right"], ["hora", "time"]]
@@ -302,6 +323,43 @@ function Scene() {
   let isStarted = true
 
   putInHtml(sceneIndex)
+  const tl = anime.timeline({ easing: 'linear', autoplay: false })
+
+  function resetLoading() {
+    anime.set('.loading', { width: '0%' })
+    anime.set('.load', { opacity: 0 })
+  }
+
+  function create() {
+    tl.add({
+      targets: '.load',
+      opacity: 1,
+      duration: 200,
+    })
+      .add(
+        {
+          targets: '.loading',
+          width: ['0%', '100%'],
+          delay: 30,
+          duration: 3000,
+        },
+        0
+      )
+      .add({
+        targets: '.load',
+        opacity: 0,
+        duration: 200,
+      })
+
+    createTimeLine = true
+  }
+
+  create()
+
+  function loadingTo100() {
+    tl.restart()
+    tl.play()
+  }
 
   return {
     get isStarted() {
@@ -314,6 +372,7 @@ function Scene() {
     },
     nextScene: () => {
       if (sceneIndex >= script.length - 1) return
+      resetLoading()
       indexBlock = 0
       deletarTudo()
       sceneIndex++
@@ -321,15 +380,19 @@ function Scene() {
     },
     prevScene: () => {
       if (sceneIndex <= 0) return
+      resetLoading()
       indexBlock = 0
       deletarTudo()
       sceneIndex--
       putInHtml(sceneIndex)
     },
     start: () => {
+      // tl.restart()
+      // tl.pause()
       sceneIndex = 0
       putInHtml(indexBlock)
     },
+    loadingTo100,
   }
 }
 
@@ -347,5 +410,8 @@ document.addEventListener('keydown', event => {
   }
   if (event.key === 'ArrowLeft' || event.key.toLocaleLowerCase() === 'a') {
     myScene.prevScene()
+  }
+  if (event.key.toLocaleLowerCase() === 'w') {
+    myScene.loadingTo100()
   }
 })
