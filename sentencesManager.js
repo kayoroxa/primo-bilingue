@@ -16,8 +16,7 @@ eu quero ir para o apartamento
 i want to go to the restaurant
 eu quero ir ao restaurante
 
-i want to go home
-eu quero ir para casa
+
 
 do you want to go?
 você quer ir?
@@ -27,6 +26,9 @@ você quer ir ao restaurante?
 
 she wants to go to the apartment
 ela quer ir para o apartamento
+
+i want to go home
+eu quero ir para casa
 
 she wants to go home
 ela quer ir para casa
@@ -64,14 +66,18 @@ William gostaria de ir para o mercado também
 Jessica would like to go to the market with me too
 Jessica gostaria de ir para o mercado comigo também
 
-
 but
 mas
 
-William would like to go to a restaurant, but she doesn't want to go
-William gostaria de ir para restaurante, mas ela não quer ir
-  
 
+William would like to go but she doesn't
+William gostaria de ir mas ela não
+
+she doesn't want but William want
+ela não quer mas William quer
+
+William would like to go to the restaurant but she doesn't want to go
+William gostaria de ir para restaurante mas ela não quer ir
 
 
 
@@ -162,6 +168,8 @@ with me
 comigo
 so
 então
+to go home
+(para|pra)? ir (para|pra) casa
 (she|you|i|William|Jessica) (does|do)n't want
 (do|does)? (she|i|you|William|Jessica) wants?
 (ela|eu|você|Jessica) (não)? quero?
@@ -220,8 +228,10 @@ const template = (en, pt) => {
   `
   return str //new DOMParser().parseFromString(str, 'text/xml')
 }
-
-const template2 = word => `<div class="block hidden">${word}</div>`
+const template2 = (word, show) =>
+  `<div class="block"><span class="${
+    show ? '' : 'hidden'
+  }">${word}</span></div>`
 
 // [["Tudo bem", "all right"], ["hora", "time"]]
 
@@ -244,7 +254,16 @@ function putInHtml(indexScript) {
   const withoutPunctuation = enSplitted.filter(en => en !== '?')
   // const withPunctuation = enSplitted.find(en => en === '?')
   const strHtmls = splitted.map(([en, pt]) => template(en, pt))
-  const strHtmlWaiting = _.shuffle(withoutPunctuation.map(pt => template2(pt)))
+
+  let randomIndex = _.shuffle(
+    Array(withoutPunctuation.length)
+      .fill()
+      .map((_, i) => i)
+  ).slice(0, withoutPunctuation.length * 0.5)
+
+  const strHtmlWaiting = _.shuffle(
+    withoutPunctuation.map((pt, i) => template2(pt, randomIndex.includes(i)))
+  )
 
   // if (withPunctuation) strHtmlWaiting.push(template2(withPunctuation))
 
@@ -361,6 +380,14 @@ function Scene() {
     tl.play()
   }
 
+  function getIndex() {
+    document.querySelector('.index').textContent = `${sceneIndex + 1}/${
+      script.length
+    }`
+  }
+
+  getIndex()
+
   return {
     get isStarted() {
       return isStarted
@@ -377,6 +404,7 @@ function Scene() {
       deletarTudo()
       sceneIndex++
       putInHtml(sceneIndex)
+      getIndex()
     },
     prevScene: () => {
       if (sceneIndex <= 0) return
@@ -385,6 +413,7 @@ function Scene() {
       deletarTudo()
       sceneIndex--
       putInHtml(sceneIndex)
+      getIndex()
     },
     start: () => {
       // tl.restart()

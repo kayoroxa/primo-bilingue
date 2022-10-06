@@ -98,10 +98,12 @@ body {
   display: flex;
   justify-content: center;
   gap: 1vw;
+
 }
 
 .waiting > .block {
   background: hsl(96, 5%, 81%);
+  
 }
 
 .column:nth-child(1) > .block {
@@ -140,7 +142,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 16vh;
+  gap: 26vh;
 }
 
 .load{
@@ -164,6 +166,12 @@ body {
   width: 0%;
   background-color: hsl(176, 31%, 55%);
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.index {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
 }
 
 /* .column::after {
