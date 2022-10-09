@@ -14,7 +14,11 @@ teach = teach
 
 const scriptReplaced = teach
   .reduce((acc, cur) => {
-    const reg = new RegExp(`(\\b${cur}\\b)(?![^{]*})`, 'gi')
+    const noWAndKeyBehind = `(?<=[^á-úa-z{]|^)`
+    const noWAndKeyAfter = `(?=[^á-úa-z}]|$)`
+
+    // const reg = new RegExp(`${noWBehind}(${cur})${noWAfter}(?![^{]*})`, 'gi')
+    const reg = new RegExp(`${noWAndKeyBehind}(${cur})${noWAndKeyAfter}`, 'gi')
     // debugger
     return acc.replace(reg, `{$1}`)
   }, rawScript)
