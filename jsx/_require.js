@@ -7,9 +7,12 @@ function _require(relativePath) {
     relativePath.endsWith('.jsx') ? relativePath : relativePath + '.jsx'
   )
 
-  const file = fs.readFileSync(filePath, {
+  let file = fs.readFileSync(filePath, {
     encoding: 'utf8',
   })
+
+  file = file.replace(/import ({?.*}?) from (.*)/g, 'const $1 = require($2)')
+  file = file.replace('export default', 'module.exports =')
 
   if (!file.includes('module.exports ='))
     throw new Error(`Você não exportou nada no arquivo: ${filePath}`)

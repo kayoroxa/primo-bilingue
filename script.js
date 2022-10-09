@@ -6,7 +6,7 @@ she wants to go
 ela quer ir
 
 to the apartment
-para o apartamento
+para o apartamentosss
 
 i want to go to the apartment
 eu quero ir para o apartamento
