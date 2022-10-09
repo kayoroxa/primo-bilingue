@@ -7,7 +7,7 @@ teach = teach
     v
       .trim()
       .replace(/([^|()\?]+(?=[^(]*\)\?))/g, '$1 ')
-      .replace(/(\(.*?\)\?)\s/g, '$1')
+      .replace(/\s*(\(.*?\)\?)\s*/g, '$1')
   )
 
 // .sort((a, b) => b.length - a.length)
