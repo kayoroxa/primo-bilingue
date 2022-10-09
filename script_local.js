@@ -7,7 +7,7 @@ ela quer ir
 
 to the apartment
 para o apartamentosss
-
+ss
 i want to go to the apartment
 eu quero ir para o apartamento
 
