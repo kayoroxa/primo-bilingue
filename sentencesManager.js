@@ -57,7 +57,20 @@ function split(v) {
     .filter(v => v !== ' ' && v.length > 0 && v !== '{' && v !== '}')
 }
 
+function Store() {
+  return {
+    saveIndex: index => {
+      localStorage.setItem('index', index)
+    },
+    getIndex: () => parseInt(localStorage.getItem('index') || 0),
+  }
+}
+
+const storage = Store()
+
 function putInHtml(indexScript) {
+  storage.saveIndex(indexScript)
+
   const enSplitted = split(script[indexScript].en)
 
   const ptSplitted = split(script[indexScript].pt)
@@ -154,7 +167,8 @@ function showScene() {}
 
 function Scene() {
   let indexBlock = 0
-  let sceneIndex = 0
+  debugger
+  let sceneIndex = storage.getIndex() || 0
   let isStarted = true
 
   putInHtml(sceneIndex)
