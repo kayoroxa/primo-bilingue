@@ -14,7 +14,7 @@ teach = teach
 
 const scriptReplaced = teach
   .reduce((acc, cur) => {
-    const reg = new RegExp(`(${cur})(?![^{]*})`, 'gi')
+    const reg = new RegExp(`(\\b${cur}\\b)(?![^{]*})`, 'gi')
     // debugger
     return acc.replace(reg, `{$1}`)
   }, rawScript)
