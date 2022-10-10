@@ -1,4 +1,7 @@
 /* eslint-disable */
+
+const percentAnswerShow = 0.7
+
 teach = teach
   .replace(/J[eé]ssica/gi, 'Jessica')
   .split(/\n/g)
@@ -88,7 +91,7 @@ function putInHtml(indexScript) {
     Array(withoutPunctuation.length)
       .fill()
       .map((_, i) => i)
-  ).slice(0, withoutPunctuation.length * 0.7)
+  ).slice(0, withoutPunctuation.length * percentAnswerShow)
 
   const strHtmlWaiting = _.shuffle(
     withoutPunctuation.map((pt, i) => template2(pt, randomIndex.includes(i)))
