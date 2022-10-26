@@ -1,6 +1,6 @@
 /* eslint-disable */
 
-const percentAnswerShow = 0.7
+const percentAnswerShow = 0
 
 teach = teach
   .replace(/J[eé]ssica/gi, 'Jessica')
@@ -22,10 +22,13 @@ const scriptReplaced = teach
 
     // const reg = new RegExp(`${noWBehind}(${cur})${noWAfter}(?![^{]*})`, 'gi')
     const reg = new RegExp(`${noWAndKeyBehind}(${cur})${noWAndKeyAfter}`, 'gi')
+
     // debugger
     return acc.replace(reg, `{$1}`)
   }, rawScript)
   .replace(/\?/g, '{?}')
+  .replace(/\{([^}]*?)(?=\s?\{)/g, '{$1}')
+  .replace(/\}{2,}/g, '}')
 
 console.log(scriptReplaced)
 
@@ -39,10 +42,17 @@ const script = scriptReplaced
 console.log('quantidade: ', script.length)
 
 const template = (en, pt) => {
+  if (en === pt) {
+    return `
+      <div class="column">
+        <div class="block resolved fixed">${pt}</div>
+      </div>
+    `
+  }
   const str = `
     <div class="column">
       <div class="block ${pt === '?' ? 'fixed' : ''}">${pt}</div>
-      <div class="block ${en === '?' ? 'fixed' : 'hidden'} stroke">${en}</div>
+      <div class="block ${en === '?' ? 'fixed' : 'hidde n'} stroke">${en}</div>
     </div>
   `
   return str //new DOMParser().parseFromString(str, 'text/xml')
@@ -73,7 +83,7 @@ const storage = Store()
 
 function putInHtml(indexScript) {
   storage.saveIndex(indexScript)
-
+  if (!script[indexScript]?.en) return
   const enSplitted = split(script[indexScript].en)
 
   const ptSplitted = split(script[indexScript].pt)
@@ -94,7 +104,11 @@ function putInHtml(indexScript) {
   ).slice(0, withoutPunctuation.length * percentAnswerShow)
 
   const strHtmlWaiting = _.shuffle(
-    withoutPunctuation.map((pt, i) => template2(pt, randomIndex.includes(i)))
+    withoutPunctuation
+      .filter(answer => {
+        return !splitted.some(([_, question]) => question === answer)
+      })
+      .map((pt, i) => template2(pt, randomIndex.includes(i)))
   )
 
   // if (withPunctuation) strHtmlWaiting.push(template2(withPunctuation))
@@ -118,6 +132,7 @@ function putInHtml(indexScript) {
 }
 
 function handleOnClickInSentence(index, indexScript) {
+  debugger
   function find(query) {
     return Array.from(document.querySelectorAll(query)).find(
       el =>
@@ -126,9 +141,9 @@ function handleOnClickInSentence(index, indexScript) {
     )
   }
   const element0 = find('.blocks .block:not(.fixed, .resolved)')
-  const element1 = find('.waiting .block:not(.fixed, .resolved)')
+  const answerElement = find('.waiting .block:not(.fixed, .resolved)')
 
-  const elements = [element0, element1]
+  const elements = [element0, answerElement]
   if (!elements[0] || !elements[1]) return
 
   const prevWidth = elements[0].getBoundingClientRect().width
@@ -170,7 +185,6 @@ function showScene() {}
 
 function Scene() {
   let indexBlock = 0
-  debugger
   let sceneIndex = storage.getIndex() || 0
   let isStarted = true
 
