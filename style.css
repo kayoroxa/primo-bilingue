@@ -58,6 +58,7 @@ body {
   flex-direction: column;
   /* justify-content: flex-end; */
   gap: 3vh;
+  justify-content: center;
 }
 
 .block {
@@ -196,3 +197,36 @@ body {
   border-radius: 30px;
   border-style: dashed;
 } */
+
+
+#vocabulary {
+  background-color: hsl(104, 27%, 80%);
+  width: 100%;
+  min-height: 100vh;
+  /* background-color: b; */
+  display: flex;
+  padding: 50px;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+
+#vocabulary section {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+#vocabulary .elem {
+  background-color: hsl(162, 70%, 34%);
+  height: fit-content;
+  width: fit-content;
+  color: hsl(0, 0%, 100%);
+  padding: 10px 40px;
+  border-radius: 15px;
+  font-size: 30px;
+}
+
+.hide {
+  display: none !important;
+}

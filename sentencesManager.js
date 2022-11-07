@@ -1,34 +1,45 @@
 /* eslint-disable */
+console.log('oi')
 
-const percentAnswerShow = 0
+import Vocabulary from './js/showVocabulary.js'
 
-teach = teach
-  .replace(/J[eé]ssica/gi, 'Jessica')
-  .split(/\n/g)
-  .filter(Boolean)
-  .map(v =>
-    v
-      .trim()
-      .replace(/([^|()\?]+(?=[^(]*\)\?))/g, '$1 ')
-      .replace(/\s*(\(.*?\)\?)\s*/g, '$1')
-  )
+const percentAnswerShow = 0.4
 
-// .sort((a, b) => b.length - a.length)
+function scriptReplace(teach) {
+  teach = teach
+    .replace(/J[eé]ssica/gi, 'Jessica')
+    .split(/\n/g)
+    .filter(Boolean)
+    .map(v =>
+      v
+        .trim()
+        .replace(/([^|()\?]+(?=[^(]*\)\?))/g, '$1 ')
+        .replace(/\s*(\(.*?\)\?)\s*/g, '$1')
+    )
 
-const scriptReplaced = teach
-  .reduce((acc, cur) => {
-    const noWAndKeyBehind = `(?<=[^á-úa-z{]|^)`
-    const noWAndKeyAfter = `(?=[^á-úa-z}]|$)`
+  const scriptReplaced = teach
+    .reduce((acc, cur) => {
+      const noWAndKeyBehind = `(?<=[^á-úa-z{]|^)`
+      const noWAndKeyAfter = `(?=[^á-úa-z}]|$)`
 
-    // const reg = new RegExp(`${noWBehind}(${cur})${noWAfter}(?![^{]*})`, 'gi')
-    const reg = new RegExp(`${noWAndKeyBehind}(${cur})${noWAndKeyAfter}`, 'gi')
+      // const reg = new RegExp(`${noWBehind}(${cur})${noWAfter}(?![^{]*})`, 'gi')
+      const reg = new RegExp(
+        `${noWAndKeyBehind}(${cur})${noWAndKeyAfter}`,
+        'gi'
+      )
 
-    // debugger
-    return acc.replace(reg, `{$1}`)
-  }, rawScript)
-  .replace(/\?/g, '{?}')
-  .replace(/\{([^}]*?)(?=\s?\{)/g, '{$1}')
-  .replace(/\}{2,}/g, '}')
+      // debugger
+      return acc.replace(reg, `{$1}`)
+    }, rawScript)
+    .replace(/\?/g, '{?}')
+    .replace(/\{([^}]*?)(?=\s?\{)/g, '{$1}')
+    .replace(/\}{2,}/g, '}')
+  return scriptReplaced
+}
+
+const scriptReplaced = rawScript.includes('{')
+  ? rawScript
+  : scriptReplace(teach)
 
 console.log(scriptReplaced)
 
@@ -52,7 +63,7 @@ const template = (en, pt) => {
   const str = `
     <div class="column">
       <div class="block ${pt === '?' ? 'fixed' : ''}">${pt}</div>
-      <div class="block ${en === '?' ? 'fixed' : 'hidde n'} stroke">${en}</div>
+      <div class="block ${en === '?' ? 'fixed' : 'hidden'} stroke">${en}</div>
     </div>
   `
   return str //new DOMParser().parseFromString(str, 'text/xml')
@@ -181,14 +192,21 @@ function deletarTudo() {
   document.querySelector('.waiting').innerHTML = ''
 }
 
-function showScene() {}
-
 function Scene() {
   let indexBlock = 0
-  let sceneIndex = storage.getIndex() || 0
+  let sceneIndex = storage.getIndex() || -1
   let isStarted = true
 
-  putInHtml(sceneIndex)
+  const { show: showVocabulary, hide: hideVocabulary } = Vocabulary(
+    teach.replace(/\,/g, '').split('\n')
+  )
+
+  if (sceneIndex === -1) {
+    showVocabulary()
+  } else {
+    putInHtml(sceneIndex)
+  }
+
   const tl = anime.timeline({ easing: 'linear', autoplay: false })
 
   function resetLoading() {
@@ -217,7 +235,7 @@ function Scene() {
         duration: 200,
       })
 
-    createTimeLine = true
+    // createTimeLine = true
   }
 
   create()
@@ -246,6 +264,7 @@ function Scene() {
     },
     nextScene: () => {
       if (sceneIndex >= script.length - 1) return
+      hideVocabulary()
       resetLoading()
       indexBlock = 0
       deletarTudo()
@@ -254,13 +273,21 @@ function Scene() {
       getIndex()
     },
     prevScene: () => {
-      if (sceneIndex <= 0) return
-      resetLoading()
-      indexBlock = 0
-      deletarTudo()
-      sceneIndex--
-      putInHtml(sceneIndex)
-      getIndex()
+      if (sceneIndex === 0) {
+        sceneIndex--
+        deletarTudo()
+        resetLoading()
+        showVocabulary()
+        getIndex()
+      } else if (sceneIndex > 0) {
+        hideVocabulary()
+        resetLoading()
+        indexBlock = 0
+        deletarTudo()
+        sceneIndex--
+        putInHtml(sceneIndex)
+        getIndex()
+      }
     },
     start: () => {
       // tl.restart()
