@@ -1,53 +1,24 @@
 const script = `
-{for} {you} {to understand} {a} {native},
-{para} {você} {entender} {um} {nativo}, 
+Jessica {wants} {to go home}
+Jessica {quer} {ir para casa}
 
-you have to know the words,
-você tem que saber as palavras, 
+{but} William {doesn't want} {to go home} {with her}
+{mas} William {não quer} {ir para casa} {com ela}
 
-you have {to know} the pronunciation,
-você tem que para a pronuncia, 
+{so} {you have to} {go home} {with her}
+{então} {você tem que} {ir para casa} {com ela}
 
-and you have to know the connection of words..
-e você tem que saber a conecção das palavras..
-
-for you to understand a native
-para você entender um nativo 
-
-you have to practice these 3 things.
-você tem que praticar essas 3 coisas.
-
-eu vou repetir:
-I will repeat:
-
-the translation of words,
-a tradução das palavras, 
-
-the pronunciation,
-a pronuncia, 
-
-and the connection of words.
-e a conecção das palavras.
-
-you practicing all this everyday
-você praticando tudo isso todos os dias 
-
-you will quickly learn English.
-você rápido vai aprender inglês.
-
-your level is not important,
-o seu nivel não é importante, 
-
-just practice, and it will be natural like portuguese
-apenas pratique, e será natural como o português
+{and} {you have to} {call my mom}
+{e} {você tem que} {ligar para minha mãe}
 `
-
 const data = script.split('\n\n').map(v => v.split('\n').filter(Boolean))
 
 const cores = [
   'hsl(344, 100%, 54%)',
-  'hsl(187, 97%, 29%)',
-  'hsl(35, 100%, 55%)',
+  'hsl(217, 100%, 61%)',
+  'hsl(162, 70%, 34%)',
+  'hsl(265, 83%, 57%)',
+  'hsl(19, 97%, 51%)',
 ]
 
 const spanTemplate = sentence => {
@@ -72,8 +43,8 @@ const spanTemplate = sentence => {
 
 const template = (pt, en) => `
 <div class="paragraph">
+<div class="text en">${spanTemplate(en)}</div>
   <div class="text pt">${spanTemplate(pt)}</div>
-  <div class="text en">${spanTemplate(en)}</div>
 </div>
 `
 

@@ -1,14 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&display=swap');
+
+body {
+  background-color: hsl(0, 0%, 90%);
+}
+
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'roboto';
+  color: rgb(44, 44, 44);
+  font-family: 'Amaranth',  'roboto';
 }
 
-body {
-  width: 100%;
-  min-height: 100%;
-}
 
 .app {
   padding: 80px;
@@ -19,6 +23,8 @@ body {
   justify-content: center;
   align-items: center;
   gap: 60px;
+  padding-top: 600px;
+  padding-bottom: 600px;
 }
 
 .paragraph {
@@ -29,6 +35,16 @@ body {
 }
 
 .text {
-  font-size: 50px;
+  font-size: 70px;
   text-align: center;
+}
+
+.text.pt {
+  font-weight: lighter;
+  font-size: 60px;
+  opacity: 90%;
+}
+
+.text.en {
+  font-weight: bold;
 }
