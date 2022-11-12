@@ -1,132 +1,125 @@
 const _ = require('lodash')
+const { generateSentences } = require('./funcs')
+require('typescript-require')
+
+const { choseVariantes } = require('./choseVariantes.ts')
 
 const dict = {
   intro: [
-    'por que',
-    'eu não entendi o porquê que',
-    'ninguém sabe o porquê que',
+    'why',
+    "I didn't understand why",
+    'nobody knows why',
+    'I wonder if',
+    "even if it's just a lie",
+    "i don't care if",
   ],
   who: [
     //
-    'ele',
-    'William e você',
-    'Alice e Joyce',
-    'elas',
-    'todo mundo',
-    'meu pai',
-    'meu time',
-    'minha família',
+    'he',
+    'William and you',
+    'Rose and Joyce',
+    'they',
+    'everyone',
+    'my dad',
+    'my cousin',
+    'the guys',
+    'the crowd',
+    'my team',
+    'my family',
+    'everyone',
+    'nobody',
+    'someone',
   ],
   what: [
-    'vai pra festa',
-    'vai comer bolo',
-    'vai ficar feliz',
-    'está perguntando se você vai',
-    'vai comprar pizza',
+    'go to the party',
+    'go eat cake',
+    'will be happy',
+    'is asking if you will',
+    'go buy pizza',
+    'wants to see you',
+    'wants to talk to you',
+    'can be here',
+    'can see you now',
+    'would like to know you',
+  ],
+  when: [
+    'at 2 am',
+    'tomorrow',
+    'almost every day',
+    'almost all the time',
+    'right now',
+    'now',
+    'shortly',
+    "it's been a while",
+    'since always',
   ],
   whatPast: [
     //
-    'conseguiu terminar',
-    'não deixou acontecer',
-    'ficou doente',
-    'estuda inglês',
-    'começou a estudar',
+    'managed to finish',
+    "didn't let it happen",
+    'It got sick',
+    'study English',
+    'tried not to upset you',
+    'just wanted to protect you',
   ],
   whenPast: [
-    'desde o ano passado',
-    'apenas a alguns meses',
-    'ontem a noite',
-    'faz tempo',
+    'since last year',
+    'just a few months',
+    'last night',
+    "it's been a while",
   ],
-  when: [
-    'as 2 da manhã',
-    'amanhã',
-    'quase todo dia',
-    'quase toda hora',
-    'agora mesmo',
-    'agora',
-    'daqui a pouco',
-  ],
+
   where: [
-    'perto de casa',
-    'bem longe',
-    'na casa dele',
-    'no meu trabalho',
-    'na praia',
-    'no restaurante',
-    'perto da praia',
+    'close to home',
+    'far away',
+    'at my house',
+    'in my work',
+    'on the beach',
+    'at her house',
+    'at the restaurant',
+    'near the beach',
   ],
   why: [
-    'porque é necessário',
-    'porque alguém quer',
-    'já que ninguém fez isso',
-    'por curiosidade',
-    'para eu me sentir bem',
-    'porque está barato',
-    'porque só dar hoje',
-    'para saber como resolver',
+    'because it is necessary',
+    'because someone wants',
+    'since no one did it',
+    'for curiosity',
+    'for me to feel good',
+    "because it's cheap",
+    'because it is only possible today',
+    'to know how to solve',
+    'if you want',
   ],
+  with: ['with my son', 'with my family'],
 }
 
-function generate(dict) {
-  const samples = [
-    // ['who', 'what', 'when', 'where', 'why'],
-    // ['who', 'what', 'where', 'when', 'why'],
-    // ['who', 'whatPast', 'where', 'whenPast', 'why'],
-    ['who', 'what', 'where'],
-    ['who', 'whatPast', 'where'],
-    ['who', 'what', 'when'],
-    ['who', 'whatPast', 'whenPast'],
-    ['who', 'what', 'where', 'when'],
-    ['who', 'whatPast', 'where', 'when'],
-    ['who', 'what', 'where'],
-    ['who', 'what', 'why'],
-    ['who', 'whatPast', 'why'],
-    ['who', 'what', 'when'],
-    ['who', 'whatPast', 'whenPast'],
-    ['intro', 'who', 'what'],
-    ['intro', 'who', 'whatPast'],
-  ]
-  const selected = _.sample(samples)
+const samples = [
+  // ['who', 'what', 'when', 'where', 'why'],
+  // ['who', 'what', 'where', 'when', 'why'],
+  // ['who', 'whatPast', 'where', 'whenPast', 'why'],
+  ['who', 'what', 'where'],
+  ['who', 'whatPast', 'where'],
+  ['who', 'what', 'when'],
+  ['who', 'whatPast', 'whenPast'],
+  ['who', 'what', 'where', 'when'],
+  ['who', 'whatPast', 'where', 'when'],
+  ['who', 'what', 'where'],
+  ['who', 'what', 'why'],
+  ['who', 'whatPast', 'why'],
+  ['who', 'what', 'when'],
+  ['who', 'whatPast', 'whenPast'],
+  ['intro', 'who', 'what'],
+  ['intro', 'who', 'whatPast'],
+]
 
-  return selected.map(wq => {
-    return _.sample(dict[wq])
-  })
-}
+// console.log(choseVariantes(dict))
 
-let dictSmall = {}
-
-for (key of Object.keys(dict)) {
-  dictSmall[key] = _.sampleSize(dict[key], 3)
-}
-
-let frases = new Set()
-let teach = new Set()
-const meaningLess = require('./sentencesMeaningless.json')
-
-while (frases.size < 60) {
-  let newSentence = generate(dictSmall)
-  newSentence.forEach(v => teach.add(v))
-
-  if (!meaningLess.includes(newSentence)) {
-    frases.add(newSentence)
-  }
-}
-
-frases = [...frases]
-  .map(v => {
-    let newSentence = v.join(' ').trim().toLowerCase()
-    if (newSentence.includes('por que')) newSentence = newSentence + '?'
-    newSentence = newSentence.replace(',?', '?')
-    return newSentence
-  })
-  .join('\n')
-
-// const frases = Array(30)
-//   .fill()
-//   .map(() => generate(dictSmall))
-//   .map(v => v.join(' '))
-//   .join('\n')
-
-console.log(frases)
-console.log([...teach])
+generateSentences({
+  samples,
+  dict,
+  anki: false,
+  lengthOutput: 40,
+  n: 2,
+  // similarity: true,
+  showNewsTeach: true,
+})
