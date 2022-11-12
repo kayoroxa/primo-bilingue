@@ -1,9 +1,10 @@
 /* eslint-disable */
 console.log('oi')
 
+import audioPlay from './js/audioPlayer.js'
 import Vocabulary from './js/showVocabulary.js'
 
-const percentAnswerShow = 0.4
+const percentAnswerShow = 1
 
 function scriptReplace(teach) {
   teach = teach
@@ -316,5 +317,8 @@ document.addEventListener('keydown', event => {
   }
   if (event.key.toLocaleLowerCase() === 'w') {
     myScene.loadingTo100()
+  }
+  if (event.key.toLocaleLowerCase() === 'shift') {
+    audioPlay()
   }
 })
