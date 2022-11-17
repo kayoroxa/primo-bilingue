@@ -7,6 +7,14 @@ const dict = {
     //
     'But honestly',
     'no matter why',
+    // #4
+    'actually',
+    'honestly',
+    'what happens is that',
+    // //5
+    // "I'm pretty sure",
+    // "I'm not sure if",
+    // "I can't explain why but",
   ],
   who: [
     'William',
@@ -14,11 +22,12 @@ const dict = {
     // 'my opinion',
     'the planet',
     'the restaurant',
-    'the ocean',
-    'the message',
+    // 'the ocean',
+    // 'the message',
     //
     'those people',
     'the dentist',
+    // #4
   ],
   attribute: [
     'is important',
@@ -28,24 +37,29 @@ const dict = {
     'is my responsibility',
     'is completely important',
     'is violent',
-    'is strange',
-    'is a suspect in the crime',
+    'is the suspect in the crime',
+    // #4
+    'has difficulty',
   ],
   preWhere: ['is'],
   what: [
     'is studying',
     'is studying with Emily',
     'has experience',
-    'is disappointed in Emily',
+    'is disappointed with Emily',
     'is ignoring Jessica',
     //
     "think it's optional",
     'go with me',
     'thinks positively',
+    // #4
+    'is waiting for me',
+    'need you stay',
   ],
   whatPast: [
-    //
-    '',
+    //4
+    'went to the restaurant',
+    "didn't let me leave",
   ],
   whenPast: [''],
   when: [''],
@@ -57,12 +71,17 @@ const dict = {
     'anywhere',
     'no matter where',
     'wherever you are',
+    // #4
+    'here',
   ],
   why: [
     //p2
     'when I arrived',
     "because it's necessary",
     "because it's important",
+    // #4
+    'because there is still time',
+    "because it's happing anywhere",
   ],
 }
 
@@ -75,35 +94,15 @@ const samples = [
   ['intro', 'who', 'attribute'],
 ]
 
-const teach = `
-is
-are
-I have to admit
-those people
-is violent
-the message
-has experience
-because it's necessary
-in the hospital
-is strange
-the restaurant
-is disappointed in Emily
-because it's important
-anywhere
-But honestly
-is my responsibility
-is completely important
-my mother
-at home
-is ignoring Jessica
-in my opinion
-wherever you are
-thinks positively
-`
-  .split('\n')
-  .filter(Boolean)
+// const teach = ``.split('\n').filter(Boolean)
 
-generateSentences({ dict, samples })
+generateSentences({
+  dict,
+  samples,
+  lengthOutput: 40,
+  n: 2,
+  showNewsTeach: true,
+})
 /*
 my mother is disappointed because those people is violent, but honestly those people is ignoring the law, and in my opinion wherever you are, you can't ignore the law
 

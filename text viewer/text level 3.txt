@@ -1,0 +1,11 @@
+Jessica {wants} {to go home}
+Jessica {quer} {ir para casa}
+
+{but} William {doesn't want} {to go home} {with her}
+{mas} William {não quer} {ir para casa} {com ela}
+
+{so} {you have to} {go home} {with her}
+{então} {você tem que} {ir para casa} {com ela}
+
+{and} {you have to} {call my mom}
+{e} {você tem que} {ligar para minha mãe}

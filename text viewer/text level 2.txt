@@ -1,0 +1,17 @@
+{Do you want to go} {to the supermarket} {with me}? 
+{Quer ir} {ao supermercado} {comigo}?
+
+{because} {I need to go} {to the supermarket}
+{porque} {eu preciso ir} {ao supermercado}
+
+{and} {Jessica doesn't want} {to go} {to the market} {with me}
+{e} {Jéssica não quer} {ir} {ao mercado} {comigo}
+
+{if} {you don't want} {to go}
+{se} {você não quiser} {ir}
+
+{I have to} {call William}
+{eu tenho que} {chamar o William} 
+
+{to go with me} {to the supermarket}
+{para ir comigo} {ao supermercado}

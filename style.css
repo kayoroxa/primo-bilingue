@@ -203,6 +203,7 @@ body {
   background-color: hsl(104, 27%, 80%);
   width: 100%;
   min-height: 100vh;
+  height: 100vh;
   /* background-color: b; */
   display: flex;
   padding: 50px;

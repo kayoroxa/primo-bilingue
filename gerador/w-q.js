@@ -7,7 +7,7 @@ const { choseVariantes } = require('./choseVariantes.ts')
 const dict = {
   intro: [
     'why',
-    "I didn't understand why",
+    "I don't understand why",
     'nobody knows why',
     'I wonder if',
     "even if it's just a lie",
@@ -57,7 +57,7 @@ const dict = {
     //
     'managed to finish',
     "didn't let it happen",
-    'It got sick',
+    'got sick',
     'study English',
     'tried not to upset you',
     'just wanted to protect you',
