@@ -32,7 +32,7 @@ porque está acontecendo {em qualquer lugar}
 {the dentist} {has experience} {here}
 {o dentista} {tem experiência} {aqui}
 
-{is completely important}
+{is} {completely important}
 {é} completamente importante
 
 {those people} {is completely important}

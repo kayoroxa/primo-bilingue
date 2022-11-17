@@ -3,7 +3,7 @@ import Vocabulary from './showVocabulary.js'
 import { storage } from './store.js'
 import { split } from './utils.js'
 
-function handleOnClickInSentence(index, indexScript) {
+function handleOnClickInSentence(index, indexScript, script) {
   function find(query) {
     return Array.from(document.querySelectorAll(query)).find(
       el =>
@@ -119,7 +119,7 @@ export function Scene({ anime, teach, script, putInHtml }) {
     },
     nextBlock: () => {
       if (indexBlock > split(script[sceneIndex].en).length - 1) return
-      handleOnClickInSentence(indexBlock, sceneIndex)
+      handleOnClickInSentence(indexBlock, sceneIndex, script)
       indexBlock++
     },
     nextScene: () => {
