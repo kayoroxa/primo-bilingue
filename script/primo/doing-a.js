@@ -1,24 +1,21 @@
 export const rawScript = `
-{já que ninguém fez isso}
-{since nobody did it}
-
-{meu chefe}
-{my boss}
+{já que} {ninguém fez isso}
+{since} {nobody did it}
 
 {vai comer salada}
 {will eat salad}
 
-{zoe} {vai comer salada} já que ninguém comeu
-{zoe} {will eat salad} {since nobody did it}       
+{zoe} {vai comer salada} {já que} {ninguém fez isso}
+{zoe} {will eat salad} {since} {nobody did it}       
 
-{joe} {vai comer salada} já que ninguém comeu
-{joe} {will eat salad} {since nobody did it}       
+{joe} {vai comer salada} {já que} {ninguém fez isso}
+{joe} {will eat salad} {since} {nobody did it}       
 
 {está mostrando suas ideias}
 {is showing your ideas}
 
-{joe} {está mostrando suas ideias} {já que ninguém fez isso}
-{joe} {is showing your ideas} {since nobody did it}
+{joe} {está mostrando suas ideias} {já que} {ninguém fez isso}
+{joe} {is showing your ideas} {since} {nobody did it}
 
 {vai ficar isolado}
 {will be isolated}
@@ -26,7 +23,7 @@ export const rawScript = `
 {porque eles não podiam}
 {because they couldn't}
 
-{joe} ficará isolado porque não puderam
+{joe} {vai ficar isolado} {porque eles não podiam}
 {joe} {will be isolated} {because they couldn't}   
 
 {comprou novos discos}
@@ -35,11 +32,14 @@ export const rawScript = `
 {zoe} {comprou novos discos} {porque eles não podiam}
 {zoe} {bought new records} {because they couldn't} 
 
-{usado para estudar}
+{costumava estudar}
 {used to study}
 
 {joe} costumava estudar já que ninguém estudava
-{joe} {used to study} {since nobody did it}
+{joe} {used to study} {since} {nobody did it}
+
+{meu chefe}
+{my boss}
 
 {estudou finanças}
 {studied finance}
@@ -54,7 +54,7 @@ export const rawScript = `
 {joe} {will ban costumes} {because they couldn't}
 
 {zoe} estudava desde que ninguém estudava
-{zoe} {used to study} {since nobody did it}
+{zoe} {used to study} {since} {nobody did it}
 
 {zoe} {vai proibir fantasias} porque não podiam
 {zoe} {will ban costumes} {because they couldn't}
@@ -62,11 +62,11 @@ export const rawScript = `
 {zoe} costumava estudar {porque eles não podiam}
 {zoe} {used to study} {because they couldn't}
 
-{meu chefe} {estudou finanças} {já que ninguém fez isso}
-{my boss} {studied finance} {since nobody did it}
+{meu chefe} {estudou finanças} {já que} {ninguém fez isso}
+{my boss} {studied finance} {since} {nobody did it}
 
-{zoe} {comprou novos discos} {já que ninguém fez isso}
-{zoe} {bought new records} {since nobody did it}
+{zoe} {comprou novos discos} {já que} {ninguém fez isso}
+{zoe} {bought new records} {since} {nobody did it}
 
 {Joe} {comprou novos discos} {porque eles não podiam}
 {joe} {bought new records} {because they couldn't}
@@ -74,17 +74,17 @@ export const rawScript = `
 {vai comer saudável}
 {will eat healthy}
 
-{meu chefe} {vai comer saudável} {já que ninguém fez isso}
-{my boss} {will eat healthy} {since nobody did it}
+{meu chefe} {vai comer saudável} {já que} {ninguém fez isso}
+{my boss} {will eat healthy} {since} {nobody did it}
 
 {aquela criança}
 {that child}
 
-essa criança {vai comer salada} já que ninguém comeu
-{that child} {will eat salad} {since nobody did it}
+essa criança {vai comer salada} {já que} {ninguém fez isso}
+{that child} {will eat salad} {since} {nobody did it}
 
-{zoe} {vai comer saudável} {já que ninguém fez isso}
-{zoe} {will eat healthy} {since nobody did it}
+{zoe} {vai comer saudável} {já que} {ninguém fez isso}
+{zoe} {will eat healthy} {since} {nobody did it}
 
 {zoe} {vai comer salada} {porque eles não podiam}
 {zoe} {will eat salad} {because they couldn't}
@@ -92,32 +92,32 @@ essa criança {vai comer salada} já que ninguém comeu
 {joe} {vai comer salada} {porque eles não podiam}
 {joe} {will eat salad} {because they couldn't}
 
-{zoe} vai ficar isolada porque não puderam
+{zoe} vai ficar isolada {porque eles não podiam}
 {zoe} {will be isolated} {because they couldn't}
 
-{joe} {vai ficar isolado} {já que ninguém fez isso}
-{joe} {will be isolated} {since nobody did it}
+{joe} {vai ficar isolado} {já que} {ninguém fez isso}
+{joe} {will be isolated} {since} {nobody did it}
 
 {joe} costumava estudar {porque eles não podiam}
 {joe} {used to study} {because they couldn't}
 
-{joe} {comprou novos discos} {já que ninguém fez isso}
-{joe} {bought new records} {since nobody did it}
+{joe} {comprou novos discos} {já que} {ninguém fez isso}
+{joe} {bought new records} {since} {nobody did it}
 
-{zoe} {está mostrando suas ideias} {já que ninguém fez isso}
-{zoe} {is showing your ideas} {since nobody did it}
+{zoe} {está mostrando suas ideias} {já que} {ninguém fez isso}
+{zoe} {is showing your ideas} {since} {nobody did it}
 
-{joe} {vai comer saudável} {já que ninguém fez isso}
-{joe} {will eat healthy} {since nobody did it}
+{joe} {vai comer saudável} {já que} {ninguém fez isso}
+{joe} {will eat healthy} {since} {nobody did it}
 
 {meu chefe} {vai proibir fantasias} já que ninguém fez
-{my boss} {will ban costumes} {since nobody did it}
+{my boss} {will ban costumes} {since} {nobody did it}
 
 {meu chefe} {vai comer salada} {porque eles não podiam}
 {my boss} {will eat salad} {because they couldn't}
 
-{zoe} vai ficar isolada {já que ninguém fez isso}
-{zoe} {will be isolated} {since nobody did it}
+{zoe} vai ficar isolada {já que} {ninguém fez isso}
+{zoe} {will be isolated} {since} {nobody did it}
 
 {meu chefe} estudava {porque eles não podiam}
 {my boss} {used to study} {because they couldn't}
@@ -128,8 +128,8 @@ essa criança {vai comer salada} já que ninguém comeu
 {joe} {estudou finanças} {porque eles não podiam}
 {joe} {studied finance} {because they couldn't}
 
-{meu chefe} {vai comer salada} já que ninguém comeu
-{my boss} {will eat salad} {since nobody did it}
+{meu chefe} {vai comer salada} {já que} {ninguém fez isso}
+{my boss} {will eat salad} {since} {nobody did it}
 `
 export const teach = `
 looks for what the exits are
