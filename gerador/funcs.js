@@ -70,7 +70,9 @@ function generateSentences({
   let frases = new Set()
   let teach = new Set()
 
-  while (frases.size < lengthOutput) {
+  let trying = 0
+  while (frases.size < lengthOutput && trying <= 200) {
+    trying++
     let newSentence = generate(dictSmall, samples)
     newSentence.forEach(v => teach.add(v))
     newSentence = newSentence.join(' ')

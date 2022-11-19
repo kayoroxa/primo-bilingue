@@ -7,7 +7,7 @@ const { where } = require('./types_blocks/where')
 const { whyFinal } = require('./types_blocks/why')
 const { what, whatPast } = require('./types_blocks/what')
 const { when, whenPast } = require('./types_blocks/when')
-const { intro, introPast, introFuture } = require('./types_blocks/who')
+const { intro, introPast, introFuture } = require('./types_blocks/intro')
 const { action, actionPoss, actionPast } = require('./types_blocks/action')
 
 const dict = {
@@ -30,17 +30,17 @@ const samples = [
   // ['who', 'what', 'when', 'where', 'why'],
   // ['who', 'what', 'where', 'when', 'why'],
   // ['who', 'whatPast', 'where', 'whenPast', 'why'],
-  ['who', 'what', 'where'],
-  ['who', 'whatPast', 'where'],
-  ['who', 'what', 'when'],
-  ['who', 'whatPast', 'whenPast'],
-  ['who', 'what', 'where', 'when'],
-  ['who', 'whatPast', 'where', 'when'],
-  ['who', 'what', 'where'],
-  ['who', 'what', 'why'],
-  ['who', 'whatPast', 'why'],
-  ['who', 'what', 'when'],
-  ['who', 'whatPast', 'whenPast'],
+  // ['who', 'what', 'where'],
+  // ['who', 'whatPast', 'where'],
+  // ['who', 'what', 'when'],
+  // ['who', 'whatPast', 'whenPast'],
+  // ['who', 'what', 'where', 'when'],
+  // ['who', 'whatPast', 'where', 'when'],
+  // ['who', 'what', 'where'],
+  // ['who', 'what', 'why'],
+  // ['who', 'whatPast', 'why'],
+  // ['who', 'what', 'when'],
+  // ['who', 'whatPast', 'whenPast'],
   ['intro', 'who', 'what'],
   ['intro', 'who', 'whatPast'],
 ]
@@ -51,9 +51,9 @@ generateSentences({
   samples,
   dict,
   anki: false,
-  lengthOutput: 40,
-  fraseLength: 39,
-  n: 2,
+  lengthOutput: 55,
+  fraseLength: 37,
+  n: 3,
   // similarity: true,
   showNewsTeach: true,
 })

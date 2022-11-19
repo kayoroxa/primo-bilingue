@@ -15,7 +15,7 @@ module.exports = {
     'Eve',
     'Bia',
     'Mary',
-    'Emmy',
+    'Vera',
     'Mara',
     'Lucy',
     'Alice',
