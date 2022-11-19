@@ -57,6 +57,7 @@ function generateSentences({
   anki = true,
   similarity = false,
   showNewsTeach = false,
+  phraseLength = 35,
 }) {
   let dictSmall = {}
 
@@ -74,7 +75,10 @@ function generateSentences({
     newSentence.forEach(v => teach.add(v))
     newSentence = newSentence.join(' ')
 
-    if (!meaningLess.includes(newSentence)) {
+    if (
+      !meaningLess.includes(newSentence) &&
+      newSentence.length <= phraseLength
+    ) {
       frases.add(newSentence)
     }
   }
