@@ -71,7 +71,7 @@ function generateSentences({
   let teach = new Set()
 
   let trying = 0
-  while (frases.size < lengthOutput && trying <= 200) {
+  while (frases.size < lengthOutput && trying <= 400) {
     trying++
     let newSentence = generate(dictSmall, samples)
     newSentence.forEach(v => teach.add(v))

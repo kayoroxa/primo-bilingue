@@ -9,6 +9,7 @@ module.exports = {
     'after that',
     'always after that',
     "it's not as if",
+    'nobody will believe if',
   ],
   introPast: [
     //
@@ -16,9 +17,5 @@ module.exports = {
     'always before that',
     'as much as I warned',
     'however much it happened',
-  ],
-  introFuture: [
-    //
-    'nobody will believe if',
   ],
 }

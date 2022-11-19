@@ -1,5 +1,6 @@
 /* eslint-disable */
-import { rawScript, teach } from '../../script/curso/4.js'
+import { scriptReplace } from './utils.js'
+import { rawScript, teach } from '../../script/primo/doing-a.js'
 import audioPlay from './audioPlayer.js'
 import { PutInHtml } from './putInHtml.js'
 import { Scene } from './Scene.js'

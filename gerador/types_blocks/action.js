@@ -11,7 +11,7 @@ module.exports = {
     'will watch the movie',
     'will research about it',
     'will stop playing games',
-    'will create solutions',
+    'will make friends',
     'will buy movies',
     'will buy new books',
     'will buy tropical fruits',
@@ -25,7 +25,7 @@ module.exports = {
     'bought fancy clothes',
     'bought new records',
     'studied finance',
-    'studied all questions',
+    'did the tests',
     'solved your problems',
     'solved the difficult questions',
     'participated in the search',
@@ -39,11 +39,12 @@ module.exports = {
   ],
   actionPoss: [
     //
-    'is improving your run',
+    'is improving your health',
     'is improving your projects',
     'is hearing your speech',
     'is reading your poems',
     'is using your tips',
     'is practicing your ideas',
+    'is showing your ideas',
   ],
 }
