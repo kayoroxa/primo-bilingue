@@ -1,14 +1,16 @@
 /* eslint-disable no-undef */
+import { config } from './config.js'
 import Vocabulary from './showVocabulary.js'
 import { storage } from './store.js'
 import { split } from './utils.js'
 
 function handleOnClickInSentence(index, indexScript, script) {
   function find(query) {
+    const lang = config.change ? 'pt' : 'en'
     return Array.from(document.querySelectorAll(query)).find(
       el =>
         el.textContent.toLocaleLowerCase().trim() ===
-        split(script[indexScript].en)[index].toLocaleLowerCase().trim()
+        split(script[indexScript][lang])[index].toLocaleLowerCase().trim()
     )
   }
   const element0 = find('.blocks .block:not(.fixed, .resolved)')
@@ -123,8 +125,13 @@ export function Scene({ anime, teach, script, putInHtml }) {
     get isStarted() {
       return isStarted
     },
+    setShow: payload => {
+      show = payload
+    },
     nextBlock: () => {
-      if (indexBlock > split(script[sceneIndex].en).length - 1 || !show) return
+      if (indexBlock > split(script[sceneIndex].en).length - 1 || !show) {
+        return
+      }
       handleOnClickInSentence(indexBlock, sceneIndex, script)
       indexBlock++
     },
@@ -157,6 +164,12 @@ export function Scene({ anime, teach, script, putInHtml }) {
       }
     },
     toggleView: newShow => {
+      if (config.change) {
+        document.querySelector('.app').style.opacity = 1
+        document.querySelector('#listen').style.opacity = 0
+
+        return
+      }
       show = newShow ?? !show
       if (!show) {
         console.log(document.querySelector('#listen'))

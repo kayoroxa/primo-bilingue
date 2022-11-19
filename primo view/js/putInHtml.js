@@ -10,6 +10,7 @@ export const PutInHtml =
     if (!script[indexScript]?.en) return
 
     const change = Math.random() <= alternateLanguagePercent
+    config.change = change
 
     const answerSplitted = split(
       change ? script[indexScript].pt : script[indexScript].en

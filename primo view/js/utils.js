@@ -1,3 +1,5 @@
+import { config } from './config.js'
+
 export function scriptReplace(teach, rawScript) {
   teach = teach
     .replace(/J[eé]ssica/gi, 'Jessica')
@@ -46,11 +48,11 @@ export const template = (en, pt) => {
   `
   return str //new DOMParser().parseFromString(str, 'text/xml')
 }
-export const template2 = (word, show) =>
-  `<div class="block"><span class="${
-    show ? '' : 'hidden'
+export const template2 = (word, show) => {
+  return `<div class="block"><span class="${
+    show && !config.change ? '' : 'hidden'
   }">${word}</span></div>`
-
+}
 export function split(v) {
   return v
     .split(/(\{|\})/g)

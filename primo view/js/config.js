@@ -1,3 +1,4 @@
 export const config = {
-  alternateLanguagePercent: 0.3,
+  alternateLanguagePercent: 0.5,
+  percentAnswerShow: 1,
 }
