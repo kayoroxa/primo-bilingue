@@ -1,8 +1,9 @@
 /* eslint-disable */
-import { rawScript, teach } from '../../script/curso/4.js'
+import { rawScript, teach } from '../../script/curso/2.0/01.js'
 import audioPlay from './audioPlayer.js'
 import { PutInHtml } from './putInHtml.js'
 import { Scene } from './Scene.js'
+import { scriptReplace } from './utils.js'
 const percentAnswerShow = 1
 
 const scriptReplaced = rawScript.includes('{')
@@ -44,5 +45,12 @@ document.addEventListener('keydown', event => {
   }
   if (event.key.toLocaleLowerCase() === 'shift') {
     audioPlay()
+  }
+  if (event.key.toLocaleLowerCase() === 'escape') {
+    myScene.toggleView()
+  }
+  if (event.key.toLocaleLowerCase() === '0') {
+    myScene.nextScene()
+    myScene.toggleView()
   }
 })

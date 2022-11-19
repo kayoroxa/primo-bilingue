@@ -56,6 +56,7 @@ export function Scene({ anime, teach, script, putInHtml }) {
   let indexBlock = 0
   let sceneIndex = storage.getIndex() || -1
   let isStarted = true
+  let show = true
 
   const { show: showVocabulary, hide: hideVocabulary } = Vocabulary(
     teach.replace(/,/g, '').split('\n')
@@ -64,7 +65,12 @@ export function Scene({ anime, teach, script, putInHtml }) {
   if (sceneIndex === -1) {
     showVocabulary()
   } else {
+    hideVocabulary()
+    resetLoading()
+    indexBlock = 0
+    deletarTudo()
     putInHtml(sceneIndex)
+    getIndex()
   }
 
   const tl = anime.timeline({ easing: 'linear', autoplay: false })
@@ -118,12 +124,12 @@ export function Scene({ anime, teach, script, putInHtml }) {
       return isStarted
     },
     nextBlock: () => {
-      if (indexBlock > split(script[sceneIndex].en).length - 1) return
+      if (indexBlock > split(script[sceneIndex].en).length - 1 || !show) return
       handleOnClickInSentence(indexBlock, sceneIndex, script)
       indexBlock++
     },
     nextScene: () => {
-      if (sceneIndex >= script.length - 1) return
+      if (sceneIndex >= script.length - 1 || !show) return
       hideVocabulary()
       resetLoading()
       indexBlock = 0
@@ -133,6 +139,7 @@ export function Scene({ anime, teach, script, putInHtml }) {
       getIndex()
     },
     prevScene: () => {
+      if (!show) return
       if (sceneIndex === 0) {
         sceneIndex--
         deletarTudo()
@@ -147,6 +154,17 @@ export function Scene({ anime, teach, script, putInHtml }) {
         sceneIndex--
         putInHtml(sceneIndex)
         getIndex()
+      }
+    },
+    toggleView: newShow => {
+      show = newShow ?? !show
+      if (!show) {
+        console.log(document.querySelector('#listen'))
+        document.querySelector('.app').style.opacity = 0
+        document.querySelector('#listen').style.opacity = 1
+      } else {
+        document.querySelector('.app').style.opacity = 1
+        document.querySelector('#listen').style.opacity = 0
       }
     },
     start: () => {
