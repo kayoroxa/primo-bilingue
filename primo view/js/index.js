@@ -1,5 +1,5 @@
 /* eslint-disable */
-import { rawScript, teach } from '../../script/curso/2.0/01.js'
+import { rawScript, teach } from '../../script/curso/2.0/02.js'
 import audioPlay from './audioPlayer.js'
 import { config } from './config.js'
 import { PutInHtml } from './putInHtml.js'

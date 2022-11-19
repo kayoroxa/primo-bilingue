@@ -1,6 +1,7 @@
-export const replace = `
+export const myReplace = `
 todo mundo
 {todo mundo}
+
 
 {is} the suspect in the crime
 {is the suspect in the crime}
@@ -8,8 +9,24 @@ todo mundo
 {estão ignorando} Jessica
 {estão ignorando Jessica}
 
+ninguém
+{ninguém}
+
+porque é importante
+{porque é importante}
+
+acha que é opcional
+{acha que é opcional}
+
+no hospital
+{no hospital}
+
+
 why but}
 why, but}
+
+there} {is}
+there is
 
 {is} ignoring Jessica
 {is} {ignoring Jessica}
@@ -35,8 +52,32 @@ because there {is} still time
 todos
 {todo mundo}
 
+because it's happing anywhere
+because it's happing {anywhere}
+
+porque está acontecendo em qualquer lugar
+porque está acontecendo {em qualquer lugar}
+
+se decepciona com a Emily
+está decepcionado com Emily
+
 {tenho certeza} que
 {tenho certeza que}
+
+{não} {tenho certeza} se}
+{não tenho certeza se}
+
+onde você está
+{onde quer que você esteja}
+
+{todo mundo} vão
+{todos} vão
+
+{porque} {é} importante}
+{porque é  importante}
+
+está desapontado com a Emily
+{está desapontado com a Emily}
 
 essas pessoas estão
 {essas pessoas estão}
@@ -81,4 +122,7 @@ onde você estiver
 
 {is ignoring} Jessica
 {is ignoring Jessica}
+
+{todo mundo} estão
+{todos} estão
 `

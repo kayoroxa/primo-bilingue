@@ -1,3 +1,4 @@
+import { myReplace } from '../../gerador/courseReplace.js'
 import { config } from './config.js'
 
 export function scriptReplace(teach, rawScript) {
@@ -11,6 +12,7 @@ export function scriptReplace(teach, rawScript) {
         .replace(/([^|()?]+(?=[^(]*\)\?))/g, '$1 ')
         .replace(/\s*(\(.*?\)\?)\s*/g, '$1')
     )
+    .sort((a, b) => b.length - a.length)
 
   const scriptReplaced = teach
     .reduce((acc, cur) => {
@@ -29,7 +31,21 @@ export function scriptReplace(teach, rawScript) {
     .replace(/\?/g, '{?}')
     .replace(/\{([^}]*?)(?=\s?\{)/g, '{$1}')
     .replace(/\}{2,}/g, '}')
-  return scriptReplaced
+
+  /////////////
+
+  const arrayReplace = myReplace
+    .split('\n\n')
+    .filter(Boolean)
+    ?.map(v => v.split('\n').filter(Boolean))
+
+  let newRawScript = scriptReplaced
+
+  for (let [before, after] of arrayReplace) {
+    newRawScript = newRawScript.replace(new RegExp(before, 'gi'), after)
+  }
+
+  return newRawScript
 }
 
 export const template = (en, pt) => {
