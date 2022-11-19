@@ -52,8 +52,8 @@ generateSentences({
   dict,
   anki: false,
   lengthOutput: 40,
+  fraseLength: 39,
   n: 2,
   // similarity: true,
   showNewsTeach: true,
-  phraseLength: 37,
 })

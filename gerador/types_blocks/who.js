@@ -13,7 +13,7 @@ module.exports = {
     'Zoe',
     'Ana',
     'Eve',
-    'Lia',
+    'Bia',
     'Mary',
     'Emmy',
     'Mara',

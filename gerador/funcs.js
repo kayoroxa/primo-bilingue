@@ -22,12 +22,12 @@ function sampleSizeWithProbability(array, size = 2, weight, forceTeach) {
   if (weight) {
     weight = array.map((_, i) => i + 1)
   } else {
-    weight = array.map(() => 1)
+    weight = array?.map(() => 1)
   }
 
   let sizeResult = []
 
-  for (let c = 0; c <= Math.min(size, array.length); c++) {
+  for (let c = 0; c <= Math.min(size, array?.length); c++) {
     let randomArray = []
     array.forEach((item, index) => {
       var clone = Array(weight[index]).fill(item)
@@ -54,10 +54,10 @@ function generateSentences({
   forceTeach,
   n = 3,
   lengthOutput = 60,
+  fraseLength = 39,
   anki = true,
   similarity = false,
   showNewsTeach = false,
-  phraseLength = 35,
 }) {
   let dictSmall = {}
 
@@ -77,7 +77,7 @@ function generateSentences({
 
     if (
       !meaningLess.includes(newSentence) &&
-      newSentence.length <= phraseLength
+      newSentence.length <= fraseLength
     ) {
       frases.add(newSentence)
     }
