@@ -4,7 +4,7 @@ module.exports = {
     'in the circus',
     'in the palace',
     'close to home',
-    '',
+    'at the restaurant',
     '',
     '',
     '',

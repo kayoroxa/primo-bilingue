@@ -1,6 +1,11 @@
 module.exports = {
   when: [
     //
+    'from today',
+    '',
+    '',
+    '',
+    '',
     '',
     '',
     '',
@@ -9,7 +14,7 @@ module.exports = {
   whenPast: [
     //
     'in the afternoon',
-    '',
+    'in the past year',
     '',
     '',
     '',
