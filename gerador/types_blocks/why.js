@@ -15,7 +15,5 @@ module.exports = {
     'since nobody did it',
     'since nobody thought about it',
     'since everyone expects it',
-    '',
-    '',
   ],
 }

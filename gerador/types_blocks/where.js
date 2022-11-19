@@ -1,12 +1,19 @@
 module.exports = {
   where: [
     //
-    'in the circus',
-    'in the palace',
     'close to home',
+    'close the bank',
+    'close the beach',
+    'close the church',
+    'at home',
     'at the restaurant',
-    '',
-    '',
-    '',
+    'in the boat',
+    'in the palace',
+    'in the circus',
+    'in the streets',
+    'in the company',
+    'in the airport',
+    'on the tennis court',
+    'on the plane',
   ],
 }
