@@ -3,3 +3,4 @@ node_modules
 *.jpg
 script.js
 *script.js
+*.webp

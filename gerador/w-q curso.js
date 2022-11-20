@@ -11,23 +11,29 @@ const dict = {
     'actually',
     'honestly',
     'what happens is that',
+
     // //5
-    // "I'm pretty sure",
-    // "I'm not sure if",
-    // "I can't explain why but",
+    "I'm sure",
+    "I'm not sure if",
+    "I can't explain why but",
+
+    'after dinner',
+    'after dinner in the restaurant',
   ],
   who: [
     'William',
     'my mother',
     // 'my opinion',
     'the planet',
-    'the restaurant',
+
     // 'the ocean',
     // 'the message',
     //
     'those people',
     'the dentist',
     // #4
+    'nobody',
+    'everybody',
   ],
   attribute: [
     'is important',
@@ -60,6 +66,9 @@ const dict = {
     //4
     'went to the restaurant',
     "didn't let me leave",
+    'left home',
+    'had to go to school',
+    'was scared of the dog',
   ],
   whenPast: [''],
   when: [''],
@@ -85,6 +94,13 @@ const dict = {
   ],
 }
 
+// console.log(
+//   []
+//     .concat(...Object.values(dict))
+//     .filter(Boolean)
+//     .join('\n')
+// )
+
 const samples = [
   ['who', 'what', 'where'],
   ['who', 'what', 'why'],
@@ -94,7 +110,7 @@ const samples = [
   ['intro', 'who', 'attribute'],
 ]
 
-// const teach = ``.split('\n').filter(Boolean)
+// // const teach = ``.split('\n').filter(Boolean)
 
 generateSentences({
   dict,

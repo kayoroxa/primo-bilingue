@@ -1,14 +1,16 @@
 /* eslint-disable no-undef */
+import { config } from './config.js'
 import Vocabulary from './showVocabulary.js'
 import { storage } from './store.js'
 import { split } from './utils.js'
 
 function handleOnClickInSentence(index, indexScript, script) {
   function find(query) {
+    const lang = config.change ? 'pt' : 'en'
     return Array.from(document.querySelectorAll(query)).find(
       el =>
         el.textContent.toLocaleLowerCase().trim() ===
-        split(script[indexScript].en)[index].toLocaleLowerCase().trim()
+        split(script[indexScript][lang])[index].toLocaleLowerCase().trim()
     )
   }
   const element0 = find('.blocks .block:not(.fixed, .resolved)')
@@ -56,6 +58,7 @@ export function Scene({ anime, teach, script, putInHtml }) {
   let indexBlock = 0
   let sceneIndex = storage.getIndex() || -1
   let isStarted = true
+  let show = true
 
   const { show: showVocabulary, hide: hideVocabulary } = Vocabulary(
     teach.replace(/,/g, '').split('\n')
@@ -64,7 +67,12 @@ export function Scene({ anime, teach, script, putInHtml }) {
   if (sceneIndex === -1) {
     showVocabulary()
   } else {
+    hideVocabulary()
+    resetLoading()
+    indexBlock = 0
+    deletarTudo()
     putInHtml(sceneIndex)
+    getIndex()
   }
 
   const tl = anime.timeline({ easing: 'linear', autoplay: false })
@@ -117,13 +125,18 @@ export function Scene({ anime, teach, script, putInHtml }) {
     get isStarted() {
       return isStarted
     },
+    setShow: payload => {
+      show = payload
+    },
     nextBlock: () => {
-      if (indexBlock > split(script[sceneIndex].en).length - 1) return
+      if (indexBlock > split(script[sceneIndex].en).length - 1 || !show) {
+        return
+      }
       handleOnClickInSentence(indexBlock, sceneIndex, script)
       indexBlock++
     },
     nextScene: () => {
-      if (sceneIndex >= script.length - 1) return
+      if (sceneIndex >= script.length - 1 || !show) return
       hideVocabulary()
       resetLoading()
       indexBlock = 0
@@ -133,6 +146,7 @@ export function Scene({ anime, teach, script, putInHtml }) {
       getIndex()
     },
     prevScene: () => {
+      if (!show) return
       if (sceneIndex === 0) {
         sceneIndex--
         deletarTudo()
@@ -147,6 +161,23 @@ export function Scene({ anime, teach, script, putInHtml }) {
         sceneIndex--
         putInHtml(sceneIndex)
         getIndex()
+      }
+    },
+    toggleView: newShow => {
+      if (config.change) {
+        document.querySelector('.app').style.opacity = 1
+        document.querySelector('#listen').style.opacity = 0
+
+        return
+      }
+      show = newShow ?? !show
+      if (!show) {
+        console.log(document.querySelector('#listen'))
+        document.querySelector('.app').style.opacity = 0
+        document.querySelector('#listen').style.opacity = 1
+      } else {
+        document.querySelector('.app').style.opacity = 1
+        document.querySelector('#listen').style.opacity = 0
       }
     },
     start: () => {

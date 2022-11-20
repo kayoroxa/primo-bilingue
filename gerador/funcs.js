@@ -61,7 +61,7 @@ function generateSentences({
 }) {
   let dictSmall = {}
 
-  for (key of Object.keys(dict)) {
+  for (let key of Object.keys(dict)) {
     dictSmall[key] = sampleSizeWithProbability(dict[key], n, anki, forceTeach)
   }
 
@@ -96,8 +96,10 @@ function generateSentences({
     const stringSimilarity = require('string-similarity')
     const oldFrases = frases
     const frasesOrderBySimilarity = []
+    let trying = 0
 
-    while (frasesOrderBySimilarity.length < oldFrases.length) {
+    while (frasesOrderBySimilarity.length < oldFrases.length && trying <= 200) {
+      trying++
       if (frasesOrderBySimilarity.length === 0) {
         frasesOrderBySimilarity.push(oldFrases[0])
       } else {
