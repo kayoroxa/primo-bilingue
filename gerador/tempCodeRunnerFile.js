@@ -1,1 +1,0 @@
-perguntando se ___
