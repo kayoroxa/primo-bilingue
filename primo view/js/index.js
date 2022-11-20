@@ -1,10 +1,16 @@
 /* eslint-disable */
+
 import { scriptReplace } from './utils.js'
 import { rawScript, teach } from '../../script/primo/doing-a.js'
+
 import audioPlay from './audioPlayer.js'
+import { config, _myScript } from './config.js'
 import { PutInHtml } from './putInHtml.js'
 import { Scene } from './Scene.js'
-const percentAnswerShow = 1
+import { scriptReplace } from './utils.js'
+const { percentAnswerShow } = config
+
+const { rawScript, teach } = _myScript
 
 const scriptReplaced = rawScript.includes('{')
   ? rawScript
@@ -45,5 +51,12 @@ document.addEventListener('keydown', event => {
   }
   if (event.key.toLocaleLowerCase() === 'shift') {
     audioPlay()
+  }
+  if (event.key.toLocaleLowerCase() === 'escape') {
+    myScene.toggleView()
+  }
+  if (event.key.toLocaleLowerCase() === '0') {
+    myScene.nextScene()
+    myScene.toggleView()
   }
 })

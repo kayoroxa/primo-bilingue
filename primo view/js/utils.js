@@ -1,3 +1,6 @@
+import { config, myReplace } from './config.js'
+// import { myReplace } from `../../gerador/${config.replaceName}.js`
+
 export function scriptReplace(teach, rawScript) {
   teach = teach
     .replace(/J[eé]ssica/gi, 'Jessica')
@@ -9,6 +12,7 @@ export function scriptReplace(teach, rawScript) {
         .replace(/([^|()?]+(?=[^(]*\)\?))/g, '$1 ')
         .replace(/\s*(\(.*?\)\?)\s*/g, '$1')
     )
+    .sort((a, b) => b.length - a.length)
 
   const scriptReplaced = teach
     .reduce((acc, cur) => {
@@ -27,7 +31,21 @@ export function scriptReplace(teach, rawScript) {
     .replace(/\?/g, '{?}')
     .replace(/\{([^}]*?)(?=\s?\{)/g, '{$1}')
     .replace(/\}{2,}/g, '}')
-  return scriptReplaced
+
+  /////////////
+
+  const arrayReplace = myReplace
+    .split('\n\n')
+    .filter(Boolean)
+    ?.map(v => v.split('\n').filter(Boolean))
+
+  let newRawScript = scriptReplaced
+
+  for (let [before, after] of arrayReplace) {
+    newRawScript = newRawScript.replace(new RegExp(before, 'gi'), after)
+  }
+
+  return newRawScript
 }
 
 export const template = (en, pt) => {
@@ -46,11 +64,11 @@ export const template = (en, pt) => {
   `
   return str //new DOMParser().parseFromString(str, 'text/xml')
 }
-export const template2 = (word, show) =>
-  `<div class="block"><span class="${
-    show ? '' : 'hidden'
+export const template2 = (word, show) => {
+  return `<div class="block"><span class="${
+    show && !config.change ? '' : 'hidden'
   }">${word}</span></div>`
-
+}
 export function split(v) {
   return v
     .split(/(\{|\})/g)
