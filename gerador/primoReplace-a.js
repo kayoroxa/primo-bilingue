@@ -9,6 +9,9 @@ já que ninguém estudava
 desde que ninguém estudava
 {já que} {ninguém fez isso}
 
+já que ninguém fez
+{já que} {ninguém fez isso}
+
 
 {since nobody did it}
 {since {nobody did it}
