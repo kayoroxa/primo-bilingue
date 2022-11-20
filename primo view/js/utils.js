@@ -1,5 +1,5 @@
-import { myReplace } from '../../gerador/courseReplace.js'
-import { config } from './config.js'
+import { config, myReplace } from './config.js'
+// import { myReplace } from `../../gerador/${config.replaceName}.js`
 
 export function scriptReplace(teach, rawScript) {
   teach = teach

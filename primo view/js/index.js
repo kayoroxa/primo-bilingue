@@ -1,11 +1,13 @@
 /* eslint-disable */
-import { rawScript, teach } from '../../script/curso/2.0/02.js'
+
 import audioPlay from './audioPlayer.js'
-import { config } from './config.js'
+import { config, _myScript } from './config.js'
 import { PutInHtml } from './putInHtml.js'
 import { Scene } from './Scene.js'
 import { scriptReplace } from './utils.js'
 const { percentAnswerShow } = config
+
+const { rawScript, teach } = _myScript
 
 const scriptReplaced = rawScript.includes('{')
   ? rawScript

@@ -1,4 +1,4 @@
-export const myReplace = `
+export const _replace = `
 todo mundo
 {todo mundo}
 

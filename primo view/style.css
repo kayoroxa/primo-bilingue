@@ -15,6 +15,16 @@ body {
   color: rgb(255, 255, 255);
   /* color: rgb(6, 140, 250); */
 }
+#vocabulary {
+  z-index: 600;
+}
+
+#vocabulary *::selection {
+  /* background: rgba(255, 238, 0, 0.479); */
+
+  color: hsl(207, 95%, 8%);
+  /* color: rgb(6, 140, 250); */
+}
 
 * {
 
@@ -248,6 +258,10 @@ footer {
   opacity: 0;
 }
 
+#listen {
+  pointer-events: none;
+}
+
 #listen p.pt {
   font-size: 40px;
 }
@@ -258,6 +272,7 @@ footer {
 
 img.listen {
   width: 300px;
+  
 }
 
 .question-sentence {
