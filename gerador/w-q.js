@@ -55,10 +55,10 @@ generateSentences({
   samples,
   dict,
   anki: false,
-  lengthOutput: 55,
+  lengthOutput: 45,
   fraseLength: 45,
-  n: 3,
+  n: 2,
   // similarity: true,
   showNewsTeach: true,
-  variableName: true,
+  printWithVariable: true,
 })

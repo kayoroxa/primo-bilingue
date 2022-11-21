@@ -1,79 +1,67 @@
 const primoArtur = `
 
 já que ninguém comeu
-{já que} {ninguém fez isso}
+{já que ninguém fez isso}
 
 já que ninguém estudava
-{já que} {ninguém fez isso}
+{já que ninguém fez isso}
 
 desde que ninguém estudava
-{já que} {ninguém fez isso}
+{já que ninguém fez isso}
 
 já que ninguém fez
-{já que} {ninguém fez isso}
-
-{since nobody did it}
-{since {nobody did it}
+{já que ninguém fez isso}
 
 ficará isolado
 {vai ficar isolado}
-
-{vai ficar isolado}
-{vai} {ficar isolado}
-
-{will be isolated}
-{will} {be isolated}
 
 porque não puderam
 {porque eles não podiam}
 
 porque não podiam
-{porque} {eles não podiam}
-
 {porque eles não podiam}
-{porque} {eles não podiam}
-
-{because they couldn't}
-{because} {they couldn't}
 
 {usado para estudar}
 {costumava estudar}
-
-{vai comer salada}
-{vai} comer salada}
-
-{will eat salad}
-{will} {eat salad}
-
-{está mostrando suas ideias}
-{está mostrando} {suas ideias}
-
-{is showing your ideas}
-{is showing} {your ideas}
-
-{comprou novos discos}
-{comprou} {novos discos}
-
-{bought new records}
-{bought} {new records}
-
-{vai proibir fantasias}
-{vai} {proibir fantasias}
-
-{will ban costumes}
-{will} {ban costumes}
-
-{vai comer saudável}
-{vai} {comer saudável}
-
-{will eat healthy}
-{will} {eat healthy}
 
 essa criança
 {aquela criança}
 
 vai ficar isolada
-{vai} {ficar isolada}
+{vai ficar isolada}
+
+{a muito tempo atrás}
+{há muito tempo}
+
+{não deixou que quebrasse}
+{não deixou que isso quebrasse}
+
+{não deixei que quebrasse}
+{não deixou que isso quebrasse}
+
+não deixou que quebrasse
+{não deixou que isso quebrasse}
+
+no próximo final de semana
+{próximo fim de semana}
+
+no {próximo fim de semana}
+{próximo fim de semana}
+
+{só por que}
+{só porque}
+
+apenas por que
+{só porque}
+
+{toda noite}
+{todas as noites}
+
+resolvia as questões
+{resolveu as questões}
+
+na rua
+{nas ruas}
 `
 const primoCaio = ``
 
