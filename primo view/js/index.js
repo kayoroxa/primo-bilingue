@@ -1,13 +1,11 @@
 /* eslint-disable */
 
 import { scriptReplace } from './utils.js'
-import { rawScript, teach } from '../../script/primo/doing-a.js'
 
 import audioPlay from './audioPlayer.js'
 import { config, _myScript } from './config.js'
 import { PutInHtml } from './putInHtml.js'
 import { Scene } from './Scene.js'
-import { scriptReplace } from './utils.js'
 const { percentAnswerShow } = config
 
 const { rawScript, teach } = _myScript

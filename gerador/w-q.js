@@ -66,4 +66,5 @@ generateSentences({
   n: 3,
   // similarity: true,
   showNewsTeach: true,
+  variableName: true,
 })
