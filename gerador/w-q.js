@@ -35,18 +35,18 @@ const samples = [
   // ['who', 'actionPoss', 'whyFinal'],
 
   /*PASSED*/
-  // ['who', 'what', 'where'],
+  ['who', 'what', 'where'],
   ['who', 'actionPast', 'amountPast'],
-  // ['who', 'whatPast', 'where'],
-  // ['who', 'action', 'when'],
-  // ['who', 'actionPast', 'whenPast'],
-  // ['who', 'action', 'where'],
-  // ['who', 'actionPast', 'where'],
-  // ['who', 'actionPoss', 'where'],
-  // ['intro', 'who', 'action'],
-  // ['intro', 'who', 'actionPoss'],
-  // ['introPast', 'who', 'actionPast'],
-  // ['introPast', 'who', 'actionPoss'],
+  ['who', 'whatPast', 'where'],
+  ['who', 'action', 'when'],
+  ['who', 'actionPast', 'whenPast'],
+  ['who', 'action', 'where'],
+  ['who', 'actionPast', 'where'],
+  ['who', 'actionPoss', 'where'],
+  ['intro', 'who', 'action'],
+  ['intro', 'who', 'actionPoss'],
+  ['introPast', 'who', 'actionPast'],
+  ['introPast', 'who', 'actionPoss'],
 ]
 
 // console.log(choseVariantes(dict))

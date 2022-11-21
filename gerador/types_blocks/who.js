@@ -26,7 +26,6 @@ module.exports = {
     'my teacher',
     'my daughter',
     'my brother',
-    'our doctor',
     'your aunt',
     'your sister',
     'your friend',
