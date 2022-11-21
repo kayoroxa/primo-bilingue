@@ -33,6 +33,7 @@ const samples = [
   // ['who', 'action', 'whyFinal'],
   // ['who', 'actionPast', 'whyFinal'],
   // ['who', 'actionPoss', 'whyFinal'],
+  ['who', 'actionPoss', 'amountPast'],
 
   /*PASSED*/
   ['who', 'what', 'where'],
@@ -46,7 +47,6 @@ const samples = [
   ['intro', 'who', 'action'],
   ['intro', 'who', 'actionPoss'],
   ['introPast', 'who', 'actionPast'],
-  ['introPast', 'who', 'actionPoss'],
 ]
 
 // console.log(choseVariantes(dict))

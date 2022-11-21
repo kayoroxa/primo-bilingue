@@ -62,6 +62,31 @@ resolvia as questões
 
 na rua
 {nas ruas}
+
+{tanto quanto possível}
+{o máximo possível}
+
+o máximo possível
+{o máximo possível}
+
+
+{fechar o banco}
+{perto do banco}
+
+feche o banco
+{perto do banco}
+
+alguns meses atrás
+{há poucos meses atrás}
+
+{a tarde}
+{à tarde}
+
+fez os exames
+fez o exame
+
+fez o exame
+{fez o exame}
 `
 const primoCaio = ``
 
