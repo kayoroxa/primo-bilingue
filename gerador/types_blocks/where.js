@@ -5,6 +5,7 @@ module.exports = {
     'close the bank',
     'close the beach',
     'close the church',
+    'close to the store',
     'at home',
     'at the restaurant',
     'in the boat',
@@ -13,7 +14,6 @@ module.exports = {
     'in the streets',
     'in the company',
     'in the airport',
-    'on the tennis court',
     'on the plane',
   ],
 }
