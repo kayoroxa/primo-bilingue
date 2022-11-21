@@ -1,7 +1,7 @@
-const _ = require('lodash')
+// const _ = require('lodash')
 const { generateSentences } = require('./funcs')
 require('typescript-require')
-const { choseVariantes } = require('./choseVariantes.ts')
+// const { choseVariantes } = require('./choseVariantes.ts')
 const { who } = require('./types_blocks/who')
 const { where } = require('./types_blocks/where')
 const { whyFinal } = require('./types_blocks/why')
@@ -60,4 +60,5 @@ generateSentences({
   n: 3,
   // similarity: true,
   showNewsTeach: true,
+  variableName: true,
 })

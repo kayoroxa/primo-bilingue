@@ -1,11 +1,15 @@
+const { generateSentences } = require('../funcs')
+
 const dict = {
   intro: [
     'why',
-    "I don't understand why",
+    'hello.',
+    "I don't (understand|leaned|said) why",
     'nobody knows why',
     'I wonder if',
     "even if it's just a lie",
     "i don't care if",
+    'good morning',
   ],
   who: [
     //
@@ -28,6 +32,7 @@ const dict = {
     'go to the party',
     'go eat cake',
     'will be happy',
+    'will buy a red car',
     'is asking if you will',
     'go buy pizza',
     'wants to see you',
@@ -35,6 +40,7 @@ const dict = {
     'can be here',
     'can see you now',
     'would like to know you',
+    'talk to me',
   ],
   when: [
     'at 2 am',
@@ -49,8 +55,9 @@ const dict = {
   ],
   whatPast: [
     //
-    'managed to finish',
-    "didn't let it happen",
+    'did not go',
+    'did not study',
+    'smiled',
     'got sick',
     'study English',
     'tried not to upset you',
@@ -79,11 +86,20 @@ const dict = {
     'since no one did it',
     'for curiosity',
     'for me to feel good',
-    "because it's cheap",
-    'because it is only possible today',
+    "because it's good",
     'to know how to solve',
     'if you want',
   ],
+  // quantity: [
+  //   'because it is necessary',
+  //   'because someone wants',
+  //   'since no one did it',
+  //   'for curiosity',
+  //   'for me to feel good',
+  //   "because it's good",
+  //   'to know how to solve',
+  //   'if you want',
+  // ],
   with: ['with my son', 'with my family'],
 }
 
@@ -105,3 +121,12 @@ const samples = [
   ['intro', 'who', 'what'],
   ['intro', 'who', 'whatPast'],
 ]
+
+generateSentences({
+  dict,
+  samples,
+  lengthOutput: 40,
+  n: 2,
+  showNewsTeach: true,
+  printWithVariable: true,
+})

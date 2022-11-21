@@ -1,4 +1,5 @@
 const _ = require('lodash')
+const { alternativeChoose } = require('./alternativesChoose')
 
 function generate(dict, samples, forceTeach) {
   const selected = _.sample(samples)
@@ -50,7 +51,7 @@ function generateSentences({
   dict,
   samples,
   meaningLess = [],
-  replaced = [],
+  // replaced = [],
   forceTeach,
   n = 3,
   lengthOutput = 60,
@@ -58,7 +59,10 @@ function generateSentences({
   anki = true,
   similarity = false,
   showNewsTeach = false,
+  printWithVariable = false,
 }) {
+  dict = alternativeChoose(dict)
+
   let dictSmall = {}
 
   for (let key of Object.keys(dict)) {
@@ -67,11 +71,11 @@ function generateSentences({
 
   let allTeach = [].concat(...Object.values(dictSmall))
 
-  let frases = new Set()
+  let frasesStr = new Set()
   let teach = new Set()
 
   let trying = 0
-  while (frases.size < lengthOutput && trying <= 400) {
+  while (frasesStr.size < lengthOutput && trying <= 400) {
     trying++
     let newSentence = generate(dictSmall, samples)
     newSentence.forEach(v => teach.add(v))
@@ -81,11 +85,11 @@ function generateSentences({
       !meaningLess.includes(newSentence) &&
       newSentence.length <= fraseLength
     ) {
-      frases.add(newSentence)
+      frasesStr.add(newSentence)
     }
   }
 
-  frases = [...frases].map(v => {
+  frasesStr = [...frasesStr].map(v => {
     let newSentence = v.trim().toLowerCase()
     if (newSentence.includes('por que')) newSentence = newSentence + '?'
     newSentence = newSentence.replace(',?', '?')
@@ -94,7 +98,7 @@ function generateSentences({
 
   if (similarity) {
     const stringSimilarity = require('string-similarity')
-    const oldFrases = frases
+    const oldFrases = frasesStr
     const frasesOrderBySimilarity = []
     let trying = 0
 
@@ -122,11 +126,11 @@ function generateSentences({
       }
     }
 
-    frases = frasesOrderBySimilarity
+    frasesStr = frasesOrderBySimilarity
   }
 
   if (showNewsTeach) {
-    let sentencesWithNewsTeach = frases.reduce((acc, cur) => {
+    let sentencesWithNewsTeach = frasesStr.reduce((acc, cur) => {
       const newTeach = _.shuffle(
         allTeach?.filter(t => !acc.join(' ').includes(t) && cur.includes(t))
       ).map(v => '' + v)
@@ -135,23 +139,33 @@ function generateSentences({
       else return [...acc]
     }, [])
 
-    frases = sentencesWithNewsTeach
+    frasesStr = sentencesWithNewsTeach
   }
 
-  frases = frases.join('\n')
+  frasesStr = frasesStr.join('\n')
 
-  console.log(frases)
+  if (printWithVariable) console.log('export const rawScript = `')
+  console.log(frasesStr)
+  if (printWithVariable) console.log('`')
   console.log('\n')
-  console.log([...teach].join('\n'))
+  if (printWithVariable) console.log('export const teach = `')
+
+  const teachFiltered = [...teach].filter(t =>
+    frasesStr.toLowerCase().includes(t.toLowerCase())
+  )
+
+  console.log(teachFiltered.join('\n'))
+
+  if (printWithVariable) console.log('`')
 
   return
 }
 
 function replaceFix(sentence) {
-  const replaceDict = [
-    //
-    ['those people is', 'those people are'],
-  ]
+  // const replaceDict = [
+  //   //
+  //   ['those people is', 'those people are'],
+  // ]
 
   // for (let replace of replaceDict) {
   //   sentence = sentence.replace(new RegExp(replace[0], 'gi'), replace[1])
