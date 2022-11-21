@@ -12,7 +12,6 @@ desde que ninguém estudava
 já que ninguém fez
 {já que} {ninguém fez isso}
 
-
 {since nobody did it}
 {since {nobody did it}
 
@@ -78,4 +77,4 @@ vai ficar isolada
 `
 const primoCaio = ``
 
-export const replace = primoCaio + '\n\n' + primoArtur
+export const _replace = primoCaio + '\n\n' + primoArtur
