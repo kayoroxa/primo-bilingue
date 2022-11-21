@@ -15,7 +15,8 @@ module.exports = {
     //
     'before that',
     'always before that',
-    'as much as I warned',
+    'as I said',
     'however much it happened',
+    'before happened',
   ],
 }
