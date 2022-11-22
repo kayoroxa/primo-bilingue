@@ -3,14 +3,15 @@ module.exports = {
     //
     'why',
     'is true',
-
     'just why',
     'probably',
-    'i understand why',
-    "I can't believe what",
     'after that',
-    'always after that',
+    'I believe that',
     "it's not as if",
+    'i understand why',
+    'always after that',
+    "I don't think that",
+    "I can't believe what",
     'nobody will believe if',
   ],
   introPast: [
@@ -18,8 +19,11 @@ module.exports = {
     'always before that',
     'however much it happened',
     'before (that|it happened)',
-    'as I (said|already said|told you before|explained before)',
+    'I (hated|loved) when',
+    'I was (worried|sad) when',
+    'as I (told you|explained) before',
+    'as I (said|already said)',
   ],
 
-  introIng: ['i hope'],
+  introIng: ['i hope', "it's surprising that"],
 }

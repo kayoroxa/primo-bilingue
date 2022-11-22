@@ -121,6 +121,29 @@ me disse as regras
 {me disse as regras}
 {me dizia as regras}
 
+eu odiava quando
+{eu odiava quando}
+
+{eu odiava quando}
+{eu odiei quando}
+
+eu não acho isso
+{eu não acho isso}
+
+{eu não acho isso}
+{eu não acho que}
+
+é quebrar o lápis
+{é quebrar o lápis}
+
+{é quebrar o lápis}
+{está quebrando os lápis}
+
+é usar suas dicas
+{é usar suas dicas}
+
+{é usar suas dicas}
+{está usando suas dicas}
 
 `
 const primoCaio = ``

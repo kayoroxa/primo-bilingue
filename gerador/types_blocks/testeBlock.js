@@ -1,9 +1,13 @@
 module.exports = {
-  start: ['I hate when'],
-  startPast: ['i told'],
-  middle: ['i hope'],
-  middlePast: ['told me the (news|stories|rules)'],
-  middleIng: ['i hope'],
-  middleFut: ['i hope'],
-  final: ['i hope'],
+  start: [
+    // 'as a matter of fact',
+    // 'to speak the truth',
+    'being sincere',
+  ],
+  startPast: ['always before (that|starting)'],
+  middle: [],
+  middlePast: [],
+  middleIng: [],
+  middleFut: [],
+  final: [],
 }

@@ -10,7 +10,7 @@ const { when, whenPast } = require('./types_blocks/when')
 const { intro, introPast } = require('./types_blocks/intro')
 const { actionFut, actionIngPos, actionPast } = require('./types_blocks/action')
 const { amountPast } = require('./types_blocks/amount')
-const { start, middlePast } = require('./types_blocks/testeBlock')
+const { start, middlePast, startPast } = require('./types_blocks/testeBlock')
 
 const dict = {
   who,
@@ -30,6 +30,7 @@ const dict = {
   /*test*/
   start,
   middlePast,
+  startPast,
 }
 
 const samples = [
@@ -48,6 +49,7 @@ const samples = [
   // ['who', 'middlePast', 'where'],
   // ['who', 'middlePast', 'amountPast'],
   // ['introPast', 'who', 'middlePast'],
+  // ['startPast', 'who', 'actionPast'],
 
   /*PASSED*/
   // ['who', 'what', 'where'],
