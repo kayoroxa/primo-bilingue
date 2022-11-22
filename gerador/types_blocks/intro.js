@@ -2,8 +2,9 @@ module.exports = {
   intro: [
     //
     'why',
-    'why not',
+    'is true',
     'just why',
+    'probably',
     'i understand why',
     "I can't believe what",
     'after that',
@@ -15,8 +16,8 @@ module.exports = {
     //
     'before that',
     'always before that',
-    'as I said',
+    'as I (said|already said|told you before|explained before)',
     'however much it happened',
-    'before happened',
+    'before it happened',
   ],
 }
