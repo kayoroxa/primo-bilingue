@@ -87,6 +87,41 @@ fez o exame
 
 fez o exame
 {fez o exame}
+
+me contou as novidades
+{me contou as novidades}
+
+{me contou as novidades}
+{me contava as novidades}
+
+me deu a notícia
+{me contava as novidades}
+
+me contou as histórias
+{me contou as histórias}
+
+{me contou as histórias}
+{me contava as histórias}
+
+contou-me as histórias
+{contou-me as histórias}
+
+me contou as histórias
+{me contou as histórias}
+
+{me contou as histórias}
+{me contava as histórias}
+
+{contou-me as histórias}
+{me contava as histórias}
+
+me disse as regras
+{me disse as regras}
+
+{me disse as regras}
+{me dizia as regras}
+
+
 `
 const primoCaio = ``
 

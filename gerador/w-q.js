@@ -8,8 +8,9 @@ const { whyFinal } = require('./types_blocks/why')
 const { what, whatPast } = require('./types_blocks/what')
 const { when, whenPast } = require('./types_blocks/when')
 const { intro, introPast } = require('./types_blocks/intro')
-const { action, actionPoss, actionPast } = require('./types_blocks/action')
+const { actionFut, actionIngPos, actionPast } = require('./types_blocks/action')
 const { amountPast } = require('./types_blocks/amount')
+const { start, middlePast } = require('./types_blocks/testeBlock')
 
 const dict = {
   who,
@@ -19,12 +20,16 @@ const dict = {
   whatPast,
   when,
   whenPast,
-  action,
-  actionPoss,
+  actionFut,
+  actionIngPos,
   actionPast,
   intro,
   introPast,
   amountPast,
+
+  /*test*/
+  start,
+  middlePast,
 }
 
 const samples = [
@@ -33,20 +38,29 @@ const samples = [
   // ['who', 'action', 'whyFinal'],
   // ['who', 'actionPast', 'whyFinal'],
   // ['who', 'actionPoss', 'whyFinal'],
-  ['who', 'actionPoss', 'amountPast'],
+  // ['who', 'actionPoss', 'amountPast'],
+  // ['who', 'actionPoss', 'amountPast'],
+
+  /*TESTE*/
+  ['start', 'who', 'actionFut'],
+  ['start', 'who', 'actionIngPos'],
+  // ['who', 'middlePast', 'whenPast'],
+  // ['who', 'middlePast', 'where'],
+  // ['who', 'middlePast', 'amountPast'],
+  // ['introPast', 'who', 'middlePast'],
 
   /*PASSED*/
-  ['who', 'what', 'where'],
-  ['who', 'actionPast', 'amountPast'],
-  ['who', 'whatPast', 'where'],
-  ['who', 'action', 'when'],
-  ['who', 'actionPast', 'whenPast'],
-  ['who', 'action', 'where'],
-  ['who', 'actionPast', 'where'],
-  ['who', 'actionPoss', 'where'],
-  ['intro', 'who', 'action'],
-  ['intro', 'who', 'actionPoss'],
-  ['introPast', 'who', 'actionPast'],
+  // ['who', 'what', 'where'],
+  // ['who', 'whatPast', 'where'],
+  // ['who', 'actionFut', 'when'],
+  // ['who', 'actionFut', 'where'],
+  // ['who', 'actionPast', 'whenPast'],
+  // ['who', 'actionPast', 'where'],
+  // ['who', 'actionPast', 'amountPast'],
+  // ['who', 'actionIngPos', 'where'],
+  // ['intro', 'who', 'actionFut'],
+  // ['intro', 'who', 'actionIngPos'],
+  // ['introPast', 'who', 'actionPast'],
 ]
 
 // console.log(choseVariantes(dict))
@@ -55,7 +69,7 @@ generateSentences({
   samples,
   dict,
   anki: false,
-  lengthOutput: 45,
+  lengthOutput: 25,
   fraseLength: 45,
   n: 2,
   // similarity: true,

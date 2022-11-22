@@ -3,6 +3,7 @@ module.exports = {
     //
     'why',
     'is true',
+
     'just why',
     'probably',
     'i understand why',
@@ -14,10 +15,11 @@ module.exports = {
   ],
   introPast: [
     //
-    'before that',
     'always before that',
-    'as I (said|already said|told you before|explained before)',
     'however much it happened',
-    'before it happened',
+    'before (that|it happened)',
+    'as I (said|already said|told you before|explained before)',
   ],
+
+  introIng: ['i hope'],
 }
