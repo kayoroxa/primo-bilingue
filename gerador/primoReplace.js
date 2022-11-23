@@ -24,6 +24,9 @@ porque não podiam
 {usado para estudar}
 {costumava estudar}
 
+estudava
+{costumava estudar}
+
 essa criança
 {aquela criança}
 
@@ -82,11 +85,205 @@ alguns meses atrás
 {a tarde}
 {à tarde}
 
+à tarde
+{à tarde}
+
 fez os exames
 fez o exame
 
 fez o exame
 {fez o exame}
+
+me contou as novidades
+{me contou as novidades}
+
+{me contou as novidades}
+{me contava as novidades}
+
+me deu a notícia
+{me contava as novidades}
+
+me contou as histórias
+{me contou as histórias}
+
+{me contou as histórias}
+{me contava as histórias}
+
+contou-me as histórias
+{contou-me as histórias}
+
+me contou as histórias
+{me contou as histórias}
+
+{me contou as histórias}
+{me contava as histórias}
+
+{contou-me as histórias}
+{me contava as histórias}
+
+me disse as regras
+{me disse as regras}
+
+{me disse as regras}
+{me dizia as regras}
+
+eu odiava quando
+{eu odiava quando}
+
+{eu odiava quando}
+{eu odiei quando}
+
+eu não acho isso
+{eu não acho isso}
+
+{eu não acho isso}
+{eu não acho que}
+
+é quebrar o lápis
+{é quebrar o lápis}
+
+{é quebrar o lápis}
+{está quebrando os lápis}
+
+é usar suas dicas
+{é usar suas dicas}
+
+{é usar suas dicas}
+{está usando suas dicas}
+
+na realidade
+{na realidade}
+
+{na realidade}
+{na verdade}
+
+na verdade,
+{na verdade}
+
+a bia
+{Bia}
+
+depois que aconteceu
+{depois que aconteceu}
+
+{depois que aconteceu}
+{depois que isso aconteceu}
+
+
+a véspera
+{Eve}
+
+é seguro dizer
+{é seguro dizer}
+
+{é seguro dizer} que
+{é seguro dizer que}
+
+daquele dia em diante,
+{daquele dia em diante}
+
+adivinhe que horas
+{adivinhe a que horas}
+
+é sério que
+{é sério}
+
+o boy
+{o menino}
+
+o leo
+{Leo}
+
+para ser honesto,
+{para ser honesto}
+
+vai proibir o vestido
+{vai proibir vestidos}
+
+só
+{apenas}
+
+E se
+{se}
+
+para ser claro,
+{para ser claro}
+
+adivinha perto de onde
+{adivinhe perto de onde}
+
+{um pouco atrás}
+{a pouco tempo atrás}
+
+a pouco tempo
+{a pouco tempo atrás}
+
+{feche a igreja}
+{perto da igreja}
+
+fecha a igreja
+{perto da praia}
+
+fechar a igreja
+{perto da igreja}
+
+perto da igreja
+{perto da igreja}
+
+fechar a praia
+{perto da praia}
+
+minha professora
+{meu professor}
+
+{{meu professor}}
+{meu professor}
+
+{toda tarde}
+{todas as tardes}
+
+todas as tardes
+{todas as tardes}
+
+{costumava estudar} artes
+{estudava artes} 
+
+vai comer sozinha
+{vai comer sozinha}
+
+está usando suas gorjeta
+{está usando suas dicas}
+
+{está usando suas dicas}s
+{está usando suas dicas}
+
+{{à tarde}}
+{à tarde}
+
+{{todas as tardes}}
+{todas as tardes}
+
+{{a pouco tempo atrás} atrás}
+{a pouco tempo atrás atrás}
+
+
+{{perto da praia}}
+{perto da praia}
+
+fazia o trabalho
+fez o trabalho
+
+fez o trabalho
+{fez o trabalho}
+
+será preparada
+estará preparada
+
+estará preparada
+{estará preparada}
+
+
+
 `
 const primoCaio = ``
 
