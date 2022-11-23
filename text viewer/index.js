@@ -1,168 +1,29 @@
 const script = `
-in my opinion
-Na minha opinião
+I wanna {show you} something {really} {cool}.
+Eu quero {mostrar a você} algo {muito} {legal}.
 
-{I have to} admit
-{eu tenho que} admitir
+You ready?
+Esta pronta?
 
-But hones{tly}
-Mas honesta{mente}
+And… surprise.
+E... surpresa.
 
-{no} {matter} {why}
-{não} {importa} {porque}
+I {arranged} with Carla {to get} it {here},
+EU {arranjei} com a Carla {para trazer} isso {aqui},
 
-actually
-na realidade
+and {I figured} maybe {this Saturday} we {could} go {sailing}.
+e {eu pensei "que"} talvez {neste sábado} nós {pudéssemos} ir {velejar}.
 
-what happens is that
-o que acontece é que
+{I mean}, you {could} go {sailing}.
+{Quero dizer}, você {poderia} ir {velejar}.
 
-I'm sure
-Eu tenho certeza
+You {should} sell {it} or {something}.
+Você {deveria} vender {isso} ou {algo assim}.
 
-I'm not sure {if}
-não tenho certeza {se}
-
-I {can't} explain {why}, but
-Eu {não posso} explicar {por que}, mas
-
-{after} {dinner}
-{depois} do {jantar}
-
-{after} {dinner} {in the} restaurant
-{depois} do {jantar} {no} restaurante
-
-my mother
-minha mãe
-
-the planet
-o planeta
-
-those people
-aquelas pessoas
-
-the dentist
-o dentista
-
-nobody
-ninguém
-
-everybody
-todo o mundo
-
-is important
-é importante
-
-is complete{ly} different
-é completa{mente} diferente
-
-is different
-é diferente
-
-is perfect
-é perfeito
-
-is my responsibil{ity}
-é minha responsabili{dade}
-
-is complete{ly} important
-é completa{mente} importante
-
-is violent
-é violento
-
-{is} {the} suspect {in the} crime
-{é} {o} suspeito {do} crime
-
-has difficulty
-tem dificuldade
-
-is
-é
-
-is studying
-está estudando
-
-is study{ing} with Emily
-está estud{ando} com Emily
-
-has experience
-tem experiência
-
-is disappoint{ed} with Emily
-está decepcion{ado} com Emily
-
-is ignor{ing} Jessica
-está ignor{ando} Jéssica
-
-think it's optional
-acho que é opcional
-
-go with me
-vai comigo
-
-thinks positively
-pensa positivamente
-
-is waiting for me
-está esperando por mim
-
-{need you} stay
-{preciso que você} fique
-
-went {to the} restaurant
-foi {ao} restaurante
-
-didn't let me leave
-não me deixou sair
-
-left {home}
-saiu {de casa}
-
-{had to} go {to school}
-{tinha que} ir {para a escola}
-
-was {scared} {of the} dog
-estava {com medo} {do} cachorro
-
-in prison
-na prisão
-
-at home
-em casa
-
-in the hospital
-no Hospital
-
-anywhere
-qualquer lugar
-
-no matter where
-não importa onde
-
-wherever you are
-onde quer que você esteja
-
-here
-aqui
-
-when I arrived
-quando eu cheguei
-
-because {it's} necessary
-porque {é} necessário
-
-because {it's} important
-porque {é} importante
-
-because {there is} still {time}
-porque ainda {há} {tempo}
-
-because {it's} happing {anywhere}
-porque {está} acontecendo {em qualquer lugar}
-
-
+{I don't think} I {wanna} sail {anymore}.
+{Eu acho que não} Eu {quero} {mais} velejar.
 `
+
 const data = script.split('\n\n').map(v => v.split('\n').filter(Boolean))
 
 const cores = [

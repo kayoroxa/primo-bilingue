@@ -62,14 +62,8 @@ will eat salad
 Jay vai comer salada perto do banco
 Jay will eat salad close the bank
 
-sabia qual era a sua posição
-knew what your position was
-
 perto de casa
 close to home
-
-Jay sabia qual era a sua posição perto de casa
-Jay knew what your position was close to home
 
 a muito tempo atrás
 a long time ago
@@ -283,7 +277,6 @@ vai comer salada
 fechar o banco
 vai assistir a partida
 está lendo seus poemas
-sabia qual era a sua posição
 ninguém vai acreditar se
 a muito tempo atrás
 sabe o que isso pode causar
