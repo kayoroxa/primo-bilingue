@@ -22,7 +22,7 @@ module.exports = {
     'painted the (car|table|chair|house)',
     'studied (finance|business|music|arts)',
     'opened the (gifts|toys|boxes|cards)',
-    'changed the (experiment|exercise|method)',
+    'changed the (experiment|exercise|method|path)',
     'started the (search|investigation|speech)',
     'used to (run|study|read books|watch news)',
     'made new (contracts|paintings|decorations)',

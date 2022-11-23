@@ -85,6 +85,9 @@ alguns meses atrás
 {a tarde}
 {à tarde}
 
+à tarde
+{à tarde}
+
 fez os exames
 fez o exame
 
@@ -208,6 +211,78 @@ para ser claro,
 
 adivinha perto de onde
 {adivinhe perto de onde}
+
+{um pouco atrás}
+{a pouco tempo atrás}
+
+a pouco tempo
+{a pouco tempo atrás}
+
+{feche a igreja}
+{perto da igreja}
+
+fecha a igreja
+{perto da praia}
+
+fechar a igreja
+{perto da igreja}
+
+perto da igreja
+{perto da igreja}
+
+fechar a praia
+{perto da praia}
+
+minha professora
+{meu professor}
+
+{{meu professor}}
+{meu professor}
+
+{toda tarde}
+{todas as tardes}
+
+todas as tardes
+{todas as tardes}
+
+{costumava estudar} artes
+{estudava artes} 
+
+vai comer sozinha
+{vai comer sozinha}
+
+está usando suas gorjeta
+{está usando suas dicas}
+
+{está usando suas dicas}s
+{está usando suas dicas}
+
+{{à tarde}}
+{à tarde}
+
+{{todas as tardes}}
+{todas as tardes}
+
+{{a pouco tempo atrás} atrás}
+{a pouco tempo atrás atrás}
+
+
+{{perto da praia}}
+{perto da praia}
+
+fazia o trabalho
+fez o trabalho
+
+fez o trabalho
+{fez o trabalho}
+
+será preparada
+estará preparada
+
+estará preparada
+{estará preparada}
+
+
 
 `
 const primoCaio = ``
