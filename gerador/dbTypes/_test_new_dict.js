@@ -26,37 +26,63 @@ const dict = {
     good morning
     bom Dia
   `,
-  who: [
-    //
-    'he',
-    'William and you',
-    'Rose and Joyce',
-    'they',
-    'everyone',
-    'my dad',
-    'my cousin',
-    'the guys',
-    'the crowd',
-    'my team',
-    'my family',
-    'everyone',
-    'nobody',
-    'someone',
-  ],
-  what: [
-    'go to the party',
-    'go eat cake',
-    'will be happy',
-    'will buy a red car',
-    'is asking if you will',
-    'go buy pizza',
-    'wants to see you',
-    'wants to talk to you',
-    'can be here',
-    'can see you now',
-    'would like to know you',
-    'talk to me',
-  ],
+  who: `
+    he
+    ele
+
+    William {and} {you}
+    Willian {e} {você}
+
+    Rose {and} Joyce
+    Rosa {e} Joyce
+
+    they
+    elas
+
+    everyone
+    todos
+
+    {my} {dad}
+    {meu} {pai}
+
+    {my} {cousin}
+    {minha} {prima}
+
+    {the} {guys}
+    {os} {caras}
+
+    {the} {crowd}
+    {a} {multidão}
+
+    my {team}
+    meu {time}
+
+    {my} {family}
+    {minha} {família}
+
+    everyone
+    todos
+
+    nobody
+    ninguém
+
+    someone
+    alguém
+    `,
+  what: `
+    go to the party
+    go eat cake
+    will be happy
+    will buy a red car
+    is asking if you will
+    go buy pizza
+    wants to see you
+    wants to talk to you
+    can be here
+    can see you now
+    would like to know you
+    talk to me
+     `,
   when: [
     'at 2 am',
     'tomorrow',
