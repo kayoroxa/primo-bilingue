@@ -24,6 +24,9 @@ porque não podiam
 {usado para estudar}
 {costumava estudar}
 
+estudava
+{costumava estudar}
+
 essa criança
 {aquela criança}
 
@@ -145,6 +148,60 @@ eu não acho isso
 {é usar suas dicas}
 {está usando suas dicas}
 
+na realidade
+{na realidade}
+
+{na realidade}
+{na verdade}
+
+na verdade,
+{na verdade}
+
+a bia
+{Bia}
+
+depois que aconteceu
+{depois que aconteceu}
+
+{depois que aconteceu}
+{depois que isso aconteceu}
+
+
+a véspera
+{Eve}
+
+é seguro dizer
+{é seguro dizer}
+
+{é seguro dizer} que
+{é seguro dizer que}
+
+daquele dia em diante,
+{daquele dia em diante}
+
+adivinhe que horas
+{adivinhe a que horas}
+
+é sério que
+{é sério}
+
+o boy
+{o menino}
+
+o leo
+{Leo}
+
+para ser honesto,
+{para ser honesto}
+
+vai proibir o vestido
+{vai proibir vestidos}
+
+só
+{apenas}
+
+E se
+{se}
 `
 const primoCaio = ``
 

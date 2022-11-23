@@ -41,7 +41,6 @@ const samples = [
   // ['who', 'actionPoss', 'whyFinal'],
   // ['who', 'actionPoss', 'amountPast'],
   // ['who', 'actionPoss', 'amountPast'],
-
   /*TESTE*/
   ['start', 'who', 'actionFut'],
   ['start', 'who', 'actionIngPos'],
@@ -71,7 +70,7 @@ generateSentences({
   samples,
   dict,
   anki: false,
-  lengthOutput: 25,
+  lengthOutput: 30,
   fraseLength: 45,
   n: 2,
   // similarity: true,

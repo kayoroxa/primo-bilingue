@@ -1,10 +1,11 @@
 module.exports = {
   start: [
-    // 'as a matter of fact',
-    // 'to speak the truth',
-    'being sincere',
+    'I want to know if',
+    'after all',
+    'guess close to where',
+    'to be clear',
   ],
-  startPast: ['always before (that|starting)'],
+  startPast: [],
   middle: [],
   middlePast: [],
   middleIng: [],
