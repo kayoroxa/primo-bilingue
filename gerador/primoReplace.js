@@ -202,6 +202,13 @@ só
 
 E se
 {se}
+
+para ser claro,
+{para ser claro}
+
+adivinha perto de onde
+{adivinhe perto de onde}
+
 `
 const primoCaio = ``
 

@@ -8,7 +8,7 @@ module.exports = {
     'will (fix|ruin|improve|banish|correct) everything',
     'will complain about the (rules|salary|day|program)',
     'will be (busy|alone|isolated|rested|prepared)',
-    'will eat (salad|too much|pizza|vegan foods|cookies)',
+    'will eat (salad|alone|pizza|vegan foods|cookies)',
     'will read (very fast|books|magazines|comics|alone)',
     'will buy (movies|new books|fruits|cars|musics|balls)',
     'will start (studying|training|complaining|protesting)',
