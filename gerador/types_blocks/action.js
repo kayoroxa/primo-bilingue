@@ -15,6 +15,7 @@ module.exports = {
     'will present new (options|activities|rules|students|updates)',
     'will stop (playing games|fighting|causing trouble|screaming|complaining|talking)',
   ],
+  actionPre: ['(eats|swim|runs|talks|complains) a lot'],
   actionPast: [
     'sold the (candle|coat|car|cookie)',
     'told me the (news|stories|rules)',

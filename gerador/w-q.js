@@ -35,8 +35,8 @@ const dict = {
 
 const samples = [
   /*TESTE*/
-  ['start', 'who', 'actionFut'],
-  ['start', 'who', 'actionIngPos'],
+  // ['start', 'who', 'actionFut'],
+  // ['start', 'who', 'actionIngPos'],
   // ['who', 'middlePast', 'whenPast'],
   // ['who', 'middlePast', 'where'],
   // ['who', 'middlePast', 'amountPast'],
@@ -44,17 +44,17 @@ const samples = [
   // ['startPast', 'who', 'actionPast'],
 
   /*PASSED*/
-  // ['who', 'what', 'where'],
-  // ['who', 'whatPast', 'where'],
-  // ['who', 'actionFut', 'when'],
-  // ['who', 'actionFut', 'where'],
-  // ['who', 'actionPast', 'whenPast'],
-  // ['who', 'actionPast', 'where'],
-  // ['who', 'actionPast', 'amountPast'],
-  // ['who', 'actionIngPos', 'where'],
-  // ['intro', 'who', 'actionFut'],
-  // ['intro', 'who', 'actionIngPos'],
-  // ['introPast', 'who', 'actionPast'],
+  ['who', 'what', 'where'],
+  ['who', 'whatPast', 'where'],
+  ['who', 'actionFut', 'when'],
+  ['who', 'actionFut', 'where'],
+  ['who', 'actionPast', 'whenPast'],
+  ['who', 'actionPast', 'where'],
+  ['who', 'actionPast', 'amountPast'],
+  ['who', 'actionIngPos', 'where'],
+  ['intro', 'who', 'actionFut'],
+  ['intro', 'who', 'actionIngPos'],
+  ['introPast', 'who', 'actionPast'],
 ]
 
 // console.log(choseVariantes(dict))
