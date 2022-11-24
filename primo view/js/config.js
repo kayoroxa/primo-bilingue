@@ -1,7 +1,7 @@
 import { _replace } from '../../gerador/primoReplace.js'
 // import { _replace } from '../../gerador/courseReplace.js'
-import { rawScript, teach } from '../../script/primo/writing'
-// import { rawScript, teach } from '../../script/primo/recording'
+import { rawScript, teach } from '../../script/primo/writing.js'
+// import { rawScript, teach } from '../../script/primo/recording.js'
 
 export const config = {
   alternateLanguagePercent: 0,

@@ -282,9 +282,43 @@ estará preparada
 estará preparada
 {estará preparada}
 
+{complains a lot}
+{complains} {a lot}
 
+{reclama muito}
+{reclama} {muito}
 
-`
+{realmente precisa falar}
+{realmente precisa} {falar}
+
+{really needs to talk}
+{really needs} {to talk}
+
+fazia novas decorações
+{fez novas decorações}
+
+{fiz novas decorações}
+{fez novas decorações}
+
+abria as cartas
+{abriu} {as cartas}
+
+{opened the cards}
+{opened} {the cards}
+
+{vendeu o biscoito}
+{vendeu} {o biscoito}
+
+{sold the cookie}
+{sold} {the cookie}
+
+{está trabalhando duro}
+{está} {trabalhando duro}
+
+{is working hard}
+{is} {working hard}
+
+`.replace(/\n{3,}/g, '\n\n')
 const primoCaio = ``
 
 export const _replace = primoCaio + '\n\n' + primoArtur
