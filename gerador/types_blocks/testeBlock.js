@@ -1,5 +1,5 @@
 module.exports = {
-  start: ['I can see why'],
+  start: [],
   startPast: [],
   middle: [],
   middlePast: [],

@@ -15,11 +15,13 @@ module.exports = {
     'will present new (options|activities|rules|students|updates)',
     'will stop (playing games|fighting|causing trouble|screaming|complaining|talking)',
   ],
-  actionPre: [
+  actionPres: [
     '(eats|swim|runs|talks|complains) a lot',
     'really likes (comedies|movies|old games|pranks|juices)',
     'really needs (a job|help|help at work|a visit|to talk)',
     'really really wants to (write|walk|play)',
+    'has a lot of (courage|patience|interest|knowledge|proud|ability)',
+    'is very (rude|beautiful|protective|gently|wise|rich|powerful)',
   ],
   actionIng: [
     'is (working|trying|focusing) hard',

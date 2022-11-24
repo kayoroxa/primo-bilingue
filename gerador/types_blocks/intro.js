@@ -27,6 +27,7 @@ module.exports = {
     'always after that',
     'I want to know if',
     'from that day on',
+    'now i can see why',
     "I don't think that",
     'to tell the truth',
     '(probably|possibly)',
