@@ -1,3 +1,5 @@
+/*---24/11/22---*/
+
 export const rawScript = `
 
 reclama 
