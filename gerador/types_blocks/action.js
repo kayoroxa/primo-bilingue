@@ -15,7 +15,16 @@ module.exports = {
     'will present new (options|activities|rules|students|updates)',
     'will stop (playing games|fighting|causing trouble|screaming|complaining|talking)',
   ],
-  actionPre: ['(eats|swim|runs|talks|complains) a lot'],
+  actionPre: [
+    '(eats|swim|runs|talks|complains) a lot',
+    'really likes (comedies|movies|old games|pranks|juices)',
+    'really needs (a job|help|help at work|a visit|to talk)',
+    'really really wants to (write|walk|play)',
+  ],
+  actionIng: [
+    'is (working|trying|focusing) hard',
+    'can spend time (searching|watching|shopping|talking about) (movies|novels|courses)',
+  ],
   actionPast: [
     'sold the (candle|coat|car|cookie)',
     'told me the (news|stories|rules)',
@@ -36,7 +45,7 @@ module.exports = {
     'is breaking the (pencils|tools|chairs|windows)',
     'is reading your (poems|stories|articles|activities)',
     'is practicing your (ideas|tips|lessons|instructions)',
-    'is listening your (lessons|suggestion|instructions|songs)',
-    'is improving your (projects|compositions|characters|grades)',
+    'is listening your (lessons|suggestion|instructions|songs|mother)',
+    'is improving your (projects|compositions|characters|grades|sleep|body)',
   ],
 }

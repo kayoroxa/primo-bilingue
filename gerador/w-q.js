@@ -8,7 +8,13 @@ const { whyFinal } = require('./types_blocks/why')
 const { what, whatPast } = require('./types_blocks/what')
 const { when, whenPast } = require('./types_blocks/when')
 const { intro, introPast } = require('./types_blocks/intro')
-const { actionFut, actionIngPos, actionPast } = require('./types_blocks/action')
+const {
+  actionFut,
+  actionIngPos,
+  actionPast,
+  actionPres,
+  actionIng,
+} = require('./types_blocks/action')
 const { amountPast } = require('./types_blocks/amount')
 const { start, middlePast, startPast } = require('./types_blocks/testeBlock')
 
@@ -21,8 +27,10 @@ const dict = {
   when,
   whenPast,
   actionFut,
-  actionIngPos,
+  actionIng,
+  actionPres,
   actionPast,
+  actionIngPos,
   intro,
   introPast,
   amountPast,
@@ -42,19 +50,23 @@ const samples = [
   // ['who', 'middlePast', 'amountPast'],
   // ['introPast', 'who', 'middlePast'],
   // ['startPast', 'who', 'actionPast'],
-
+  // ['who', 'actionPres'],
+  // ['who', 'actionPres', 'when'],
+  // ['who', 'actionPres', 'where'],
+  // ['who', 'actionIng'],
+  // ['who', 'actionIng', 'where'],
   /*PASSED*/
   ['who', 'what', 'where'],
-  ['who', 'whatPast', 'where'],
-  ['who', 'actionFut', 'when'],
-  ['who', 'actionFut', 'where'],
-  ['who', 'actionPast', 'whenPast'],
-  ['who', 'actionPast', 'where'],
-  ['who', 'actionPast', 'amountPast'],
-  ['who', 'actionIngPos', 'where'],
-  ['intro', 'who', 'actionFut'],
-  ['intro', 'who', 'actionIngPos'],
-  ['introPast', 'who', 'actionPast'],
+  // ['who', 'whatPast', 'where'],
+  // ['who', 'actionFut', 'when'],
+  // ['who', 'actionFut', 'where'],
+  // ['who', 'actionPast', 'whenPast'],
+  // ['who', 'actionPast', 'where'],
+  // ['who', 'actionPast', 'amountPast'],
+  // ['who', 'actionIngPos', 'where'],
+  // ['intro', 'who', 'actionFut'],
+  // ['intro', 'who', 'actionIngPos'],
+  // ['introPast', 'who', 'actionPast'],
 ]
 
 // console.log(choseVariantes(dict))

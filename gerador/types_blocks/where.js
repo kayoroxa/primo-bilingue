@@ -10,6 +10,6 @@ module.exports = {
     'in the airport',
     'on the plane',
     'in the (palace|circus|company)',
-    'close the (bank|beach|church)',
+    'close the (bank|beach|park)',
   ],
 }
