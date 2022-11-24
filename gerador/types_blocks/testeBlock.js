@@ -1,5 +1,5 @@
 module.exports = {
-  start: [],
+  start: ['only'],
   startPast: [],
   middle: [],
   middlePast: [],

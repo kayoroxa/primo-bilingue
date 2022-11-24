@@ -34,33 +34,27 @@ const dict = {
 }
 
 const samples = [
-  // ['who', 'what', 'whyFinal'],
-  // ['who', 'whatPast', 'whyFinal'],
-  // ['who', 'action', 'whyFinal'],
-  // ['who', 'actionPast', 'whyFinal'],
-  // ['who', 'actionPoss', 'whyFinal'],
-  // ['who', 'actionPoss', 'amountPast'],
-  // ['who', 'actionPoss', 'amountPast'],
   /*TESTE*/
-  // ['start', 'who', 'actionFut'],
-  // ['start', 'who', 'actionIngPos'],
+  ['start', 'who', 'actionFut'],
+  ['start', 'who', 'actionIngPos'],
   // ['who', 'middlePast', 'whenPast'],
   // ['who', 'middlePast', 'where'],
   // ['who', 'middlePast', 'amountPast'],
   // ['introPast', 'who', 'middlePast'],
   // ['startPast', 'who', 'actionPast'],
+
   /*PASSED*/
-  ['who', 'what', 'where'],
-  ['who', 'whatPast', 'where'],
-  ['who', 'actionFut', 'when'],
-  ['who', 'actionFut', 'where'],
-  ['who', 'actionPast', 'whenPast'],
-  ['who', 'actionPast', 'where'],
-  ['who', 'actionPast', 'amountPast'],
-  ['who', 'actionIngPos', 'where'],
-  ['intro', 'who', 'actionFut'],
-  ['intro', 'who', 'actionIngPos'],
-  ['introPast', 'who', 'actionPast'],
+  // ['who', 'what', 'where'],
+  // ['who', 'whatPast', 'where'],
+  // ['who', 'actionFut', 'when'],
+  // ['who', 'actionFut', 'where'],
+  // ['who', 'actionPast', 'whenPast'],
+  // ['who', 'actionPast', 'where'],
+  // ['who', 'actionPast', 'amountPast'],
+  // ['who', 'actionIngPos', 'where'],
+  // ['intro', 'who', 'actionFut'],
+  // ['intro', 'who', 'actionIngPos'],
+  // ['introPast', 'who', 'actionPast'],
 ]
 
 // console.log(choseVariantes(dict))
@@ -69,7 +63,7 @@ generateSentences({
   samples,
   dict,
   anki: false,
-  lengthOutput: 30,
+  lengthOutput: 25,
   fraseLength: 45,
   n: 2,
   // similarity: true,

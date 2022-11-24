@@ -36,6 +36,6 @@ module.exports = {
     'is reading your (poems|stories|articles|activities)',
     'is practicing your (ideas|tips|lessons|instructions)',
     'is listening your (lessons|suggestion|instructions|songs)',
-    'is improving your (sanity|projects|compositions|characters|grades)',
+    'is improving your (projects|compositions|characters|grades)',
   ],
 }
