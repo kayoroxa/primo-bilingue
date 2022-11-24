@@ -1,0 +1,5 @@
+  ['who', 'actionPres'],
+  ['who', 'actionPres', 'when'],
+  ['who', 'actionPres', 'where'],
+  ['who', 'actionIng'],
+  ['who', 'actionIng', 'where'],
