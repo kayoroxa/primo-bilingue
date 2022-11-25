@@ -152,7 +152,7 @@ function generateSentences({
   if (printWithVariable) console.log('export const teach = `')
 
   const teachFiltered = [...teach].filter(t =>
-    frasesStr.toLowerCase().includes(t.toLowerCase())
+    frasesStr.toLowerCase().includes(t?.toLowerCase())
   )
 
   console.log(teachFiltered.join('\n'))

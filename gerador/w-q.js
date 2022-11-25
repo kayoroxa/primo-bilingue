@@ -8,7 +8,13 @@ const { whyFinal } = require('./types_blocks/why')
 const { what, whatPast } = require('./types_blocks/what')
 const { when, whenPast } = require('./types_blocks/when')
 const { intro, introPast } = require('./types_blocks/intro')
-const { actionFut, actionIngPos, actionPast } = require('./types_blocks/action')
+const {
+  actionFut,
+  actionIngPos,
+  actionPast,
+  actionPres,
+  actionIng,
+} = require('./types_blocks/action')
 const { amountPast } = require('./types_blocks/amount')
 const { start, middlePast, startPast } = require('./types_blocks/testeBlock')
 
@@ -21,8 +27,10 @@ const dict = {
   when,
   whenPast,
   actionFut,
-  actionIngPos,
+  actionIng,
+  actionPres,
   actionPast,
+  actionIngPos,
   intro,
   introPast,
   amountPast,
@@ -34,13 +42,6 @@ const dict = {
 }
 
 const samples = [
-  // ['who', 'what', 'whyFinal'],
-  // ['who', 'whatPast', 'whyFinal'],
-  // ['who', 'action', 'whyFinal'],
-  // ['who', 'actionPast', 'whyFinal'],
-  // ['who', 'actionPoss', 'whyFinal'],
-  // ['who', 'actionPoss', 'amountPast'],
-  // ['who', 'actionPoss', 'amountPast'],
   /*TESTE*/
   // ['start', 'who', 'actionFut'],
   // ['start', 'who', 'actionIngPos'],
@@ -61,6 +62,9 @@ const samples = [
   ['intro', 'who', 'actionFut'],
   ['intro', 'who', 'actionIngPos'],
   ['introPast', 'who', 'actionPast'],
+  ['intro', 'who', 'actionPres'],
+  ['intro', 'who', 'actionIng'],
+  ['who', 'actionIng', 'where'],
 ]
 
 // console.log(choseVariantes(dict))
@@ -69,7 +73,7 @@ generateSentences({
   samples,
   dict,
   anki: false,
-  lengthOutput: 30,
+  lengthOutput: 15,
   fraseLength: 45,
   n: 2,
   // similarity: true,

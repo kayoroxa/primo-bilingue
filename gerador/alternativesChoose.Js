@@ -28,7 +28,7 @@ function alternativeChoose(dict) {
   const arrayEntries = Object.entries(dict)
 
   const arrayEntriesChose = arrayEntries.map(([key, values]) => {
-    if (!values.some(value => value.includes('('))) return [key, values]
+    if (!values?.some(value => value.includes('('))) return [key, values]
 
     const valuesChose = valuesChoose(values)
 
