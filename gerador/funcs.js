@@ -1,7 +1,7 @@
 const _ = require('lodash')
 const { alternativeChoose } = require('./alternativesChoose')
 
-function generate(dict, samples, forceTeach) {
+export function generate(dict, samples, forceTeach) {
   const selected = _.sample(samples)
 
   if (forceTeach) {
@@ -15,7 +15,7 @@ function generate(dict, samples, forceTeach) {
   })
 }
 
-function sampleSizeWithProbability(array, size = 2, weight, forceTeach) {
+export function sampleSizeWithProbability(array, size = 2, weight, forceTeach) {
   if (forceTeach) {
     return array.filter(v => forceTeach.includes(v))
   }
@@ -61,20 +61,24 @@ function generateSentences({
   showNewsTeach = false,
   printWithVariable = false,
 }) {
-  dict = alternativeChoose(dict)
+  dict = alternativeChoose(dict) //remove (x|y|z)
 
+  // SELECT ON CATEGORY THE X OPTIONS
   let dictSmall = {}
 
   for (let key of Object.keys(dict)) {
     dictSmall[key] = sampleSizeWithProbability(dict[key], n, anki, forceTeach)
   }
 
+  // SET THINGS
   let allTeach = [].concat(...Object.values(dictSmall))
 
   let frasesStr = new Set()
   let teach = new Set()
 
   let trying = 0
+
+  //FIND ALL X SENTENCES
   while (frasesStr.size < lengthOutput && trying <= 400) {
     trying++
     let newSentence = generate(dictSmall, samples)
@@ -89,6 +93,7 @@ function generateSentences({
     }
   }
 
+  // SANITIZE AND CORE REPLACES
   frasesStr = [...frasesStr].map(v => {
     let newSentence = v.trim().toLowerCase()
     if (newSentence.includes('por que')) newSentence = newSentence + '?'
@@ -97,39 +102,7 @@ function generateSentences({
     return newSentence
   })
 
-  if (similarity) {
-    const stringSimilarity = require('string-similarity')
-    const oldFrases = frasesStr
-    const frasesOrderBySimilarity = []
-    let trying = 0
-
-    while (frasesOrderBySimilarity.length < oldFrases.length && trying <= 200) {
-      trying++
-      if (frasesOrderBySimilarity.length === 0) {
-        frasesOrderBySimilarity.push(oldFrases[0])
-      } else {
-        frasesOrderBySimilarity.push(
-          oldFrases[frasesOrderBySimilarity.length - 1]
-        )
-      }
-
-      const lastOldFrase = oldFrases[oldFrases.length - 1]
-
-      try {
-        frasesOrderBySimilarity.push(
-          stringSimilarity.findBestMatch(
-            lastOldFrase,
-            oldFrases.filter(o => !frasesOrderBySimilarity.includes(o))
-          ).bestMatch.target
-        )
-      } catch (error) {
-        console.log('erro')
-      }
-    }
-
-    frasesStr = frasesOrderBySimilarity
-  }
-
+  //SHOW NEWS TEACH IN SCRIPT
   if (showNewsTeach) {
     let sentencesWithNewsTeach = frasesStr.reduce((acc, cur) => {
       const newTeach = _.shuffle(
@@ -143,6 +116,7 @@ function generateSentences({
     frasesStr = sentencesWithNewsTeach
   }
 
+  // CONSOLE SENTENCES AND TEACH
   frasesStr = frasesStr.join('\n')
 
   if (printWithVariable) console.log('export const rawScript = `')
