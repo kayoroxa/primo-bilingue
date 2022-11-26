@@ -1,13 +1,15 @@
 module.exports = {
-  start: ['I want to see if'],
+  start: [],
+  startIf: [],
+  startFut: [],
   startPast: [],
   middle: [],
   middlePast: [],
   middleIng: [],
-  middleFut: ['will remember the (day|birthday|dinner|date)'],
+  middleFut: ['will remember the (birthday|dinner|date)'],
   middlePres: [
     'is still (mad|sick|happy|bored|sad)',
-    'has many (horses|cats|dogs|children)',
+
     'loves to (buy|travel|read|complain)',
   ],
   final: [],

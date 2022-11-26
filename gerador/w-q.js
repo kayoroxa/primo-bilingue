@@ -7,7 +7,7 @@ const { where } = require('./types_blocks/where')
 const { whyFinal } = require('./types_blocks/why')
 const { what, whatPast } = require('./types_blocks/what')
 const { when, whenPast } = require('./types_blocks/when')
-const { intro, introPast } = require('./types_blocks/intro')
+const { intro, introPast, introFut } = require('./types_blocks/intro')
 const {
   actionFut,
   actionIngPos,
@@ -39,6 +39,7 @@ const dict = {
   actionIngPos,
   intro,
   introPast,
+  introFut,
   amountPast,
 
   /*test*/
@@ -51,8 +52,8 @@ const dict = {
 
 const samples = [
   /*TESTE*/
-  ['start', 'who', 'actionFut'],
-  ['start', 'who', 'actionIngPos'],
+  // ['start', 'who', 'actionFut'],
+  // ['start', 'who', 'actionIngPos'],
   // ['who', 'middlePast', 'whenPast'],
   // ['who', 'middlePast', 'where'],
   // ['who', 'middlePast', 'amountPast'],
@@ -62,6 +63,8 @@ const samples = [
   // ['who', 'middleFut', 'where'],
   ['intro', 'who', 'middlePres'],
   ['who', 'middlePres'],
+  // ['intro', 'who', 'actionIng'],
+  // ['introFut', 'who', 'middleFut'],
   /*PASSED*/
   // ['who', 'actionPres'],
   // ['who', 'what', 'where'],

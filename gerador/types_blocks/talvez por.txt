@@ -3,3 +3,7 @@
 'had a (nice|bad|stressful|quiet) day'
 
 'time is up'
+
+introIf: ["it's not like", "I'd love to see if", "I'd (know|notice) if",'I want to know if', ],
+
+ introIng: ['i hope', "it's surprising that"],
