@@ -1,27 +1,39 @@
 const script = `
-I wanna {show you} something {really} {cool}.
-Eu quero {mostrar a você} algo {muito} {legal}.
+Hey, love?
+Oi amor?
 
-You ready?
-Esta pronta?
+You {should} really {stay} {inside} like we {talked} {about}.
+Você realmente {deveria} {ficar} {dentro "de casa"}, como nós {falamos} {sobre}.
 
-And… surprise.
-E... surpresa.
+{How long} are {they} gonna {protect us}?
+{Até quando} {eles} vão {nos proteger}?
 
-I {arranged} with Carla {to get} it {here},
-EU {arranjei} com a Carla {para trazer} isso {aqui},
+I don't know. {A while}?
+Eu não sei. {Um tempo}?
 
-and {I figured} maybe {this Saturday} we {could} go {sailing}.
-e {eu pensei "que"} talvez {neste sábado} nós {pudéssemos} ir {velejar}.
+{What} is it? Are you scared?
+{O que} é isso? Você está assustado?
 
-{I mean}, you {could} go {sailing}.
-{Quero dizer}, você {poderia} ir {velejar}.
+{What}{'s} {wrong} {with me}? Am {I} {a freak}?
+{O que} {está} {errado} {comigo}? {Eu} sou {uma aberração}?
 
-You {should} sell {it} or {something}.
-Você {deveria} vender {isso} ou {algo assim}.
+No. Of course not.
+Não, claro que não.
 
-{I don't think} I {wanna} sail {anymore}.
-{Eu acho que não} Eu {quero} {mais} velejar.
+you {can't} {listen to} {those people}.
+você {não pode} {ouvir} {essas pessoas}.
+
+They {don't} {know} {you}.
+Eles {não} {conhecem} {você}.
+
+I {don't} {know} me, {either}.
+Eu {não} me {conheço}, {também}.
+
+I do.
+Eu "conheço".
+
+I know you.
+Eu conheço você.
 `
 
 const data = script.split('\n\n').map(v => v.split('\n').filter(Boolean))
