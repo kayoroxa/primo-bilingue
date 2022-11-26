@@ -1,6 +1,8 @@
 module.exports = {
   actionFut: [
     'will help to fix',
+    'will pay for the (trip|food|water)',
+    'will (lie|confess) to (her|them|him)',
     'will watch the (movie|game|match|tv)',
     'will banish (dresses|visits|calls|dogs)',
     'will make (friends|contacts|calls|changes)',

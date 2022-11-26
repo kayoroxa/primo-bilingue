@@ -318,6 +318,9 @@ abria as cartas
 {is working hard}
 {is} {working hard}
 
+{você sabia} que
+{você sabia que}
+
 `.replace(/\n{3,}/g, '\n\n')
 const primoCaio = ``
 

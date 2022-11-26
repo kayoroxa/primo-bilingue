@@ -16,7 +16,13 @@ const {
   actionIng,
 } = require('./types_blocks/action')
 const { amountPast } = require('./types_blocks/amount')
-const { start, middlePast, startPast } = require('./types_blocks/testeBlock')
+const {
+  start,
+  middlePast,
+  middleFut,
+  startPast,
+  middlePres,
+} = require('./types_blocks/testeBlock')
 
 const dict = {
   who,
@@ -38,33 +44,40 @@ const dict = {
   /*test*/
   start,
   middlePast,
+  middleFut,
+  middlePres,
   startPast,
 }
 
 const samples = [
   /*TESTE*/
-  // ['start', 'who', 'actionFut'],
-  // ['start', 'who', 'actionIngPos'],
+  ['start', 'who', 'actionFut'],
+  ['start', 'who', 'actionIngPos'],
   // ['who', 'middlePast', 'whenPast'],
   // ['who', 'middlePast', 'where'],
   // ['who', 'middlePast', 'amountPast'],
   // ['introPast', 'who', 'middlePast'],
   // ['startPast', 'who', 'actionPast'],
+  // ['who', 'middleFut', 'when'],
+  // ['who', 'middleFut', 'where'],
+  ['intro', 'who', 'middlePres'],
+  ['who', 'middlePres'],
   /*PASSED*/
-  ['who', 'what', 'where'],
-  ['who', 'whatPast', 'where'],
-  ['who', 'actionFut', 'when'],
-  ['who', 'actionFut', 'where'],
-  ['who', 'actionPast', 'whenPast'],
-  ['who', 'actionPast', 'where'],
-  ['who', 'actionPast', 'amountPast'],
-  ['who', 'actionIngPos', 'where'],
-  ['intro', 'who', 'actionFut'],
-  ['intro', 'who', 'actionIngPos'],
-  ['introPast', 'who', 'actionPast'],
-  ['intro', 'who', 'actionPres'],
-  ['intro', 'who', 'actionIng'],
-  ['who', 'actionIng', 'where'],
+  // ['who', 'actionPres'],
+  // ['who', 'what', 'where'],
+  // ['who', 'whatPast', 'where'],
+  // ['who', 'actionFut', 'when'],
+  // ['who', 'actionFut', 'where'],
+  // ['who', 'actionPast', 'whenPast'],
+  // ['who', 'actionPast', 'where'],
+  // ['who', 'actionPast', 'amountPast'],
+  // ['who', 'actionIngPos', 'where'],
+  // ['intro', 'who', 'actionFut'],
+  // ['intro', 'who', 'actionIngPos'],
+  // ['introPast', 'who', 'actionPast'],
+  // ['intro', 'who', 'actionPres'],
+  // ['intro', 'who', 'actionIng'],
+  // ['who', 'actionIng', 'where'],
 ]
 
 // console.log(choseVariantes(dict))

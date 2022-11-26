@@ -1,0 +1,5 @@
+"There's no chance that"
+
+'had a (nice|bad|stressful|quiet) day'
+
+'time is up'

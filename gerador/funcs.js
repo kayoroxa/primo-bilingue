@@ -91,8 +91,9 @@ function generateSentences({
 
   frasesStr = [...frasesStr].map(v => {
     let newSentence = v.trim().toLowerCase()
-    if (newSentence.includes('por que')) newSentence = newSentence + '?'
-    if (newSentence.includes('e como')) newSentence = newSentence + '?'
+    if (newSentence.includes('porque')) newSentence = newSentence + '?'
+    if (newSentence.includes('and why')) newSentence = newSentence + '?'
+    if (newSentence.includes('did you know')) newSentence = newSentence + '?'
     newSentence = newSentence.replace(',?', '?')
     return newSentence
   })
