@@ -1,5 +1,5 @@
 module.exports = {
-  when: [
+  whenFut: [
     //
     'from today',
     'today',
