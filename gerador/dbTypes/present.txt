@@ -32,14 +32,20 @@ are we happy now ?
 can jack be here at her house ?
 does she want to see you now ?
 can jack see you ?
+can you do ?
+what can you do ?
+who can do ?
 can you be here near the beach ?
 why do you talk to him at 2 am ?
 do you talk to him at his house ?
 can you be here now ?
 do you want to see me at my house ?
-does she talk to me near the beach ?
+doesn't she talk to me near the beach ?
 why does Jack want to see you at 2 am ?
 can she be here now ?
+what can she cook ?
+what can she do ?
+when can she buy pizza ?
 do you want to see you now ?
 can we be here at 2 am ?
 why do you buy pizza at 2 am ?
@@ -47,11 +53,19 @@ can she be here near the beach ?
 can you be here at the restaurant ?
 does Vanessa help you ?
 why do you talk to me almost all the time ?
-do you buy pizza at her house ?
+don't you buy pizza at her house ?
 does she talk to me at her house ?
-do you talk to me at his house ?
+don't you talk to me at his house ?
+what is your ?
+what is your name ?
+what's my pizza ?
+what are you doing ?
+what are you cooking ?
+when do you cook ?
+when does she buy pizza ?
+
 does he buy pizza now ?
-do you want to see you at 2 am ?
+what do you want to see ?
 does Jack buy pizza at 2 am ?
 
 
@@ -60,25 +74,26 @@ nobody talk to me now
 nobody can be here 
 they are happy on the beach
 someone talk to me on the beach
-someone is talking to me on the beach
+someone isn't talking to me on the beach
 they are not happy almost every day
 the guys can see you at her house
 the guys can talk to you now
 they are helping him
-they want to help him
+they don't want to help him
 they pretend to help him
 my family can see you now
 i'm cooking beef at her house
 everyone see you at her house
+everyone don't talk to you
 they are sad about everything now
 i'm cooking beef far away
 i'm helping him near the beach
 she's exhausted far away
 she's cooking beef now
-she is exhausted at the restaurant
+she isn't exhausted at the restaurant
 we aren't telling the police
 we are the world
-we can cook beef at the restaurant
+we can't cook beef at the restaurant
 he's telling the police
 he is happy now
 we are cooking beef on the beach
@@ -86,13 +101,16 @@ they are happy right now
 everyone talk to me near the beach
 they are not exhausted
 someone want to talk to you now
-someone want to cook beef
-he want to talk to me
-he want to talk to her
-they are telling the police now
-everyone want to see you on the beach
-my family can be here right now
-someone can be here at the restaurant
+nobody knows why someone want to cook beef
+nobody knows why he want to talk to me
+nobody knows why he want to talk to her
+nobody knows why they are telling the police now
+I wonder if everyone want to see you on the beach
+I wonder if my family can be here right now
+I wonder if someone can be here at the restaurant
+someone doesn't talk to me
+she doesn't cook here
+
 
 `
 
