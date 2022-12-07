@@ -1,0 +1,14 @@
+----- phrases -----
+
+"There's no chance that"
+'had a (nice|bad|stressful|quiet) day'
+'time is up'
+'will remember the (birthday|dinner|date)'
+
+
+
+-------- types blocks --------
+
+introIf: ["it's not like", "I'd love to see if", "I'd (know|notice) if",'I want to know if', ],
+
+ introIng: ['i hope', "it's surprising that"],

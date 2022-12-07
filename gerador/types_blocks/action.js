@@ -1,6 +1,8 @@
 module.exports = {
   actionFut: [
     'will help to fix',
+    'will pay for the (trip|food|water)',
+    'will (lie|confess) to (her|them|him)',
     'will watch the (movie|game|match|tv)',
     'will banish (dresses|visits|calls|dogs)',
     'will make (friends|contacts|calls|changes)',
@@ -16,6 +18,9 @@ module.exports = {
     'will stop (playing games|fighting|causing trouble|screaming|complaining|talking)',
   ],
   actionPres: [
+    'is still (mad|sick|happy|bored|sad)',
+    'loves to (buy|travel|read|complain)',
+    'has many (horses|cats|dogs|children)',
     '(eats|swim|runs|talks|complains) a lot',
     'really likes (comedies|movies|old games|pranks|juices)',
     'really needs (a job|help|help at work|a visit|to talk)',

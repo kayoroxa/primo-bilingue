@@ -318,6 +318,54 @@ abria as cartas
 {is working hard}
 {is} {working hard}
 
+{você sabia} que
+{você sabia que}
+
+na próxima semana
+{semana que vem}
+
+{{apenas} porque}
+{apenas porque}
+
+{está se esforçando} muito
+{está se esforçando muito}
+
+{eu não acho} que
+{eu não acho que}
+
+vai banir chamadas
+{vai banir ligações}
+
+{irá banir chamadas}
+{vai banir ligações}
+
+{vai ler sobre isso}
+{vai ler} {sobre isso}
+
+{will read about it}
+{will read} {about it}
+
+há pouco tempo
+{a pouco tempo atrás}
+
+{a pouco tempo atrás atrás}
+{a pouco tempo atrás}
+
+{está mostrando suas fotos}
+{está mostrando} {suas fotos}
+
+{is showing your pictures}
+{is showing} {your pictures}
+
+{está se esforçando muito}
+{está se esforçando}
+
+{vai assistir o jogo}
+{vai assistir} {o jogo}
+
+{will watch the game}
+{will watch} {the game}
+
 `.replace(/\n{3,}/g, '\n\n')
 const primoCaio = ``
 

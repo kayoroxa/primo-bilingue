@@ -1,172 +1,170 @@
-/*---24/11/22---*/
+/*---26/11/22---*/
 
 export const rawScript = `
+semana que vem
+next week
 
-reclama 
-complains 
+vai ler
+will read
 
-muito
-a lot
+sobre isso
+about it
 
-o artista
-the artist
+vai ler sobre isso
+will read about it
 
-o artista reclama muito
-the artist complains a lot
+Vera vai ler sobre isso na próxima semana
+Vera will read about it next week
 
+é verdade
+is true
 
-eu tenho certeza que
-i'm sure that
+irá banir chamadas
+will banish calls
 
-eu tenho certeza que o artista reclama muito
-i'm sure that the artist complains a lot     
+é verdade Vera vai banir chamadas
+is true Vera will banish calls
 
-o líder
-the leader
-
-falar
-to talk
-
-realmente precisa
-really needs
-
-eu tenho certeza que o líder realmente precisa falar
-i'm sure that the leader really needs to talk
-
-toda tarde
-every afternoon
-
-fiz novas decorações
-made new decorations
-
-meu tio
-my uncle
-
-meu tio fazia novas decorações todas as tardes
-my uncle made new decorations every afternoon
-
-perto de casa
-close to home
-
-abriu 
-opened
-
-as cartas
-the cards
-
-meu tio abria as cartas perto de casa
-my uncle opened the cards close to home      
-
-adivinhe aonde
-guess where
-
-está trabalhando duro
-is working hard
-
-adivinhe onde meu tio está trabalhando duro
-guess where my uncle is working hard
+seu filho
+your kid
 
 vendeu
 sold
 
-o biscoito
-the cookie
+a vela
+the candle
+
+vendeu a vela
+sold the candle
+
+um pouco atrás
+a little while ago
+
+seu filho vendeu a vela há pouco tempo
+your kid sold the candle a little while ago  
 
 perto da loja
 close to the store
 
-o líder vendeu o biscoito perto da loja
-the leader sold the cookie close to the store
+mudou
+changed
 
-no barco
+o caminho
+the path
+
+mudou o caminho
+changed the path
+
+sua tia
+your aunt
+
+sua tia mudou o caminho perto da loja
+your aunt changed the path close to the store
+
+só porque
+just because
+
+está mostrando
+is showing
+
+suas fotos
+your pictures
+
+está mostrando suas fotos
+is showing your pictures
+
+só porque Vera está mostrando suas fotos
+just because Vera is showing your pictures
+
+está se esforçando
+is trying hard
+
+eu não acho
+i don't think
+
+eu não acho que Vera está se esforçando muito
+i don't think Vera is trying hard
+
+à noite
+at night
+
+vai assistir
+will watch
+
+o jogo
+the game
+
+vai assistir o jogo
+will watch the game
+
+sua tia vai assistir o jogo à noite
+your aunt will watch the game at night
+
+No barco
 in the boat
 
-escolheu
-chose
+Vera vendeu a vela no barco
+Vera sold the candle in the boat
 
-comprar
-to buy
+no ano passado
+in the past year
 
-quais 
-which ones 
+sua tia mudou o caminho no ano passado
+your aunt changed the path in the past year
 
-meu tio escolheu quais comprar no barco
-my uncle chose which ones to buy in the boat
+sua tia vendeu a vela faz pouco tempo
+your aunt sold the candle a little while ago
 
-meu tio vendeu o biscoito no barco
-my uncle sold the cookie in the boat
+é verdade Vera está se esforçando
+is true Vera is trying hard
 
-adivinhe onde o líder está trabalhando duro
-guess where the leader is working hard
+é verdade seu filho vai assistir o jogo
+is true your kid will watch the game
 
-antes disso
-before that
-
-antes disso o líder abria as cartas
-before that the leader opened the cards
-
-ninguém
-nobody
-
-sabia
-knew
-
-mas
-but
-
-ninguém sabia mas
-nobody knew but
-
-ninguém sabia mas meu tio vendeu o biscoito
-nobody knew but my uncle sold the cookie
-
-o líder fez novas decorações perto de casa
-the leader made new decorations close to home
-
-o artista está trabalhando duro perto da loja
-the artist is working hard close to the store
-
-o artista vendeu o biscoito perto de casa
-the artist sold the cookie close to home
+eu não acho que sua tia vai banir chamadas
+i don't think your aunt will banish calls
 
 `
 
 export const teach = `
-the leader
-close to home
-in the boat
-sold the cookie
-I'm sure that
-the artist
-complains a lot
-really needs to talk
-my uncle
-made new decorations
-every afternoon
-opened the cards
-guess where
-is working hard
+Vera
+will read about it
+next week
+is true
+will banish calls
+your kid
+sold the candle
+a little while ago
+your aunt
+changed the path
 close to the store
-chose which ones to buy
-before that
-Nobody knew but
+just because
+is showing your pictures
+I don't think
+is trying hard
+will watch the game
+at night
+in the boat
+in the past year
 
-o líder
-perto de casa
-No barco
-vendeu o biscoito
-eu tenho certeza que
-o artista
-reclama muito
-realmente precisa falar
-meu tio
-fiz novas decorações
-toda tarde
-abriu as cartas
-Adivinhe aonde
-está trabalhando duro
+
+Vera
+vai ler sobre isso
+semana que vem
+é verdade
+irá banir chamadas
+seu filho
+vendeu a vela
+um pouco atrás
+sua tia
+mudou o caminho
 perto da loja
-escolheu quais comprar
-antes disso
-ninguém sabia mas
+só porque
+está mostrando suas fotos
+eu não acho
+está se esforçando
+vai assistir o jogo
+à noite
+No barco
+no ano passado
 `
