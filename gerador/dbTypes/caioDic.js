@@ -125,7 +125,7 @@ const samples = [
 generateSentences({
   dict,
   samples,
-  lengthOutput: 40,
+  lengthOutput: 35,
   n: 2,
   showNewsTeach: true,
   printWithVariable: true,

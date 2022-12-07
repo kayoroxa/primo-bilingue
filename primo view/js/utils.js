@@ -1,6 +1,8 @@
 import { config, myReplace } from './config.js'
 // import { myReplace } from `../../gerador/${config.replaceName}.js`
 
+const { isDebugging } = config
+
 export function scriptReplace(teach, rawScript) {
   teach = teach
     .replace(/J[eé]ssica/gi, 'Jessica')
@@ -56,12 +58,19 @@ export const template = (en, pt) => {
       </div>
     `
   }
+
+  let myClass = 'block'
+
+  if (en === '?') myClass += ' fixed'
+  else if (!isDebugging) myClass += ' hidden'
+
   const str = `
     <div class="column">
       <div class="block ${pt === '?' ? 'fixed' : ''}">${pt}</div>
-      <div class="block ${en === '?' ? 'fixed' : 'hidden'} stroke">${en}</div>
+      <div class="${myClass} stroke">${en}</div>
     </div>
   `
+
   return str //new DOMParser().parseFromString(str, 'text/xml')
 }
 export const template2 = (word, show) => {

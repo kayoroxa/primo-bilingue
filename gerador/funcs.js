@@ -14,6 +14,7 @@ function generate(dict, samples, forceTeach) {
     return _.sample(dict[wq])
   })
 }
+
 function sampleSizeWithProbability(array, size = 2, weight, forceTeach) {
   if (forceTeach) {
     return array.filter(v => forceTeach.includes(v))
