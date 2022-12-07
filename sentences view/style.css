@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:wght@400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+}
+
+html, body, #app {
+  height: 100%;
+  overflow: hidden;
+}
+
+html {
+  background-color: black;
+}
+
+.background-container {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+#img {
+  min-width: 100%;
+  min-width: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.6;
+  filter: blur(15px);
+}
+
+section.sentences {
+  /* background-color: aqua; */
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: fit-content;
+  margin: auto;
+  max-width: 90%;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+  padding: 40px;
+}
+
+section.sentences div {
+  color: hsl(197, 24%, 94%);
+  
+  
+  word-wrap: break-word;
+  text-align: center;
+  font-family: 'Amaranth', sans-serif;
+
+
+  -webkit-text-stroke: 2px rgba(0, 0, 0, 0.6);
+  text-shadow:
+    3px 3px 0 rgba(0, 0, 0, 0.8),
+  -1px -1px 0 rgba(0, 0, 0, 0.8),  
+  1px -1px 0 rgba(0, 0, 0, 0.8),
+  -1px 1px 0 rgba(0, 0, 0, 0.8),
+    1px 1px 0 rgba(0, 0, 0, 0.8);
+}
+
+#en {
+  font-size: 120px;
+  font-weight: bold;
+  color: hsl(50, 100%, 71%);
+}
+
+#pt {
+  font-size: 100px;
+  opacity: 0.95;
+}
+
+section.sentences div:first-child::after {
+  display: block;
+  content: "";
+  background-color: hsl(193, 7%, 73%);
+  width: 50%;
+  height: 10px;
+  border-radius: 30px;
+  margin: auto;
+  transform: translateY(60px);
+}

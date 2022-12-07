@@ -1,0 +1,190 @@
+export const rawScript = `
+are you always happy?
+are you always doing that?
+is Jack telling the police now?
+am i not happy now?
+am i not doing that?
+am i not helping you?
+who is not helping you?
+am i sad about everything?
+am i happy almost every day?
+is she happy almost every day?
+who is at her house?
+who is at him house?
+is Jack sad?
+is she really sad?
+who is doing that?
+who is really doing that?
+is she listening to musics now?
+why is she listening to musics now?
+is she helping him almost every day?
+why is she helping him almost every day?
+are they always exhausted?
+are you always happy?
+am i not helping her?
+why are you not helping her?
+am i doing that?
+when does he do that?
+when does she do that?
+why does she do that?
+who is doing that?
+am i listening to musics in my work?
+is she not exhausted?
+is she not listening to musics?
+who is listening to musics now?
+who is exhausted almost every day?
+are you happy almost every day?
+is she happy almost all the time?
+are we happy now?
+can jack be here at her house?
+jack can be here at her house
+can jack see you?
+can you do?
+who can do?
+does she want to see you now?
+what can you do?
+can you be here near the beach?
+why do you talk to him at 2 am?
+do you talk to him at his house?
+why do you talk to him at his house?
+can you be here now?
+what can she cook?
+what can she do?
+when can she buy pizza?
+do you want to see me at my house?
+do you want to see her at my house?
+doesn't she talk to me?
+why does Jack want to see you at 2 am?
+why do you want to me you at 2 am?
+can she be here now?
+can we be here at 2 am?
+why do you buy pizza at 2 am?
+can she be here near the beach?
+can you be here at the restaurant?
+does Vanessa help you?
+why does Vanessa help you?
+when  does she help you?
+why do you talk to me almost all the time?
+don't you buy pizza at her house?
+don't you buy pizza for  me?
+does she talk to you at her house?
+don't you talk to you at his house?
+what is your name?
+what's my pizza?
+what's his pizza?
+what are you doing?
+what are you cooking?
+when do you cook?
+what do you want to see?
+what do you want to do?
+what do they want to do?
+when does she buy pizza?
+he doesn't buy pizza?
+Jack doesn't wake up at 2 am?
+nobody talk to me now
+jack is waking up now
+nobody can be here 
+they are happy on the beach
+someone talk to me on the beach
+someone isn't talking to me on the beach
+they are not happy almost every day
+they can see you at her house
+they can talk to you now
+they are helping him
+they don't want to help him
+they pretend to help him
+my family can see you now
+i'm cooking beef at her house
+everyone see you at her house
+everyone don't talk to you
+they are sad about everything now
+i'm cooking beef far away
+i'm helping him near the beach
+she's far away
+she's cooking beef now
+she isn't exhausted at the restaurant
+we aren't telling the police
+we are the world
+we can't cook beef at the restaurant
+he's telling the police
+he is happy now
+we are cooking beef on the beach
+they are happy right now
+everyone talk to me near the beach
+they are not exhausted
+someone want to talk to you now
+nobody knows why they want to do this
+nobody knows why he want to talk to me
+nobody knows why he want to talk to her
+nobody knows why they are telling the police now
+I wonder if someone want to do this
+I wonder if my family can do this
+i don't know if someone can be here at the restaurant
+no one talks to me
+no one cooks here
+she doesn't cook here
+`
+
+
+export const teach = `
+is she
+telling the police
+almost every day
+am i
+sad about everything
+near the beach
+almost all the time
+happy
+at her house
+at my house
+now
+helping him
+in my work
+listening to musics
+exhausted
+on the beach
+doing that
+always
+does Jack
+can be here
+at her house
+wants to see you
+now
+can see you now
+almost all the time
+at 2 am
+do you
+near the beach
+talk to me
+at my house
+at the restaurant
+buy pizza
+
+
+someone
+wants to see you
+at the restaurant
+i'm
+cooking beef
+far away
+nobody
+talk to me
+now
+they are
+happy
+on the beach
+almost every day
+the guys
+at her house
+wants to talk to you
+helping him
+my family
+can see you now
+everyone
+near the beach
+telling the police
+sad about everything
+exhausted
+right now
+can be here
+`
