@@ -366,6 +366,45 @@ há pouco tempo
 {will watch the game}
 {will watch} {the game}
 
+{is using your tips}
+{is using} {your tips}
+
+meu pai esteja usando suas dicas
+{meu pai} {esteja usando suas dicas}
+
+{está usando suas dicas}
+{está usando} {suas dicas}
+
+{esteja usando suas dicas}
+{esteja usando} {suas dicas}
+
+leia livro
+{vai ler livros}
+
+meu pai está usando
+{meu pai} {está usando}
+
+{esteja usando}
+{está usando}
+
+{está quebrando as ferramentas}
+{está quebrando} {as ferramentas}
+
+{is breaking the tools}
+{is breaking} {the tools}
+
+{estudava artes}
+{estudou artes}
+
+{vai comprar novos livros}
+{vai comprar} {novos livros}
+
+{will buy new books}
+{will buy} {new books}
+
+antes disso acontecer
+{antes que acontecesse}
+
 `.replace(/\n{3,}/g, '\n\n')
 const primoCaio = ``
 

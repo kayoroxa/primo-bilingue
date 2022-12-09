@@ -1,170 +1,133 @@
-/*---26/11/22---*/
-
+/* FEITO EM? 9-12-22 */
 export const rawScript = `
-semana que vem
-next week
+você sabia?
+did you know?
 
-vai ler
-will read
+o médico vendeu o biscoito
+the doctor sold the cookie
 
-sobre isso
-about it
+você sabia que o médico vendeu o biscoito?
+did you know the doctor sold the cookie?
 
-vai ler sobre isso
-will read about it
+é sério
+it is serious
 
-Vera vai ler sobre isso na próxima semana
-Vera will read about it next week
+ainda está triste
+is still sad
 
-é verdade
-is true
+é sério bia ainda está triste
+it's serious bia is still sad
 
-irá banir chamadas
-will banish calls
+é sério bia vendeu o biscoito
+it's serious bia sold the cookie
 
-é verdade Vera vai banir chamadas
-is true Vera will banish calls
+suas dicas
+your tips
 
-seu filho
-your kid
+talvez meu pai está usando
+perhaps my dad is using
 
-vendeu
-sold
+talvez meu pai esteja usando suas dicas
+perhaps my dad is using your tips
 
-a vela
-the candle
+você sabia que o médico ainda está triste?
+did you know the doctor is still sad?
 
-vendeu a vela
-sold the candle
+está quebrando 
+is breaking 
 
-um pouco atrás
-a little while ago
+as ferramentas
+the tools
 
-seu filho vendeu a vela há pouco tempo
-your kid sold the candle a little while ago  
+o médico está quebrando as ferramentas
+the doctor is breaking the tools
 
 perto da loja
 close to the store
 
-mudou
-changed
+bia está quebrando as ferramentas perto da loja
+bia is breaking the tools close to the store
 
-o caminho
-the path
+está espiando
+is spying
 
-mudou o caminho
-changed the path
+bia está espiando perto da loja
+bia is spying close to the store
 
-sua tia
-your aunt
+estudou artes
+studied arts
 
-sua tia mudou o caminho perto da loja
-your aunt changed the path close to the store
+sempre antes disso
+always before that
 
-só porque
-just because
+sempre antes disso o médico estudava artes
+always before that the doctor studied arts
 
-está mostrando
-is showing
+adivinhe que horas
+guess what time
 
-suas fotos
-your pictures
+vai comprar
+will buy
 
-está mostrando suas fotos
-is showing your pictures
+novos livros
+new books
 
-só porque Vera está mostrando suas fotos
-just because Vera is showing your pictures
+adivinhe a que horas a bia vai comprar novos livros
+guess what time bia will buy new books
 
-está se esforçando
-is trying hard
+meu pai está usando suas dicas perto da loja
+my dad is using your tips close to the store
 
-eu não acho
-i don't think
+antes que acontecesse
+before it happened
 
-eu não acho que Vera está se esforçando muito
-i don't think Vera is trying hard
+antes disso acontecer bia estudou artes
+before it happened bia studied arts
 
-à noite
-at night
+vai ler livros
+will read books
 
-vai assistir
-will watch
-
-o jogo
-the game
-
-vai assistir o jogo
-will watch the game
-
-sua tia vai assistir o jogo à noite
-your aunt will watch the game at night
-
-No barco
-in the boat
-
-Vera vendeu a vela no barco
-Vera sold the candle in the boat
-
-no ano passado
-in the past year
-
-sua tia mudou o caminho no ano passado
-your aunt changed the path in the past year
-
-sua tia vendeu a vela faz pouco tempo
-your aunt sold the candle a little while ago
-
-é verdade Vera está se esforçando
-is true Vera is trying hard
-
-é verdade seu filho vai assistir o jogo
-is true your kid will watch the game
-
-eu não acho que sua tia vai banir chamadas
-i don't think your aunt will banish calls
+talvez meu pai leia livros
+perhaps my dad will read books
 
 `
 
 export const teach = `
-Vera
-will read about it
-next week
-is true
-will banish calls
-your kid
-sold the candle
-a little while ago
-your aunt
-changed the path
+did you know
+the doctor
+sold the cookie
+it's serious
+Bia
+is still sad
+perhaps
+my dad
+is using your tips
+is breaking the tools
 close to the store
-just because
-is showing your pictures
-I don't think
-is trying hard
-will watch the game
-at night
-in the boat
-in the past year
+is spying
+always before that
+studied arts
+guess what time
+will buy new books
+before it happened
+will read books
 
-
-Vera
-vai ler sobre isso
-semana que vem
-é verdade
-irá banir chamadas
-seu filho
-vendeu a vela
-um pouco atrás
-sua tia
-mudou o caminho
+você sabia
+o médico
+vendeu o biscoito
+É sério
+Bia
+ainda está triste
+talvez
+o meu pai
+está usando suas dicas
+está quebrando as ferramentas
 perto da loja
-só porque
-está mostrando suas fotos
-eu não acho
-está se esforçando
-vai assistir o jogo
-à noite
-No barco
-no ano passado
+está espiando
+sempre antes disso
+estudou artes
+adivinhe que horas
+vai comprar novos livros
+antes que acontecesse
+vai ler livros
 `
