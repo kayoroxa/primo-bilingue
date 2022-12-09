@@ -1,39 +1,27 @@
 const script = `
-Hey, love?
-Oi amor?
+{I guess} {I can} help you {with} {those} {at}-{risk} kids.
+{Eu acho "que"} {posso} ajudar vc {com} {essas} crianças {em} {risco}.
 
-You {should} really {stay} {inside} like we {talked} {about}.
-Você realmente {deveria} {ficar} {dentro "de casa"}, como nós {falamos} {sobre}.
+I {don't} need {your help}.
+Eu {não} preciso da {sua ajuda}.
 
-{How long} are {they} gonna {protect us}?
-{Até quando} {eles} vão {nos proteger}?
+{It's} {nothing} personal, {it's} {just}...
+{é} {nada} pessoal, {é} {só}...
 
-I don't know. {A while}?
-Eu não sei. {Um tempo}?
+You{'re not} a cop,
+Você {não é} uma policial,
 
-{What} is it? Are you scared?
-{O que} é isso? Você está assustado?
+so {I'm not really sure}
+então {Eu não tenho realmente certeza} "se"
 
-{What}{'s} {wrong} {with me}? Am {I} {a freak}?
-{O que} {está} {errado} {comigo}? {Eu} sou {uma aberração}?
+you {could} {help}.
+você {poderia} {ajudar}.
 
-No. Of course not.
-Não, claro que não.
+Okay. {No} {hard feelings}.
+Ok. {Sem} {ressentimentos}.
 
-you {can't} {listen to} {those people}.
-você {não pode} {ouvir} {essas pessoas}.
-
-They {don't} {know} {you}.
-Eles {não} {conhecem} {você}.
-
-I {don't} {know} me, {either}.
-Eu {não} me {conheço}, {também}.
-
-I do.
-Eu "conheço".
-
-I know you.
-Eu conheço você.
+But {I hate you}. {Not joking}. Bye.
+Mas {eu te odeio}. {Sem brincadeira}. Tchau.
 `
 
 const data = script.split('\n\n').map(v => v.split('\n').filter(Boolean))

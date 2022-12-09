@@ -2,20 +2,19 @@ const { generateSentences } = require('../funcs')
 
 const dict = {
   intro: [
-    'why',
-    'hello.',
-    "I don't (understand|leaned|said) why",
+    // 'why',
+    // 'hello.',
+    "I don't (understand|say) why",
     'nobody knows why',
     'I wonder if',
-    "even if it's just a lie",
+    // "even if it's just a lie",
     "i don't care if",
-    'good morning',
+    // 'good morning',
   ],
   who: [
     //
     'he',
-    'William and you',
-    'Rose and Joyce',
+    'you and me',
     'they',
     'everyone',
     'my dad',
@@ -29,10 +28,8 @@ const dict = {
     'someone',
   ],
   what: [
-    'go to the party',
-    'go eat cake',
-    'will be happy',
-    'will buy a red car',
+    'likes party',
+    'eats cake',
     'is asking if you will',
     'go buy pizza',
     'wants to see you',
@@ -44,14 +41,14 @@ const dict = {
   ],
   when: [
     'at 2 am',
-    'tomorrow',
+    // 'tomorrow',
     'almost every day',
     'almost all the time',
     'right now',
     'now',
-    'shortly',
-    "it's been a while",
-    'since always',
+    // 'shortly',
+    // "it's been a while",
+    // 'since always',
   ],
   whatPast: [
     //
@@ -90,6 +87,23 @@ const dict = {
     'to know how to solve',
     'if you want',
   ],
+  qCodeWho: ['do (you|i|we)', 'does (he|she|Jack)'],
+  qCodeWhoBE: ['is (he|she|Jack|my friend)', 'are (you|they|we)', 'am i'],
+  WhoBE: ['(he|she|Jack|my friend) is', '(you|they|we) are', "i'm"],
+  whatIng: [
+    'playing football',
+    'drinking coffee',
+    'watching a movie',
+    'listening to musics',
+    'helping him',
+    'cooking beef',
+    'happy',
+    'telling the police',
+    'sad about everything',
+    'exhausted',
+  ],
+
+  wh: ['why', 'what'],
   // quantity: [
   //   'because it is necessary',
   //   'because someone wants',
@@ -101,32 +115,42 @@ const dict = {
   //   'if you want',
   // ],
   with: ['with my son', 'with my family'],
+  w: ['?'],
 }
 
 const samples = [
-  // ['who', 'what', 'when', 'where', 'why'],
-  // ['who', 'what', 'where', 'when', 'why'],
-  // ['who', 'whatPast', 'where', 'whenPast', 'why'],
-  ['who', 'what', 'where'],
-  ['who', 'whatPast', 'where'],
-  ['who', 'what', 'when'],
-  ['who', 'whatPast', 'whenPast'],
-  ['who', 'what', 'where', 'when'],
-  ['who', 'whatPast', 'where', 'when'],
-  ['who', 'what', 'where'],
-  ['who', 'what', 'why'],
-  ['who', 'whatPast', 'why'],
-  ['who', 'what', 'when'],
-  ['who', 'whatPast', 'whenPast'],
-  ['intro', 'who', 'what'],
-  ['intro', 'who', 'whatPast'],
+  // to be
+
+  // ['qCodeWhoBE', 'whatIng', 'where', 'w'],
+  // ['qCodeWhoBE', 'whatIng', 'when', 'w'],
+  // ['qCodeWho', 'what', 'where', 'w'],
+  // ['qCodeWho', 'what', 'when', 'w'],
+  // ['WhoBE', 'whatIng', 'when'],
+  // ['WhoBE', 'whatIng', 'where'],
+  // ['who', 'what', 'when'],
+  // ['who', 'what', 'where'],
+
+  ['intro', 'WhoBE', 'whatIng', 'when'],
+  ['intro', 'qCodeWho', 'what', 'where', 'w'],
+  ['intro', 'qCodeWho', 'what', 'when', 'w'],
+  ['intro', 'who', 'what', 'when'],
+  ['intro', 'who', 'what', 'where'],
+
+  // ['who', 'what', 'where'],
+  // ['who', 'what', 'when'],
+  // ['who', 'what', 'where', 'when'],
+  // ['who', 'what', 'where'],
+  // ['wh', 'what', 'where'],
+
+  // ['who', 'what', 'when'],
+  // ['intro', 'who', 'what'],
 ]
 
 generateSentences({
   dict,
   samples,
-  lengthOutput: 35,
-  n: 2,
-  showNewsTeach: true,
+  lengthOutput: 10,
+  n: 5,
+  // showNewsTeach: true,
   printWithVariable: true,
 })

@@ -406,6 +406,57 @@ antes disso acontecer
 {antes que acontecesse}
 
 `.replace(/\n{3,}/g, '\n\n')
-const primoCaio = ``
+
+const primoCaio = `
+quase todo dia
+{quase} {todo dia}
+
+{quer falar com você}
+{quer} {falar com você}
+
+{wants to talk to you}
+{wants} {to talk to you}
+
+{can see you now}
+{can see you} {now}
+
+{Posso ver você agora}
+{Posso ver você} {agora}
+
+a galera pode te ver
+{a galera} {pode te ver}
+
+Rose e Mary
+{Rose e Mary}
+
+{desde o ano passado}
+{desde o} {ano passado}
+
+{since last year}
+{since} {last year}
+
+
+
+{quase todos os dias}
+{quase} {todos os dias}
+
+{almost every day}
+{almost} {every day}
+
+querem falar com você
+{querem} {falar com você}
+
+{ninguém sabe porque}
+{ninguém} {sabe porque}
+
+{nobody knows why}
+{nobody} {knows why}
+
+{os caras} {vai comprar pizza}
+{os caras} {vão comprar pizza}
+
+want to talk to you
+{want} {to talk to you}
+`
 
 export const _replace = primoCaio + '\n\n' + primoArtur

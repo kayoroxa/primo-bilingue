@@ -48,3 +48,14 @@ body {
 .text.en {
   font-weight: bold;
 }
+
+/* só pt */
+.text.en {
+  opacity: 0%;
+}
+
+.text.pt {
+  font-size: 70px;
+  opacity: 90%;
+  font-weight: bold;
+}
