@@ -3,11 +3,14 @@ export const rawScript = `
 você sabia?
 did you know?
 
-o médico vendeu o biscoito
-the doctor sold the cookie
+vendeu
+sold
 
-você sabia que o médico vendeu o biscoito?
-did you know the doctor sold the cookie?
+o cara vendeu o biscoito
+the guy sold the cookie
+
+você sabia que o cara vendeu o biscoito?
+did you know the guy sold the cookie?
 
 é sério
 it is serious
@@ -30,8 +33,8 @@ perhaps my dad is using
 talvez meu pai esteja usando suas dicas
 perhaps my dad is using your tips
 
-você sabia que o médico ainda está triste?
-did you know the doctor is still sad?
+você sabia que o cara ainda está triste?
+did you know the guy is still sad?
 
 está quebrando 
 is breaking 
@@ -39,8 +42,8 @@ is breaking
 as ferramentas
 the tools
 
-o médico está quebrando as ferramentas
-the doctor is breaking the tools
+o cara está quebrando as ferramentas
+the guy is breaking the tools
 
 perto da loja
 close to the store
@@ -60,8 +63,8 @@ studied arts
 sempre antes disso
 always before that
 
-sempre antes disso o médico estudava artes
-always before that the doctor studied arts
+sempre antes disso o cara estudava artes
+always before that the guy studied arts
 
 adivinhe que horas
 guess what time
@@ -94,7 +97,7 @@ perhaps my dad will read books
 
 export const teach = `
 did you know
-the doctor
+the guy
 sold the cookie
 it's serious
 Bia
@@ -113,7 +116,7 @@ before it happened
 will read books
 
 você sabia
-o médico
+o cara
 vendeu o biscoito
 É sério
 Bia
