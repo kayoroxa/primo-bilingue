@@ -435,8 +435,6 @@ Rose e Mary
 {since last year}
 {since} {last year}
 
-
-
 {quase todos os dias}
 {quase} {todos os dias}
 
@@ -457,6 +455,53 @@ querem falar com você
 
 want to talk to you
 {want} {to talk to you}
+
+vai pagar a água
+{vai pagar pela água}
+
+{feche o parque}
+{perto do parque}
+
+está se concentrando muito perto do parque
+{está concentrando muito} {perto do parque}
+
+ser sincero
+{sendo sincero}
+
+é praticar suas lições
+{está praticando} {suas lições}
+
+{está praticando suas lições}
+{está praticando} {suas lições}
+
+{is practicing your lessons}
+{is practicing} {your lessons}
+
+{resolvido suas perguntas}
+{resolveu suas perguntas}
+
+{está praticando suas aulas}
+{está praticando} {suas lições}
+
+resolvia suas perguntas
+{resolveu suas perguntas}
+
+{realmente precisa de uma visita}
+{realmente} {precisa de uma visita}
+
+{really needs a visit}
+{really} {needs a visit}
+
+{vai pagar pela água}
+{vai pagar} {pela água}
+
+{will pay for the water}
+{will pay} {for the water}
+
+{está focando muito}
+{está concentrando muito}
+
+
 `
 
 export const _replace = primoCaio + '\n\n' + primoArtur
