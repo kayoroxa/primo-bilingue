@@ -405,6 +405,54 @@ meu pai está usando
 antes disso acontecer
 {antes que acontecesse}
 
+a {mara}
+mara
+
+vai ler gibis
+{vai ler quadrinhos}
+
+{o chefe}
+{o patrão}
+
+do salário
+sobre o salário
+
+vai reclamar do salário
+vai reclamar sobre o salário
+
+vai reclamar sobre o salário
+{vai reclamar sobre o salário}
+
+{vai reclamar sobre o salário}
+{vai reclamar} {sobre o salário}
+
+{will complain about the salary}
+{will complain} {about the salary}
+
+precisa mesmo falar
+realmente precisa falar
+
+realmente precisa falar
+{realmente precisa} {falar}
+
+{está ouvindo sua mãe}
+{está ouvindo} {sua mãe}
+
+{is listening your mother}
+{is listening} {your mother}
+
+pode passar o tempo
+{pode passar o tempo}
+
+{pode passar o tempo}
+{pode} {passar o tempo}
+
+can spend time
+{can spend time}
+
+{can spend time}
+{can} {spend time}
+
 `.replace(/\n{3,}/g, '\n\n')
 
 const primoCaio = `
@@ -500,6 +548,13 @@ resolvia suas perguntas
 
 {está focando muito}
 {está concentrando muito}
+
+{is reading your activities}
+{is reading} {your activities}
+
+{está lendo suas atividades}
+{está lendo} {suas atividades}
+
 
 
 `

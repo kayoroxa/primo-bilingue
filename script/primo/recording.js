@@ -1,137 +1,148 @@
-/* FEITO EM? 13-12-22 */
+/* FEITO EM? 21-12-22 */
 export const rawScript = `
-vendeu a vela
-sold the candle
+No barco
+in the boat
 
-ano passado
-last year
+mudou o discurso
+changed the speech
 
-Leo vendeu a vela ano passado
-Leo sold the candle last year
+mara mudou o discurso no barco
+mara changed the speech in the boat        
 
-vai ler sozinho
-will read alone
+está lendo 
+is reading 
 
-sua tia
-your aunt
+suas atividades
+your activities
 
-sua tia vai ler sozinha
-your aunt will read alone
+mara está lendo suas atividades no barco
+mara is reading your activities in the boat
 
-aparentemente
-apparently
+adivinha perto de onde
+guess close to where
 
-aparentemente Leo vendeu a vela
-apparently Leo sold the candle
+vai ler quadrinhos
+will read comics
 
-ainda está feliz
-is still happy
+adivinha perto de onde a mara vai ler gibis
+guess close to where mara will read comics
 
-aparentemente sua tia ainda está feliz
-apparently your aunt is still happy
+fez o exame
+did the exam
 
-realmente precisa de uma visita
-really needs a visit
+ela
+she
 
-sendo sincero
-being sincere
+ela fez o exame
+she did the exam
 
-sendo sincero Leo realmente precisa de uma visita
-being sincere Leo really needs a visit
+pelo menos uma vez por mês
+at least once a month
 
-perto da loja
-close to the store
+ela fez o exame pelo menos uma vez por mês
+she did the exam at least once a month
 
-Leo vai ler sozinho perto da loja
-Leo will read alone close to the store
+vai reclamar
+will complain
 
-vai pagar pela água
-will pay for the water
+o chefe
+the boss
 
-seu amigo
-your friend
+do salário
+about the salary
 
-é verdade
-is true
+o patrão vai reclamar do salário
+the boss will complain about the salary
 
-é verdade seu amigo vai pagar a água
-is true your friend will pay for the water
+realmente precisa
+really needs
 
-está focando muito
-is focusing hard
+falar
+to talk
 
-feche o parque
-close the park
+realmente precisa falar
+really needs to talk
 
-é verdade Leo está se concentrando muito
-is true Leo is focusing hard
+o chefe precisa mesmo falar
+the boss really needs to talk
 
-seu amigo vendeu a vela perto do parque
-your friend sold the candle close the park
+adivinha perto de onde o chefe fez o exame
+guess close to where the boss did the exam
 
-está praticando suas aulas
-is practicing your lessons
+mara vai reclamar do salário
+mara will complain about the salary
 
-ser sincero Leo é praticar suas lições
-being sincere Leo is practicing your lessons
+está ouvindo
+is listening
 
-sua tia vai pagar a água perto da loja
-your aunt will pay for the water close to the store
+ela está ouvindo
+she is listening
 
-i hated when
-eu odiava quando
+sua mãe
+your mother
 
-eu odiava quando Leo vendeu a vela
-i hated when Leo sold the candle
+ela está ouvindo sua mãe no barco
+she is listening your mother in the boat
 
-resolvido suas perguntas
-solved your questions
+em casa
+at home
 
-eu odiava quando sua tia resolvia suas perguntas
-i hated when your aunt solved your questions
+mara vai ler quadrinhos em casa
+mara will read comics at home
 
+passar o tempo
+spend time
 
+pode
+can
+
+ela pode passar o tempo
+she can spend time
+
+falando sobre romances
+talking about novels
+
+ela pode passar o tempo falando sobre romances
+she can spend time talking about novels
 
 `
 
 export const teach = `
-is true
-your aunt
-Leo
-sold the candle
-last year
-will read alone
-your friend
-solved your questions
-in the circus
-close the park
-apparently
-is still happy
-will pay for the water
-being sincere
-really needs a visit
-close to the store
-is focusing hard
-is practicing your lessons
-I hated when
+Mara
+changed the speech
+in the boat
+is reading your activities
+guess close to where
+will read comics
+she
+did the exam
+at least once a month
+the boss
+will complain about the salary
+only
+really needs to talk
+is listening your mother
+close the bank
+made new contracts
+at home
+can spend time talking about novels
 
-é verdade
-sua tia
-Leão
-vendeu a vela
-ano passado
-vai ler sozinho
-seu amigo
-resolvido suas perguntas
-no circo
-feche o parque
-aparentemente
-ainda está feliz
-vai pagar pela água
-sendo sincero
-realmente precisa de uma visita
-perto da loja
-está focando muito
-está praticando suas aulas
-eu odiava quando
+Mara
+mudou o discurso
+No barco
+está lendo suas atividades
+adivinha perto de onde
+vai ler quadrinhos
+ela
+fez o exame
+pelo menos uma vez por mês
+o chefe
+vai reclamar do salário
+só
+realmente precisa falar
+está ouvindo sua mãe
+feche o banco
+fez novos contratos
+em casa
+pode passar o tempo falando sobre romances
 `
