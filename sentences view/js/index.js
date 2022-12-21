@@ -97,6 +97,7 @@ document.addEventListener('keydown', e => {
   }
   if (e.key.toLowerCase() === 'd') {
     sentenceApp.nextSentence()
+    sentenceApp.toggleShow()
   }
   if (e.key === 'Escape') {
     sentenceApp.toggleShow()

@@ -1,0 +1,46 @@
+<speak xmlns="http://www.w3.org/2001/10/synthesis" xmlns:mstts="http://www.w3.org/2001/mstts" xmlns:emo="http://www.w3.org/2009/10/emotionml" version="1.0" xml:lang="en-US">
+  <voice name="pt-BR-JulioNeural">
+    <prosody rate="0%" pitch="0%">
+      quem vai fazer isso?
+    </prosody>
+  </voice>
+  <voice name="en-US-NancyNeural">
+    <prosody rate="0%" pitch="0%">
+      <break time="2s" />
+      who will do it?
+    </prosody>
+  </voice>
+  <voice name="pt-BR-JulioNeural">
+    <prosody rate="0%" pitch="0%">
+      você vai ficar feliz?
+    </prosody>
+  </voice>
+  <voice name="en-US-NancyNeural">
+    <prosody rate="0%" pitch="0%">
+      <break time="2s" />
+      will you be happy?
+    </prosody>
+  </voice>
+  <voice name="pt-BR-JulioNeural">
+    <prosody rate="0%" pitch="0%">
+      quando ele vai fazer isso?
+    </prosody>
+  </voice>
+  <voice name="en-US-NancyNeural">
+    <prosody rate="0%" pitch="0%">
+      <break time="2s" />
+      when will he do this?
+    </prosody>
+  </voice>
+  <voice name="pt-BR-JulioNeural">
+    <prosody rate="0%" pitch="0%">
+      quando ela vai fazer isso?
+    </prosody>
+  </voice>
+  <voice name="en-US-NancyNeural">
+    <prosody rate="0%" pitch="0%">
+      <break time="2s" />
+      when will she do this?
+    </prosody>
+  </voice>
+</speak>
