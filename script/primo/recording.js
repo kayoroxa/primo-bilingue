@@ -1,136 +1,137 @@
-/* FEITO EM? 9-12-22 */
+/* FEITO EM? 13-12-22 */
 export const rawScript = `
-você sabia?
-did you know?
+vendeu a vela
+sold the candle
 
-vendeu
-sold
+ano passado
+last year
 
-o cara vendeu o biscoito
-the guy sold the cookie
+Leo vendeu a vela ano passado
+Leo sold the candle last year
 
-você sabia que o cara vendeu o biscoito?
-did you know the guy sold the cookie?
+vai ler sozinho
+will read alone
 
-é sério
-it is serious
+sua tia
+your aunt
 
-ainda está triste
-is still sad
+sua tia vai ler sozinha
+your aunt will read alone
 
-é sério bia ainda está triste
-it's serious bia is still sad
+aparentemente
+apparently
 
-é sério bia vendeu o biscoito
-it's serious bia sold the cookie
+aparentemente Leo vendeu a vela
+apparently Leo sold the candle
 
-suas dicas
-your tips
+ainda está feliz
+is still happy
 
-talvez meu pai está usando
-perhaps my dad is using
+aparentemente sua tia ainda está feliz
+apparently your aunt is still happy
 
-talvez meu pai esteja usando suas dicas
-perhaps my dad is using your tips
+realmente precisa de uma visita
+really needs a visit
 
-você sabia que o cara ainda está triste?
-did you know the guy is still sad?
+sendo sincero
+being sincere
 
-está quebrando 
-is breaking 
-
-as ferramentas
-the tools
-
-o cara está quebrando as ferramentas
-the guy is breaking the tools
+sendo sincero Leo realmente precisa de uma visita
+being sincere Leo really needs a visit
 
 perto da loja
 close to the store
 
-bia está quebrando as ferramentas perto da loja
-bia is breaking the tools close to the store
+Leo vai ler sozinho perto da loja
+Leo will read alone close to the store
 
-está espiando
-is spying
+vai pagar pela água
+will pay for the water
 
-bia está espiando perto da loja
-bia is spying close to the store
+seu amigo
+your friend
 
-estudou artes
-studied arts
+é verdade
+is true
 
-sempre antes disso
-always before that
+é verdade seu amigo vai pagar a água
+is true your friend will pay for the water
 
-sempre antes disso o cara estudava artes
-always before that the guy studied arts
+está focando muito
+is focusing hard
 
-adivinhe que horas
-guess what time
+feche o parque
+close the park
 
-vai comprar
-will buy
+é verdade Leo está se concentrando muito
+is true Leo is focusing hard
 
-novos livros
-new books
+seu amigo vendeu a vela perto do parque
+your friend sold the candle close the park
 
-adivinhe a que horas a bia vai comprar novos livros
-guess what time bia will buy new books
+está praticando suas aulas
+is practicing your lessons
 
-meu pai está usando suas dicas perto da loja
-my dad is using your tips close to the store
+ser sincero Leo é praticar suas lições
+being sincere Leo is practicing your lessons
 
-antes que acontecesse
-before it happened
+sua tia vai pagar a água perto da loja
+your aunt will pay for the water close to the store
 
-antes disso acontecer bia estudou artes
-before it happened bia studied arts
+i hated when
+eu odiava quando
 
-vai ler livros
-will read books
+eu odiava quando Leo vendeu a vela
+i hated when Leo sold the candle
 
-talvez meu pai leia livros
-perhaps my dad will read books
+resolvido suas perguntas
+solved your questions
+
+eu odiava quando sua tia resolvia suas perguntas
+i hated when your aunt solved your questions
+
+
 
 `
 
 export const teach = `
-did you know
-the guy
-sold the cookie
-it's serious
-Bia
-is still sad
-perhaps
-my dad
-is using your tips
-is breaking the tools
+is true
+your aunt
+Leo
+sold the candle
+last year
+will read alone
+your friend
+solved your questions
+in the circus
+close the park
+apparently
+is still happy
+will pay for the water
+being sincere
+really needs a visit
 close to the store
-is spying
-always before that
-studied arts
-guess what time
-will buy new books
-before it happened
-will read books
+is focusing hard
+is practicing your lessons
+I hated when
 
-você sabia
-o cara
-vendeu o biscoito
-É sério
-Bia
-ainda está triste
-talvez
-o meu pai
-está usando suas dicas
-está quebrando as ferramentas
+é verdade
+sua tia
+Leão
+vendeu a vela
+ano passado
+vai ler sozinho
+seu amigo
+resolvido suas perguntas
+no circo
+feche o parque
+aparentemente
+ainda está feliz
+vai pagar pela água
+sendo sincero
+realmente precisa de uma visita
 perto da loja
-está espiando
-sempre antes disso
-estudou artes
-adivinhe que horas
-vai comprar novos livros
-antes que acontecesse
-vai ler livros
+está focando muito
+está praticando suas aulas
+eu odiava quando
 `
