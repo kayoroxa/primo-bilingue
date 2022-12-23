@@ -1,148 +1,134 @@
-/* FEITO EM? 21-12-22 */
+/* FEITO EM? 22-12-22 */
 export const rawScript = `
-No barco
-in the boat
 
-mudou o discurso
-changed the speech
+sobre isso
+about it
 
-mara mudou o discurso no barco
-mara changed the speech in the boat        
+no restaurante
+at the restaurant
 
-está lendo 
-is reading 
+vai comentar 
+will comment 
 
-suas atividades
-your activities
+Alice vai comentar sobre isso no restaurante
+Alice will comment about it at the restaurant
 
-mara está lendo suas atividades no barco
-mara is reading your activities in the boat
+seu filho
+your son
 
-adivinha perto de onde
-guess close to where
+seu filho vai comentar sobre isso
+your son will comment about it
 
-vai ler quadrinhos
-will read comics
+depois disso
+after that
 
-adivinha perto de onde a mara vai ler gibis
-guess close to where mara will read comics
+minha professora
+my teacher
 
-fez o exame
-did the exam
+depois disso meu professor vai comentar sobre isso
+after that my teacher will comment about it
 
-ela
-she
+reclama 
+complains 
 
-ela fez o exame
-she did the exam
+eu descobri
+i found out
 
-pelo menos uma vez por mês
-at least once a month
+descobri que seu filho reclama
+i found out your son complains
 
-ela fez o exame pelo menos uma vez por mês
-she did the exam at least once a month
+muito
+a lot
 
-vai reclamar
-will complain
+descobri que seu filho reclama muito
+i found out your son complains a lot
 
-o chefe
-the boss
+vai mentir para eles
+will lie to them
 
-do salário
-about the salary
+eu descobri que Alice vai mentir para eles
+i found out Alice will lie to them
 
-o patrão vai reclamar do salário
-the boss will complain about the salary
+costumava ler livros
+used to read books
 
-realmente precisa
-really needs
+na empresa
+in the company
 
-falar
-to talk
+seu filho costumava ler livros na empresa
+your son used to read books in the company
 
-realmente precisa falar
-really needs to talk
+depois disso meu professor vai mentir para eles
+after that my teacher will lie to them
 
-o chefe precisa mesmo falar
-the boss really needs to talk
+estudou artes
+studied arts
 
-adivinha perto de onde o chefe fez o exame
-guess close to where the boss did the exam
+Alice estudou artes na empresa
+Alice studied arts in the company
 
-mara vai reclamar do salário
-mara will complain about the salary
+perto da loja
+near to the store
 
-está ouvindo
-is listening
+minha professora estudou artes perto da loja
+my teacher studied arts near to the store
 
-ela está ouvindo
-she is listening
+vai começar a treinar
+will start training
 
-sua mãe
-your mother
+depois disso seu filho vai começar a treinar
+after that your son will start training
 
-ela está ouvindo sua mãe no barco
-she is listening your mother in the boat
+sempre
+always
 
-em casa
-at home
+depois disso
+after that
 
-mara vai ler quadrinhos em casa
-mara will read comics at home
+sempre depois disso
+always after that
 
-passar o tempo
-spend time
+sempre depois disso meu professor mentirá para eles
+always after that my teacher will lie to them
 
-pode
-can
+sempre depois disso Alice reclama muito
+always after that Alice complains a lot
 
-ela pode passar o tempo
-she can spend time
-
-falando sobre romances
-talking about novels
-
-ela pode passar o tempo falando sobre romances
-she can spend time talking about novels
-
+seu filho vai começar a treinar perto da loja
+your son will start training near the store
 `
 
 export const teach = `
-Mara
-changed the speech
-in the boat
-is reading your activities
-guess close to where
-will read comics
-she
-did the exam
-at least once a month
-the boss
-will complain about the salary
-only
-really needs to talk
-is listening your mother
-close the bank
-made new contracts
-at home
-can spend time talking about novels
+my teacher
+will lie to them
+near to the store
+Alice
+will comment about it
+at the restaurant
+your son
+after that
+I found out
+complains a lot
+used to read books
+in the company
+studied arts
+will start training
+always after that
 
-Mara
-mudou o discurso
-No barco
-está lendo suas atividades
-adivinha perto de onde
-vai ler quadrinhos
-ela
-fez o exame
-pelo menos uma vez por mês
-o chefe
-vai reclamar do salário
-só
-realmente precisa falar
-está ouvindo sua mãe
-feche o banco
-fez novos contratos
-em casa
-pode passar o tempo falando sobre romances
+
+minha professora
+vai mentir para eles
+perto da loja
+Alice
+vai comentar sobre isso
+no restaurante
+seu filho
+depois disso
+eu descobri
+reclama muito
+costumava ler livros
+na empresa
+estudou artes
+vai começar a treinar
+sempre depois disso
 `

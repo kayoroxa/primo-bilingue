@@ -453,6 +453,27 @@ can spend time
 {can spend time}
 {can} {spend time}
 
+{vai comentar sobre isso}
+{vai comentar} {sobre isso}
+
+{will comment about it}
+{will comment} {about it}
+
+descobri que
+{eu descobri que}
+
+{eu descobri} que
+{eu descobri que}
+
+mentirá para eles
+{vai mentir para eles}
+
+{sempre depois disso}
+{sempre} {depois disso}
+
+{always after that}
+{always} {after that}
+
 `.replace(/\n{3,}/g, '\n\n')
 
 const primoCaio = `
