@@ -2,14 +2,13 @@ module.exports = {
   where: [
     //
     'close to home',
-    'close to the store',
+    '(close|near) to the store',
     'at home',
     'at the restaurant',
-    'on the boat',
     'in the streets',
     'in the airport',
-    'on the plane',
+    'on the (plane|boat)',
     'in the (palace|circus|company)',
-    'close the (bank|beach|park)',
+    '(close|near) the (bank|beach|park)',
   ],
 }
