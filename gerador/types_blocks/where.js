@@ -5,7 +5,7 @@ module.exports = {
     'close to the store',
     'at home',
     'at the restaurant',
-    'in the boat',
+    'on the boat',
     'in the streets',
     'in the airport',
     'on the plane',

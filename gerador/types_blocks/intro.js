@@ -1,10 +1,9 @@
 module.exports = {
   introFut: [
     'from that day on',
-    'guess what day',
+    'guess what (day|time)',
     'after that',
     'always after that',
-    'guess what time',
   ],
 
   intro: [
@@ -34,7 +33,7 @@ module.exports = {
     '(probably|perhaps)',
     'to be (clear|honest)',
     "I can't believe what",
-    'guess close to where',
+    'guess (where|why)',
     "It's easy to see why",
   ],
   introPast: [

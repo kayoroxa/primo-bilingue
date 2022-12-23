@@ -10,8 +10,8 @@ module.exports = {
     'will (fix|ruin|improve|banish|correct) everything',
     'will complain about the (rules|salary|day|program)',
     'will be (busy|alone|isolated|rested|prepared)',
-    'will eat (salad|alone|pizza|vegan foods|cookies)',
-    'will read (very fast|books|magazines|comics|alone)',
+    'will eat (salad|alone|pizza|cookies)',
+    'will read (very fast|books|alone|this)',
     'will buy (movies|new books|fruits|cars|musics|balls)',
     'will start (studying|training|complaining|protesting)',
     'will present new (options|activities|rules|students|updates)',
@@ -30,7 +30,8 @@ module.exports = {
   ],
   actionIng: [
     'is (working|trying|focusing) hard',
-    'can spend time (searching|watching|shopping|talking about) (movies|novels|courses)',
+    'is (talking|thinking|watching) about it',
+    'can spend time (searching|watching) (movies|courses|this)',
   ],
   actionPast: [
     'sold the (candle|coat|car|cookie)',
