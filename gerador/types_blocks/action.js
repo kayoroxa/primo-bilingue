@@ -22,10 +22,10 @@ module.exports = {
     'loves to (buy|travel|read|complain)',
     'has many (horses|cats|dogs|children)',
     '(eats|swim|runs|talks|complains) a lot',
-    'really likes (comedies|movies|old games|pranks|juices)',
+    'really likes (this|movies|old games|her)',
     'really needs (a job|help|help at work|a visit|to talk)',
     'really really wants to (write|walk|play)',
-    'has a lot of (courage|patience|interest|knowledge|proud|ability)',
+    'has a lot of (courage|patience|it)',
     'is very (rude|beautiful|protective|gently|wise|rich|powerful)',
   ],
   actionIng: [

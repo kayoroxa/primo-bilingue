@@ -474,6 +474,51 @@ mentirá para eles
 {always after that}
 {always} {after that}
 
+vai assistir ao jogo
+{vai assistir a partida}
+
+{vai assistir a partida}
+{vai assistir} {a partida}
+
+{will watch the match}
+{will watch} {the match}
+
+o {Oliver}
+{Oliver}
+
+{eu entendo porque}
+{eu entendo} {porque}
+
+{i understand why}
+{i understand} {why}
+
+{está assistindo sobre isso}
+{está assistindo} {sobre isso}
+
+{is watching about it}
+{is watching} {about it}
+
+{está mostrando suas notas}
+{está mostrando} {suas notas}
+
+{is showing your grades}
+{is showing} {your grades}
+
+{está praticando suas dicas}
+{está praticando} {suas dicas}
+
+{is practicing your tips}
+{is practicing} {your tips}
+
+{falar a verdade}
+{pra falar a verdade}
+
+pra {pra falar a verdade}
+{pra falar a verdade}
+
+ta mostrando suas notas
+{está mostrando} {suas notas}
+
 `.replace(/\n{3,}/g, '\n\n')
 
 const primoCaio = `

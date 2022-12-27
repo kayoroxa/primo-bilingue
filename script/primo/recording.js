@@ -1,134 +1,143 @@
-/* FEITO EM? 22-12-22 */
+/* FEITO EM? 27-12-22 */
 export const rawScript = `
+vai assistir
+will watch
+
+a partida
+the match
+
+vai assistir a partida
+will watch the match
+
+at the bar
+no bar
+
+Oliver vai assistir ao jogo no bar
+Oliver will watch the match at the bar
+
+porque
+why
+
+adora comprar
+loves to buy
+
+eu entendo
+i understand
+
+eu entendo porque o Oliver adora comprar
+i understand why Oliver loves to buy
+
+eu entendo porque Oliver vai assistir ao jogo
+i understand why will watch the match
+
+provavelmente
+probably
 
 sobre isso
 about it
 
-no restaurante
-at the restaurant
+está assistindo
+is watching
 
-vai comentar 
-will comment 
+provavelmente Zoe está assistindo sobre isso
+probably Zoe is watching about it
 
-Alice vai comentar sobre isso no restaurante
-Alice will comment about it at the restaurant
+o príncipe adora comprar
+the prince loves to buy
 
-seu filho
-your son
+está praticando
+is practicing
 
-seu filho vai comentar sobre isso
-your son will comment about it
+provavelmente Zoe está praticando 
+probably Zoe is practicing 
 
-depois disso
-after that
+suas dicas
+your tips
 
-minha professora
-my teacher
+provavelmente o príncipe está praticando suas dicas
+probably the prince is practicing your tips
 
-depois disso meu professor vai comentar sobre isso
-after that my teacher will comment about it
+está mostrando
+is showing
 
-reclama 
-complains 
+suas notas
+your grades
 
-eu descobri
-i found out
+Oliver está mostrando suas notas
+Oliver is showing your grades
 
-descobri que seu filho reclama
-i found out your son complains
+falar a verdade
+to tell the truth
 
-muito
-a lot
+pra falar a verdade Zoe ta mostrando suas notas
+to tell the truth Zoe is showing your grades
 
-descobri que seu filho reclama muito
-i found out your son complains a lot
+tem muito disso
+has a lot of it
 
-vai mentir para eles
-will lie to them
+Zoe tem muito disso no bar
+Zoe has a lot of it at the bar
 
-eu descobri que Alice vai mentir para eles
-i found out Alice will lie to them
+provavelmente o príncipe está assistindo sobre isso
+probably the prince is watching about it
 
-costumava ler livros
-used to read books
+realmente gosta dela
+really likes her
 
-na empresa
-in the company
+o príncipe realmente gosta dela
+the prince really likes her
 
-seu filho costumava ler livros na empresa
-your son used to read books in the company
+provavelmente o príncipe adora comprar
+probably the prince loves to buy
 
-depois disso meu professor vai mentir para eles
-after that my teacher will lie to them
-
-estudou artes
-studied arts
-
-Alice estudou artes na empresa
-Alice studied arts in the company
-
-perto da loja
-near to the store
-
-minha professora estudou artes perto da loja
-my teacher studied arts near to the store
-
-vai começar a treinar
-will start training
-
-depois disso seu filho vai começar a treinar
-after that your son will start training
-
-sempre
-always
-
-depois disso
-after that
-
-sempre depois disso
-always after that
-
-sempre depois disso meu professor mentirá para eles
-always after that my teacher will lie to them
-
-sempre depois disso Alice reclama muito
-always after that Alice complains a lot
-
-seu filho vai começar a treinar perto da loja
-your son will start training near the store
+eu entendo porque o príncipe realmente gosta dela
+i understand why the prince really likes her
 `
 
 export const teach = `
-my teacher
-will lie to them
-near to the store
-Alice
-will comment about it
-at the restaurant
-your son
-after that
-I found out
-complains a lot
-used to read books
-in the company
-studied arts
-will start training
-always after that
+falar a verdade
+to tell the truth
 
+o príncipe
+the prince
 
-minha professora
-vai mentir para eles
-perto da loja
-Alice
-vai comentar sobre isso
-no restaurante
-seu filho
-depois disso
-eu descobri
-reclama muito
-costumava ler livros
-na empresa
-estudou artes
-vai começar a treinar
-sempre depois disso
+está assistindo sobre isso
+is watching about it
+
+Oliver
+Oliver
+
+vai assistir a partida
+will watch the match
+
+eu entendo porque
+i understand why
+
+adora comprar
+loves to buy
+
+provavelmente
+probably
+
+Zoe
+Zoe
+
+está praticando suas dicas
+is practicing your tips
+
+está mostrando suas notas
+is showing your grades
+
+está se esforçando
+is trying hard
+
+em casa
+at home
+
+tem muito disso
+has a lot of it
+
+gosta muito dela
+really likes her
+
 `
