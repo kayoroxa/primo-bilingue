@@ -74,7 +74,7 @@ const dict = {
     'in my work',
     'on the beach',
     'at her house',
-    'at the restaurant',
+    'at the (restaurant|bar)',
     'near the beach',
   ],
   why: [
