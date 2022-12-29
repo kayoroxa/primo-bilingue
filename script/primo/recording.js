@@ -1,190 +1,221 @@
-/* FEITO EM? 28-12-22 */
+/* FEITO EM? 29-12-22 */
 export const rawScript = `
-
-abriu
-opened
-
-os brinquedos
-the toys
-
-leo abriu os brinquedos
-leo opened the toys
-
-quando isso aconteceu
-when this happened
-
-quando isso aconteceu o leo abriu os brinquedos
-when this happened leo opened the toys
-
-não acredito
-i can't believe
-
-não acredito leo abriu os brinquedos
-i can't believe leo opened the toys
-
-vai comer pizza
-will eat pizza
-
-não acredito Bia vai comer pizza
-i can't believe Bia will eat pizza
-
-a muito tempo atrás
-a long time ago
-
-minha professora
-my teacher
-
-minha professora abriu os brinquedos faz tempo
-my teacher opened the toys a long time ago
-
-está quebrando
-is breaking
-
-as janelas
-the windows
-
-Bia está quebrando as janelas
-Bia is breaking the windows
-
-não acredito Bia está quebrando as janelas
-i can't believe Bia is breaking the windows
 
 perto do banco
 near the bank
 
-leo está quebrando as janelas perto do banco
-leo is breaking the windows near the bank
+vai falar 
+will talk 
 
-minha professora vai comer pizza
-my teacher will eat pizza
-
-perto da loja
-close to the store
-
-leo vai comer pizza perto da loja
-leo will eat pizza close to the store
-
-minha professora abriu os brinquedos perto da loja
-my teacher opened the toys close to the store
-
-vai assistir
-will watch
-
-o filme
-the movie
-
-Bia vai assistir o filme perto do banco
-Bia will watch the movie near the bank
-
-é fácil ver porquê 
-it's easy to see why
-
-é fácil ver por que Bia vai assistir ao filme
-it's easy to see why Bia will watch the movie
-
-é fácil ver porquê Bia abriu os brinquedos
-it's easy to see why Bia opened the toys
-
-ainda está triste
-is still sad
-
-minha professora ainda está triste
-my teacher is still sad
-
-não acredito Bia ainda ta triste
-i can't believe Bia is still sad
-
-está pensando
-is thinking
+Roy vai falar perto do banco
+Roy will talk near the bank
 
 sobre isso
 about it
 
-é fácil ver porquê leo está pensando nisso
-it's easy to see why leo is thinking about it
+Roy vai falar sobre isso
+Roy will talk about it
 
-leo está pensando nisso perto da loja
-leo is thinking about it close to the store
+realmente gosta dela
+really likes her
 
-leo vai assistir o filme
-leo will watch the movie
+Roy realmente gosta dela
+Roy really likes her
 
-Bia vai comer pizza perto da loja
-Bia will eat pizza close to the store
+Roy vai falar sobre isso perto do banco
+Roy will talk about it near the bank
 
-meu professor está pensando sobre isso perto do banco
-my teacher is thinking about it near the bank
+o médico
+the doctor
 
-depois disso
-after that
+pelo visto
+apparently
 
-depois disso Bia abriu os brinquedos
-after that Bia opened the toys
+pelo visto o médico vai falar sobre isso
+apparently the doctor will talk about it
 
-depois disso minha professora vai assistir o filme
-after that my teacher will watch the movie
+aparentemente o medico gosta muito dela
+apparently the doctor really likes her
 
-em casa
-at home
+está falando
+is talking
 
-leo vai assistir o filme em casa
-leo will watch the movie at home
+Roy está falando sobre isso perto do banco
+Roy is talking about it near the bank
 
-é fácil ver porque meu professor ainda está triste
-it's easy to see why my teacher is still sad
+pelo visto o médico está falando sobre isso
+apparently the doctor is talking about it
 
-Bia está pensando sobre isso em casa
-Bia is thinking about it at home
+uns meses atrás
+a few months ago
 
-minha professora abriu os brinquedos em casa
-my teacher opened the toys at home
+abriu 
+opened
 
-é fácil ver porque leo ainda está triste
-it's easy to see why leo is still sad
+as cartas
+the cards
 
-depois disso leo vai assistir o filme em casa
-after that leo will watch the movie at home
+o médico abriu os cartões há alguns meses
+the doctor opened the cards a few months ago
+
+Roy abriu os cartões perto do banco
+Roy opened the cards near the bank
+
+como eu avisei
+as i warned
+
+como eu avisei o médico está falando sobre isso
+as i warned the doctor is talking about it
+
+como eu avisei Roy abriu os cartões há alguns meses
+as i warned Roy opened the cards a few months ago
+
+a investigação
+the investigation
+
+começou 
+started
+
+Ana começou a investigação
+Ana started the investigation
+
+como eu avisei Ana vai falar sobre isso
+as i warned Ana will talk about it
+
+as cadeiras
+the chairs
+
+perto de casa
+close to home
+
+está quebrando
+is breaking 
+
+Ana tá quebrando as cadeiras
+Ana is breaking the chairs
+
+Ana começou a investigação perto de casa
+Ana started the investigation close to home
+
+a muito tempo atrás
+a long time ago
+
+o médico começou a investigação a muito tempo atrás
+the doctor started the investigation a long time ago
+
+como eu avisei Ana abriu as cartas a muito tempo atrás
+as i warned Ana opened the cards a long time ago
+
+suas questões
+your questions
+
+resolveu
+solved
+
+Roy resolvido suas perguntas
+Roy solved your questions
+
+o médico resolveu suas dúvidas há muito tempo
+the doctor solved your questions a long time ago
+
+tanto quanto possível
+as much as possible
+
+Ana resolveu suas dúvidas o máximo possível
+Ana solved your questions as much as possible
+
+pelo visto Roy vai falar sobre isso o máximo possível
+apparently Roy will talk about it as much as possible
+
+na realidade
+actually
+
+na verdade Roy realmente gosta dela
+actually Roy really likes her
+
+na realidade Roy resolvido suas perguntas há muito tempo
+actually Roy solved your questions a long time ago
+
+suas ideias
+your ideas
+
+está praticando
+is practicing
+
+Roy está praticando suas ideias perto do banco
+Roy is practicing your ideas near the bank
+
+Ana está praticando suas ideias o máximo possível
+Ana is practicing your ideas as much as possible
+
+no ano passado
+in the past year
+
+Roy resolveu suas perguntas no ano passado
+Roy solved your questions in the past year
+
+Ana abriu os cartões perto do banco no ano passado
+Ana opened the cards near the bank in the past year
+
+como eu avisei o médico realmente gosta dela
+as i warned the doctor really likes her
+
+na verdade Roy está praticando suas ideias
+actually Roy is practicing your ideas
+
+Ana resolveu suas dúvidas perto do banco
+Ana solved your questions near the bank
 
 `
 
 export const teach = `
-when this happened
-Leo
-opened the toys
-i can't believe
-Bia
-will eat pizza
-my teacher
-It's easy to see why
-is thinking about it
-a long time ago
-is breaking the windows
+Roy
+will talk about it
 near the bank
-close to the store
-will watch the movie
-is still sad
-made new decorations
+apparently
+the doctor
+really likes her
+near to the store
+is talking about it
+opened the cards
+a few months ago
+as I warned
+Ana
+started the investigation
+is breaking the chairs
+close to home
+solved your questions
+a long time ago
+as much as possible
+actually
+is practicing your ideas
+in the past year
+from that day on
 after that
-at home
-as much as they
+will watch the movie
 
-quando isso aconteceu
-Leo
-abriu os brinquedos
-eu não posso acreditar no que
-Bia
-vai comer pizza
-minha professora
-É fácil ver porque
-está pensando nisso
-a muito tempo atrás
-está quebrando as janelas
+Roy
+vai falar sobre isso
 perto do banco
+pelo visto
+o médico
+realmente gosta dela
 perto da loja
-vai assistir o filme
-ainda está triste
-fiz novas decorações
+está falando sobre isso
+abriu as cartas
+uns meses atrás
+como eu avisei
+Ana
+começou a investigação
+está quebrando as cadeiras
+perto de casa
+resolvido suas perguntas
+a muito tempo atrás
+tanto quanto possível
+na realidade
+está praticando suas ideias
+no ano passado
+desde aquele dia
 depois disso
-em casa
-tanto quanto eles
+vai assistir o filme
 `

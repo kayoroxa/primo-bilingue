@@ -294,6 +294,9 @@ estará preparada
 {really needs to talk}
 {really needs} {to talk}
 
+gosta muito dela
+{realmente gosta dela}
+
 fazia novas decorações
 {fez novas decorações}
 
@@ -301,6 +304,9 @@ fazia novas decorações
 {fez novas decorações}
 
 abria as cartas
+{abriu as cartas}
+
+{abriu as cartas}
 {abriu} {as cartas}
 
 {opened the cards}
@@ -314,6 +320,12 @@ abria as cartas
 
 {está trabalhando duro}
 {está} {trabalhando duro}
+
+{está falando sobre isso}
+{está falando} {sobre isso}
+
+{is talking about it}
+{is talking} {about it}
 
 {is working hard}
 {is} {working hard}
@@ -516,6 +528,36 @@ a {Bia}
 {is practicing your tips}
 {is practicing} {your tips}
 
+{is practicing your lessons}
+{is practicing} {your lessons}
+
+{está praticando suas ideias}
+{está praticando} {suas ideias}
+
+{is practicing your ideas}
+{is practicing} {your ideas}
+
+tá quebrando as cadeira
+está quebrando as cadeiras
+
+{es{está quebrando} {as cadeiras}s}
+está quebrando as cadeiras
+
+está quebrando as cadeiras
+{está quebrando as cadeiras}
+
+{está quebrando as cadeiras}
+{está quebrando} {as cadeiras}
+
+{as cadeiras}s
+{as cadeiras}
+
+{es{está quebrando}
+{está quebrando}
+
+{is breaking the chairs}
+{is breaking} {the chairs}
+
 {está pensando nisso}
 {está pensando} {sobre isso}
 
@@ -527,6 +569,12 @@ está pensando sobre isso
 
 vai assistir ao filme
 {vai assistir o filme}
+
+{começou a investigação}
+{começou} {a investigação}
+
+{started the investigation}
+{started} {the investigation}
 
 {vai assistir o filme}
 {vai assistir} {o filme}
@@ -555,6 +603,12 @@ ta mostrando suas notas
 {is breaking the windows}
 {is breaking} {the windows}
 
+{vai falar sobre isso}
+{vai falar} {sobre isso}
+
+{will talk about it}
+{will talk} {about it}
+
 faz tempo
 {há muito tempo}
 
@@ -570,7 +624,42 @@ não posso acreditar
 é fácil ver por que
 é fácil ver porquê
 
+abriu os cartões
+{abriu} {as cartas}
 
+{desde aquele dia}
+a partir daquele dia
+
+a partir desse dia
+a partir daquele dia
+
+a partir daquele dia
+{a partir daquele dia}
+
+
+resolveu suas perguntas
+{resolveu suas questões}
+
+resolveu suas dúvidas
+{resolveu suas questões}
+
+{resolveu suas questões}
+{resolveu} {suas questões}
+
+{solved your questions}
+{solved} {your questions}
+
+{pelo visto}
+aparentemente
+
+aparentemente
+{aparentemente}
+
+{uns meses atrás}
+{há poucos meses atrás}
+
+há alguns meses
+{há poucos meses atrás}
 
 `.replace(/\n{3,}/g, '\n\n')
 
@@ -640,9 +729,6 @@ ser sincero
 
 {está praticando suas lições}
 {está praticando} {suas lições}
-
-{is practicing your lessons}
-{is practicing} {your lessons}
 
 {resolvido suas perguntas}
 {resolveu suas perguntas}
