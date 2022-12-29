@@ -32,7 +32,7 @@ module.exports = {
     'For the first time',
     '(probably|perhaps)',
     'to be (clear|honest)',
-    "I can't believe what",
+    "I can't believe",
     'guess (where|why)',
     "It's easy to see why",
   ],

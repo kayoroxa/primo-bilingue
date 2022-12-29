@@ -486,6 +486,12 @@ vai assistir ao jogo
 o {Oliver}
 {Oliver}
 
+o {leo}
+{leo}
+
+a {Bia}
+{Bia}
+
 {eu entendo porque}
 {eu entendo} {porque}
 
@@ -510,14 +516,61 @@ o {Oliver}
 {is practicing your tips}
 {is practicing} {your tips}
 
+{está pensando nisso}
+{está pensando} {sobre isso}
+
+está pensando sobre isso
+{está pensando} {sobre isso}
+
+{is thinking about it}
+{is thinking} {about it}
+
+vai assistir ao filme
+{vai assistir o filme}
+
+{vai assistir o filme}
+{vai assistir} {o filme}
+
 {falar a verdade}
 {pra falar a verdade}
+
+{will watch the movie}
+{will watch} {the movie}
+
+{abriu os brinquedos}
+{abriu} {os brinquedos}
+
+{opened the toys}
+{opened} {the toys}
 
 pra {pra falar a verdade}
 {pra falar a verdade}
 
 ta mostrando suas notas
 {está mostrando} {suas notas}
+
+{está quebrando as janelas}
+{está quebrando} {as janelas}
+
+{is breaking the windows}
+{is breaking} {the windows}
+
+faz tempo
+{há muito tempo}
+
+não acredito
+não posso acreditar
+
+não acredit{leo}
+não acredito {leo}
+
+não acredito 
+não posso acreditar
+
+é fácil ver por que
+é fácil ver porquê
+
+
 
 `.replace(/\n{3,}/g, '\n\n')
 

@@ -96,7 +96,7 @@ generateSentences({
   samples,
   dict,
   anki: false,
-  lengthOutput: 10,
+  lengthOutput: 20,
   fraseLength: 45,
   n: 2,
   // similarity: true,
