@@ -52,14 +52,14 @@ a few months ago
 abriu 
 opened
 
-as cartas
-the cards
+as caixas
+the boxes
 
-o médico abriu os cartões há alguns meses
-the doctor opened the cards a few months ago
+o médico abriu as caixas há alguns meses
+the doctor opened the boxes a few months ago
 
-Roy abriu os cartões perto do banco
-Roy opened the cards near the bank
+Roy abriu as caixas perto do banco
+Roy opened the boxes near the bank
 
 como eu avisei
 as i warned
@@ -67,8 +67,8 @@ as i warned
 como eu avisei o médico está falando sobre isso
 as i warned the doctor is talking about it
 
-como eu avisei Roy abriu os cartões há alguns meses
-as i warned Roy opened the cards a few months ago
+como eu avisei Roy abriu as caixas há alguns meses
+as i warned Roy opened the boxes a few months ago
 
 a investigação
 the investigation
@@ -103,8 +103,8 @@ a long time ago
 o médico começou a investigação a muito tempo atrás
 the doctor started the investigation a long time ago
 
-como eu avisei Ana abriu as cartas a muito tempo atrás
-as i warned Ana opened the cards a long time ago
+como eu avisei Ana abriu as caixas a muito tempo atrás
+as i warned Ana opened the boxes a long time ago
 
 suas questões
 your questions
@@ -154,8 +154,8 @@ in the past year
 Roy resolveu suas perguntas no ano passado
 Roy solved your questions in the past year
 
-Ana abriu os cartões perto do banco no ano passado
-Ana opened the cards near the bank in the past year
+Ana abriu as caixas perto do banco no ano passado
+Ana opened the boxes near the bank in the past year
 
 como eu avisei o médico realmente gosta dela
 as i warned the doctor really likes her
@@ -177,7 +177,7 @@ the doctor
 really likes her
 near to the store
 is talking about it
-opened the cards
+opened the boxes
 a few months ago
 as I warned
 Ana
@@ -190,32 +190,5 @@ as much as possible
 actually
 is practicing your ideas
 in the past year
-from that day on
 after that
-will watch the movie
-
-Roy
-vai falar sobre isso
-perto do banco
-pelo visto
-o médico
-realmente gosta dela
-perto da loja
-está falando sobre isso
-abriu as cartas
-uns meses atrás
-como eu avisei
-Ana
-começou a investigação
-está quebrando as cadeiras
-perto de casa
-resolvido suas perguntas
-a muito tempo atrás
-tanto quanto possível
-na realidade
-está praticando suas ideias
-no ano passado
-desde aquele dia
-depois disso
-vai assistir o filme
 `
