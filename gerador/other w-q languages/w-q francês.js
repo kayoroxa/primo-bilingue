@@ -64,7 +64,7 @@ for (key of Object.keys(dict)) {
 
 let frases = new Set()
 let teach = new Set()
-const meaningLess = require('./sentencesMeaningless.json')
+const meaningLess = require('../sentencesMeaningless.json')
 
 while (frases.size < 60) {
   let newSentence = generate(dictSmall)
