@@ -6,6 +6,24 @@ const {
   middlePres,
 } = require('./types_blocks/testeBlock')
 
+// const _ = require('lodash')
+const { generateSentences } = require('./funcs/funcs')
+require('typescript-require')
+// const { choseVariantes } = require('./choseVariantes.ts')
+const { who } = require('./types_blocks/who')
+const { where } = require('./types_blocks/where')
+const { whyFinal } = require('./types_blocks/why')
+const { what, whatPast } = require('./types_blocks/what')
+const { whenFut, whenPast } = require('./types_blocks/when')
+const { intro, introPast, introFut } = require('./types_blocks/intro')
+const {
+  actionFut,
+  actionIngPos,
+  actionPast,
+  actionPres,
+  actionIng,
+} = require('./types_blocks/action')
+const { amountPast } = require('./types_blocks/amount')
 const dict = {
   who,
   where,
@@ -57,3 +75,15 @@ const samples = [
   // ['who', 'what', 'where'],
   // ['who', 'whatPast', 'where'],
 ]
+
+generateSentences({
+  samples,
+  dict,
+  anki: false,
+  lengthOutput: 20,
+  fraseLength: 45,
+  n: 2,
+  // similarity: true,
+  showNewsTeach: true,
+  printWithVariable: true,
+})
