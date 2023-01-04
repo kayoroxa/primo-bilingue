@@ -6,19 +6,14 @@ const dict = {
     'I have to admit',
     //
     'But honestly',
-    'no matter why',
     // #4
-    'actually',
     'honestly',
-    'what happens is that',
 
     // //5
-    "I'm sure",
-    "I'm not sure if",
     "I can't explain why but",
-    'looks like',
   ],
   who: [
+    'you',
     'William',
     'my mother',
     // 'my opinion',
@@ -52,6 +47,7 @@ const dict = {
     'has experience',
     'is disappointed with Emily',
     'is ignoring Jessica',
+    'like to (read|study english)',
     //
     "think it's optional",
     'go with me',
@@ -65,7 +61,9 @@ const dict = {
     '(i|you) know what (are you doing|happened|is that)',
     '(i|you|he) used to (go|work|run)',
     "(i|you|he) didn't (know|want|see)",
-    "it's very common for (people|him) (to have to do this|to do this)",
+    "it's very common for (people|him) to (have to do this|do this)",
+    'did you (see that|hear that|do)',
+    '(he|i|she) (wants|need) you to (ask|talk|find)',
   ],
   whatPast: [
     //4
