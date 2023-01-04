@@ -318,17 +318,12 @@ abria as cartas
 {sold the cookie}
 {sold} {the cookie}
 
-{está trabalhando duro}
-{está} {trabalhando duro}
-
 {está falando sobre isso}
 {está falando} {sobre isso}
 
 {is talking about it}
 {is talking} {about it}
 
-{is working hard}
-{is} {working hard}
 
 {você sabia} que
 {você sabia que}
@@ -660,6 +655,51 @@ aparentemente
 
 há alguns meses
 {há poucos meses atrás}
+
+costumava estudar todas as noites
+{costumava estudar} {todas as noites}
+
+trabalhando duro
+trabalhando muito
+
+próximo ao Parque
+perto do parque
+
+costumava estudar perto do parque todas as noites
+{costumava estudar} {perto do parque} {todas as noites}
+
+costumava estudar perto do parque
+{costumava estudar} {perto do parque}
+
+{na verdade},
+{na verdade}
+
+ninguém sabia,
+ninguém sabia
+
+ninguém sabia mas
+{ninguém sabia mas}
+
+{ninguém sabia mas}
+{ninguém sabia} {mas}
+
+{nobody knew but}
+{nobody knew} {but}
+
+o experimento
+{o experimento}
+
+the experiment
+{the experiment}
+
+{é verdade} que
+{é verdade}
+
+{vai estragar tudo}
+{vai estragar} {tudo}
+
+{will ruin everything}
+{will ruin} {everything}
 
 `.replace(/\n{3,}/g, '\n\n')
 

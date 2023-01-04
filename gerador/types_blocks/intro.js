@@ -1,7 +1,7 @@
 module.exports = {
   introFut: [
     'from that day on',
-    'guess what (day|time)',
+    'guess what when',
     'after that',
     'always after that',
   ],

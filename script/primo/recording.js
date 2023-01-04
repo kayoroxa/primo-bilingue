@@ -1,194 +1,211 @@
-/* FEITO EM? 29-12-22 */
+/* FEITO EM? 04-01-23 */
 export const rawScript = `
 
-perto do banco
-near the bank
+costumava
+used to
 
-vai falar 
-will talk 
+estudar
+study
 
-Roy vai falar perto do banco
-Roy will talk near the bank
+Erik costumava estudar
+Erik used to study
 
-sobre isso
+está trabalhando duro
+is working hard
+
+toda noite
+every night
+
+Erik está trabalhando duro todas as noites
+Erik is working hard every night
+
+Erik costumava estudar todas as noites
+Erik used to study every night
+
+seu diretor
+your director
+
+próximo ao Parque
+near the park
+
+seu diretor está trabalhando duro perto do parque
+your director is working hard near the park
+
+Erik costumava estudar perto do parque todas as noites
+Erik used to study near the park every night
+
+adivinhe quando
+guess when
+
+adivinhe quando seu diretor costumava estudar
+guess when your director used to study
+
+vai comer salada
+will eat salad
+
+adivinhe quando seu diretor vai comer salada
+guess when your director will eat salad
+
+o líder
+the leader
+
+na verdade
+actually
+
+na verdade o líder vai comer salada
+actually the leader will eat salad
+
+na verdade o líder costumava estudar perto do parque
+actually the leader used to study near the park
+
+é muito sábio
+is very wise
+
+na verdade o líder é muito sábio
+actually the leader is very wise
+
+corre muito
+runs a lot
+
+na verdade o líder corre muito
+actually the leader runs a lot
+
+na verdade seu diretor está trabalhando duro
+actually your director is working hard
+
+seu diretor corre muito próximo ao Parque
+your director runs a lot near the park
+
+vai falar
+will talk
+
 about it
+sobre isso
 
-Roy vai falar sobre isso
-Roy will talk about it
+Erik vai falar sobre isso todas as noites
+Erik will talk about it every night
 
-realmente gosta dela
-really likes her
+adivinhe quando o líder vai falar sobre isso
+guess when the leader will talk about it
 
-Roy realmente gosta dela
-Roy really likes her
+no avião
+on the plane
 
-Roy vai falar sobre isso perto do banco
-Roy will talk about it near the bank
+seu diretor vai falar sobre isso no avião
+your director will talk about it on the plane
 
-o médico
-the doctor
+mas
+but
 
-pelo visto
-apparently
+ninguém sabia
+nobody knew
 
-pelo visto o médico vai falar sobre isso
-apparently the doctor will talk about it
+ninguém sabia mas Erik é muito sábio
+nobody knew but Erik is very wise
 
-aparentemente o medico gosta muito dela
-apparently the doctor really likes her
+ninguém sabia mas Erik corre muito perto do parque
+nobody knew but Erik runs a lot near the park
+
+o experimento
+the experiment
+
+mudou
+changed
+
+ninguém sabia, mas o líder mudou o experimento
+nobody knew but the leader changed the experiment
+
+na verdade seu diretor mudou o experimento
+actually your director changed the experiment
+
+o líder costumava estudar no avião
+the leader used to study on the plane
+
+o líder vai comer salada todas as noites
+the leader will eat salad every night
+
+ninguém sabia mas seu diretor vai falar sobre isso
+nobody knew but your director will talk about it
+
+na verdade Erik vai comer salada no avião
+actually Erik will eat salad on the plane
+
+é verdade
+is true
+
+é verdade o líder é muito sábio
+is true the leader is very wise
+
+é verdade seu diretor mudou o experimento
+is true your director changed the experiment
 
 está falando
 is talking
 
-Roy está falando sobre isso perto do banco
-Roy is talking about it near the bank
+é verdade que seu diretor está falando sobre isso
+is true your director is talking about it
 
-pelo visto o médico está falando sobre isso
-apparently the doctor is talking about it
+na verdade o líder está falando sobre isso no avião
+actually the leader is talking about it on the plane
 
-uns meses atrás
-a few months ago
+tudo
+everything
 
-abriu 
-opened
+vai estragar 
+will ruin
 
-as caixas
-the boxes
+o líder vai estragar tudo
+the leader will ruin everything
 
-o médico abriu as caixas há alguns meses
-the doctor opened the boxes a few months ago
+é verdade Erik vai estragar tudo perto do parque
+is true Erik will ruin everything near the park
 
-Roy abriu as caixas perto do banco
-Roy opened the boxes near the bank
-
-como eu avisei
-as i warned
-
-como eu avisei o médico está falando sobre isso
-as i warned the doctor is talking about it
-
-como eu avisei Roy abriu as caixas há alguns meses
-as i warned Roy opened the boxes a few months ago
-
-a investigação
-the investigation
-
-começou 
-started
-
-Ana começou a investigação
-Ana started the investigation
-
-como eu avisei Ana vai falar sobre isso
-as i warned Ana will talk about it
-
-as cadeiras
-the chairs
-
-perto de casa
-close to home
-
-está quebrando
-is breaking 
-
-Ana tá quebrando as cadeiras
-Ana is breaking the chairs
-
-Ana começou a investigação perto de casa
-Ana started the investigation close to home
-
-a muito tempo atrás
-a long time ago
-
-o médico começou a investigação a muito tempo atrás
-the doctor started the investigation a long time ago
-
-como eu avisei Ana abriu as caixas a muito tempo atrás
-as i warned Ana opened the boxes a long time ago
-
-suas questões
-your questions
-
-resolveu
-solved
-
-Roy resolvido suas perguntas
-Roy solved your questions
-
-o médico resolveu suas dúvidas há muito tempo
-the doctor solved your questions a long time ago
-
-tanto quanto possível
-as much as possible
-
-Ana resolveu suas dúvidas o máximo possível
-Ana solved your questions as much as possible
-
-pelo visto Roy vai falar sobre isso o máximo possível
-apparently Roy will talk about it as much as possible
-
-na realidade
-actually
-
-na verdade Roy realmente gosta dela
-actually Roy really likes her
-
-na realidade Roy resolvido suas perguntas há muito tempo
-actually Roy solved your questions a long time ago
-
-suas ideias
-your ideas
-
-está praticando
-is practicing
-
-Roy está praticando suas ideias perto do banco
-Roy is practicing your ideas near the bank
-
-Ana está praticando suas ideias o máximo possível
-Ana is practicing your ideas as much as possible
-
-no ano passado
-in the past year
-
-Roy resolveu suas perguntas no ano passado
-Roy solved your questions in the past year
-
-Ana abriu as caixas perto do banco no ano passado
-Ana opened the boxes near the bank in the past year
-
-como eu avisei o médico realmente gosta dela
-as i warned the doctor really likes her
-
-na verdade Roy está praticando suas ideias
-actually Roy is practicing your ideas
-
-Ana resolveu suas dúvidas perto do banco
-Ana solved your questions near the bank
-
+ninguém sabia mas seu diretor vai estragar tudo
+nobody knew but your director will ruin everything
 `
 
 export const teach = `
-Roy
-will talk about it
-near the bank
-apparently
-the doctor
-really likes her
-near to the store
-is talking about it
-opened the boxes
-a few months ago
-as I warned
-Ana
-started the investigation
-is breaking the chairs
-close to home
-solved your questions
-a long time ago
-as much as possible
+Erik
+used to study
+every night
+your director
+is working hard
+near the park
+guess when
+will eat salad
 actually
-is practicing your ideas
-in the past year
-after that
+the leader
+is very wise
+on the plane
+runs a lot
+will talk about it
+will ruin everything
+Nobody knew but
+changed the experiment
+is improving your sleep
+is true
+is talking about it
+without question
+
+Erik
+usado para estudar
+toda noite
+seu diretor
+está trabalhando duro
+próximo ao Parque
+adivinhe quando
+vai comer salada
+na verdade
+o líder
+é muito sábio
+no avião
+corre muito
+vai falar sobre isso
+vai estragar tudo
+ninguém sabia mas
+mudou o experimento
+está melhorando seu sono
+é verdade
+está falando sobre isso
+sem questionar
 `
