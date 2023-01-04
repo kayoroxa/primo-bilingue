@@ -1,4 +1,4 @@
-const { generateSentences } = require('./funcs')
+const { generateSentences } = require('../funcs')
 
 const dict = {
   intro: [
