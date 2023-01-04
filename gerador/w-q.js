@@ -1,5 +1,5 @@
 // const _ = require('lodash')
-const { generateSentences } = require('./funcs')
+const { generateSentences } = require('./funcs/funcs')
 require('typescript-require')
 // const { choseVariantes } = require('./choseVariantes.ts')
 const { who } = require('./types_blocks/who')

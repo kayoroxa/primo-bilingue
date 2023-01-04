@@ -1,5 +1,5 @@
-import { _replace } from '../../gerador/primoReplace.js'
-// import { _replace } from '../../gerador/courseReplace.js'
+import { _replace } from '../../gerador/replaces/primoReplace.js'
+// import { _replace } from '../../gerador/replaces/courseReplace.js'
 import { rawScript, teach } from '../../script/primo/recording.js'
 
 export const config = {

@@ -1,5 +1,5 @@
 const _ = require('lodash')
-const { alternativeChoose } = require('./alternativesChoose')
+const { alternativeChoose } = require('./alternativesChoose.Js')
 
 function generate(dict, samples, forceTeach) {
   const selected = _.sample(samples)
