@@ -1,211 +1,222 @@
-/* FEITO EM? 04-01-23 */
+/* FEITO EM? 05-01-23 */
 export const rawScript = `
+o menino
+the boy
 
-costumava
-used to
+vai mentir
+will lie
 
-estudar
-study
+para eles
+to them
 
-Erik costumava estudar
-Erik used to study
+o menino vai mentir para eles
+the boy will lie to them
 
-está trabalhando duro
-is working hard
+eu juro
+i swear
 
-toda noite
-every night
+eu juro que o menino vai mentir para eles
+i swear the boy will lie to them
 
-Erik está trabalhando duro todas as noites
-Erik is working hard every night
+seu amigo
+your friend
 
-Erik costumava estudar todas as noites
-Erik used to study every night
+suas fotos
+your pictures
 
-seu diretor
-your director
+está mostrando
+is showing 
 
-próximo ao Parque
-near the park
+eu juro que seu amigo está mostrando suas fotos
+i swear your friend is showing your pictures
 
-seu diretor está trabalhando duro perto do parque
-your director is working hard near the park
+tem muitos cachorros
+has many dogs
 
-Erik costumava estudar perto do parque todas as noites
-Erik used to study near the park every night
-
-adivinhe quando
-guess when
-
-adivinhe quando seu diretor costumava estudar
-guess when your director used to study
-
-vai comer salada
-will eat salad
-
-adivinhe quando seu diretor vai comer salada
-guess when your director will eat salad
-
-o líder
-the leader
-
-na verdade
-actually
-
-na verdade o líder vai comer salada
-actually the leader will eat salad
-
-na verdade o líder costumava estudar perto do parque
-actually the leader used to study near the park
-
-é muito sábio
-is very wise
-
-na verdade o líder é muito sábio
-actually the leader is very wise
-
-corre muito
-runs a lot
-
-na verdade o líder corre muito
-actually the leader runs a lot
-
-na verdade seu diretor está trabalhando duro
-actually your director is working hard
-
-seu diretor corre muito próximo ao Parque
-your director runs a lot near the park
-
-vai falar
-will talk
-
-about it
-sobre isso
-
-Erik vai falar sobre isso todas as noites
-Erik will talk about it every night
-
-adivinhe quando o líder vai falar sobre isso
-guess when the leader will talk about it
-
-no avião
-on the plane
-
-seu diretor vai falar sobre isso no avião
-your director will talk about it on the plane
-
-mas
-but
-
-ninguém sabia
-nobody knew
-
-ninguém sabia mas Erik é muito sábio
-nobody knew but Erik is very wise
-
-ninguém sabia mas Erik corre muito perto do parque
-nobody knew but Erik runs a lot near the park
-
-o experimento
-the experiment
-
-mudou
-changed
-
-ninguém sabia, mas o líder mudou o experimento
-nobody knew but the leader changed the experiment
-
-na verdade seu diretor mudou o experimento
-actually your director changed the experiment
-
-o líder costumava estudar no avião
-the leader used to study on the plane
-
-o líder vai comer salada todas as noites
-the leader will eat salad every night
-
-ninguém sabia mas seu diretor vai falar sobre isso
-nobody knew but your director will talk about it
-
-na verdade Erik vai comer salada no avião
-actually Erik will eat salad on the plane
-
-é verdade
-is true
-
-é verdade o líder é muito sábio
-is true the leader is very wise
-
-é verdade seu diretor mudou o experimento
-is true your director changed the experiment
+eu juro que seu amigo tem muitos cachorros
+i swear your friend has many dogs
 
 está falando
 is talking
 
-é verdade que seu diretor está falando sobre isso
-is true your director is talking about it
+sobre isso
+about it
 
-na verdade o líder está falando sobre isso no avião
-actually the leader is talking about it on the plane
+nas ruas
+in the streets
 
-tudo
-everything
+eu juro que o menino está falando sobre isso
+i swear the boy is talking about it
 
-vai estragar 
-will ruin
+seu amigo está mostrando suas fotos nas ruas
+your friend is showing your pictures in the streets
 
-o líder vai estragar tudo
-the leader will ruin everything
+fez a tarefa
+did the task
 
-é verdade Erik vai estragar tudo perto do parque
-is true Erik will ruin everything near the park
+seu amigo fez a tarefa nas ruas
+your friend did the task in the streets
 
-ninguém sabia mas seu diretor vai estragar tudo
-nobody knew but your director will ruin everything
+eu juro que o menino fez a tarefa nas ruas
+i swear the boy did the task in the streets
+
+pelo menos uma vez por semana
+at least once a week
+
+Gary fazia a tarefa pelo menos uma vez por semana
+Gary did the task at least once a week
+
+Gary está falando sobre isso pelo menos uma vez por semana
+Gary is talking about it at least once a week
+
+consertar
+fix
+
+vai ajudar a
+will help to 
+
+o menino vai ajudar a consertar
+the boy will help to fix
+
+eu juro que Gary está falando sobre isso
+i swear Gary is talking about it
+
+Gary está mostrando suas fotos nas ruas
+Gary is showing your pictures in the streets
+
+e porque?
+and why?
+
+e porque o menino fez a tarefa?
+and why the boy did the task?
+
+e porque Gary vai ajudar a consertar?
+and why Gary will help to fix?
+
+tem muito disso
+has a lot of it
+
+e por que seu amigo tem muito disso?
+and why your friend has a lot of it?
+
+eu juro que o menino tem muito disso nas ruas
+i swear the boy has a lot of it in the streets
+
+está trabalhando nisso
+is working on it
+
+eu juro que Gary está trabalhando nisso
+i swear Gary is working on it
+
+e por que seu amigo está trabalhando nisso?
+and why your friend is working on it?
+
+no palácio
+in the palace
+
+o menino está trabalhando nisso no palácio
+the boy is working on it in the palace
+
+eu juro que Gary tem muitos cachorros no palácio
+i swear Gary has many dogs in the palace
+
+Gary vai ajudar a consertar pelo menos uma vez por semana
+Gary will help to fix at least once a week
+
+uns meses atrás
+a few months ago
+
+seu amigo fez a tarefa no palácio uns meses atrás
+your friend did the task in the palace a few months ago
+
+e porque o menino fez a tarefa uns meses atrás?
+and why the boy did the task a few months ago?
+
+as regras
+the rules
+
+me disse
+told me
+
+o menino me disse as regras alguns meses atrás
+the boy told me the rules a few months ago
+
+e por que seu amigo me disse as regras?
+and why your friend told me the rules?
+
+Gary me disse as regras no palácio uns meses atrás
+Gary told me the rules in the palace a few months ago
+
+eu juro que o menino está mostrando suas fotos
+i swear the boy is showing your pictures
+
+vai comer sozinho
+will eat alone
+
+e por que seu amigo vai comer sozinho?
+and why your friend will eat alone?
+
+eu juro que o menino vai comer sozinho
+i swear the boy will eat alone
+
+e por que Gary está trabalhando nisso nas ruas?
+and why Gary is working on it in the streets?
+
+e por que seu amigo tem muitos cachorros no palácio?
+and why your friend has many dogs in the palace?
+
 `
 
 export const teach = `
-Erik
-used to study
-every night
-your director
-is working hard
-near the park
-guess when
-will eat salad
-actually
-the leader
-is very wise
-on the plane
-runs a lot
-will talk about it
-will ruin everything
-Nobody knew but
-changed the experiment
-is improving your sleep
-is true
+your friend
+is showing your pictures
+the boy
+will lie to them
+I swear
+has many dogs
 is talking about it
-without question
+did the task
+in the streets
+Gary
+at least once a week
+will help to fix
+In the last week
+is improving your english
+and why
+has a lot of it
+is working on it
+in the palace
+told me the rules
+a few months ago
+as much as he
+will eat alone
+is reading your poems
+I'm sure
 
-Erik
-usado para estudar
-toda noite
-seu diretor
-está trabalhando duro
-próximo ao Parque
-adivinhe quando
-vai comer salada
-na verdade
-o líder
-é muito sábio
-no avião
-corre muito
-vai falar sobre isso
-vai estragar tudo
-ninguém sabia mas
-mudou o experimento
-está melhorando seu sono
-é verdade
+
+seu amigo
+está mostrando suas fotos
+o menino
+vai mentir para eles
+Juro
+tem muitos cachorros
 está falando sobre isso
-sem questionar
+fez a tarefa
+nas ruas
+Gary
+pelo menos uma vez por semana
+vai ajudar a consertar
+Na última semana
+está melhorando seus inglês
+e porque
+tem muito disso
+está trabalhando nisso
+no palácio
+me disse as regras
+uns meses atrás
+adora comprar
+tanto quanto ele
+vai comer sozinho
+está lendo seus poemas
+Tenho certeza
 `

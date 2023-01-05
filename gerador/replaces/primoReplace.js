@@ -701,6 +701,45 @@ the experiment
 {will ruin everything}
 {will ruin} {everything}
 
+eu {juro}
+{eu juro}
+
+{eu juro} que
+{eu juro que}
+
+{vai mentir para eles}
+{vai mentir} {para eles}
+
+{will lie to them}
+{will lie} {to them}
+
+fazia a tarefa
+fez a tarefa
+
+{está melhorando seus personagens}
+{está melhorando} {seus personagens}
+
+{is improving your characters}
+{is improving} {your characters}
+
+{vai ajudar a consertar}
+{vai ajudar a} {consertar}
+
+{will help to fix}
+{will help to} {fix}
+
+{{me dizia as regras}}
+{me dizia as regras}
+
+{me dizia as regras}
+{me disse as regras}
+
+{me disse as regras}
+{me disse} {as regras}
+
+{told me the rules}
+{told me} {the rules}
+
 `.replace(/\n{3,}/g, '\n\n')
 
 const primoCaio = `
