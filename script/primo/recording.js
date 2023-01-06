@@ -36,6 +36,9 @@ has many dogs
 eu juro que seu amigo tem muitos cachorros
 i swear your friend has many dogs
 
+JÁ FAZ UMA CTA AQUI MEU BOM DPS EU FAÇO O INSERT...
+JÁ FAZ UMA CTA AQUI MEU BOM...
+
 está falando
 is talking
 
