@@ -34,20 +34,20 @@ Gary opened the toys as much as he
 estará ocupado
 will be busy
 
-e porque?
-and why?
+mas porque?
+but why?
 
-e porque depois disso minha esposa estará ocupada?
-and why after that my wife will be busy?
+mas porque depois disso minha esposa estará ocupada?
+but why after that my wife will be busy?
 
 Roy estará ocupado tanto quanto ele
 Roy will be busy as much as he
 
-e porque minha esposa abriu os brinquedos?
-and why my wife opened the toys?
+mas porque minha esposa abriu os brinquedos?
+but why my wife opened the toys?
 
-e porque depois disso Gary vai pagar pela comida?
-and why after that Gary will pay for the food?
+mas porque depois disso Gary vai pagar pela comida?
+but why after that Gary will pay for the food?
 
 toda tarde
 every afternoon
@@ -64,14 +64,14 @@ changed the speech
 Roy mudou o discurso todas as tardes
 Roy changed the speech every afternoon
 
-e porque depois disso minha esposa mudou o discurso?
-and why after that my wife changed the speech?
+mas porque depois disso minha esposa mudou o discurso?
+but why after that my wife changed the speech?
 
 tem muitos amigos
 has many friends
 
-e por que Roy tem muitos amigos?
-and why Roy has many friends?
+mas porque Roy tem muitos amigos?
+but why Roy has many friends?
 
 tenho certeza
 i'm sure
@@ -109,8 +109,8 @@ is practicing
 eu não acho que Gary está praticando suas instruções
 i don't think Gary is practicing your instructions
 
-e por que Gary está praticando suas instruções?
-and why Gary is practicing your instructions?
+mas porque Gary está praticando suas instruções?
+but why Gary is practicing your instructions?
 
 Roy mudou o discurso tanto quanto ele
 Roy changed the speech as much as he
@@ -124,8 +124,8 @@ in the airport
 Roy vai pagar a comida no aeroporto
 Roy will pay for the food in the airport
 
-e porque Gary mudou o discurso no aeroporto?
-and why Gary changed the speech in the airport?
+mas porque Gary mudou o discurso no aeroporto?
+but why Gary changed the speech in the airport?
 
 minha esposa estará ocupada no aeroporto
 my wife will be busy in the airport
@@ -157,8 +157,8 @@ truth be told Gary is practicing your instructions
 verdade seja dita Roy mudou o discurso todas as tardes
 truth be told Roy changed the speech every afternoon
 
-e porque Roy está praticando suas instruções?
-and why Roy is practicing your instructions?
+mas porque Roy está praticando suas instruções?
+but why Roy is practicing your instructions?
 
 eu não acho que Roy costumava correr no aeroporto
 i don't think Roy used to run in the airport
@@ -174,7 +174,7 @@ opened the toys
 as much as he
 Roy
 will be busy
-and why
+but why
 changed the speech
 every afternoon
 has many friends
@@ -196,7 +196,7 @@ abriu os brinquedos
 tanto quanto ele
 Roy
 estará ocupado
-e porque
+mas porque
 mudou o discurso
 toda tarde
 tem muitos amigos
