@@ -10,7 +10,7 @@ module.exports = {
     'but',
     'why',
     'only',
-    'and why',
+    '(and|but) why',
     'is true',
     'no doubt',
     "I'm sure",
