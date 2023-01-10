@@ -1,225 +1,212 @@
-/* FEITO EM? 05-01-23 */
+/* FEITO EM? 10-01-23 */
 export const rawScript = `
-o menino
-the boy
 
-vai mentir
-will lie
+pela comida
+for the food
 
-para eles
-to them
+depois disso
+after that
 
-o menino vai mentir para eles
-the boy will lie to them
+vai pagar 
+will pay
 
-eu juro
-i swear
+depois disso Gary vai pagar pela comida
+after that Gary will pay for the food
 
-eu juro que o menino vai mentir para eles
-i swear the boy will lie to them
+abriu 
+opened 
 
-seu amigo
-your friend
+os brinquedos
+the toys
 
-suas fotos
-your pictures
+minha esposa
+my wife
 
-está mostrando
-is showing 
+depois disso minha esposa abriu os brinquedos
+after that my wife opened the toys
 
-eu juro que seu amigo está mostrando suas fotos
-i swear your friend is showing your pictures
+tanto quanto ele
+as much as he
 
-tem muitos cachorros
-has many dogs
+Gary abriu os brinquedos tanto quanto ele
+Gary opened the toys as much as he
 
-eu juro que seu amigo tem muitos cachorros
-i swear your friend has many dogs
-
-JÁ FAZ UMA CTA AQUI MEU BOM DPS EU FAÇO O INSERT...
-JÁ FAZ UMA CTA AQUI MEU BOM...
-
-está falando
-is talking
-
-sobre isso
-about it
-
-nas ruas
-in the streets
-
-eu juro que o menino está falando sobre isso
-i swear the boy is talking about it
-
-seu amigo está mostrando suas fotos nas ruas
-your friend is showing your pictures in the streets
-
-fez a tarefa
-did the task
-
-seu amigo fez a tarefa nas ruas
-your friend did the task in the streets
-
-eu juro que o menino fez a tarefa nas ruas
-i swear the boy did the task in the streets
-
-pelo menos uma vez por semana
-at least once a week
-
-Gary fazia a tarefa pelo menos uma vez por semana
-Gary did the task at least once a week
-
-Gary está falando sobre isso pelo menos uma vez por semana
-Gary is talking about it at least once a week
-
-consertar
-fix
-
-vai ajudar a
-will help to 
-
-o menino vai ajudar a consertar
-the boy will help to fix
-
-eu juro que Gary está falando sobre isso
-i swear Gary is talking about it
-
-Gary está mostrando suas fotos nas ruas
-Gary is showing your pictures in the streets
+estará ocupado
+will be busy
 
 e porque?
 and why?
 
-e porque o menino fez a tarefa?
-and why the boy did the task?
+e porque depois disso minha esposa estará ocupada?
+and why after that my wife will be busy?
 
-e porque Gary vai ajudar a consertar?
-and why Gary will help to fix?
+Roy estará ocupado tanto quanto ele
+Roy will be busy as much as he
 
-tem muito disso
-has a lot of it
+e porque minha esposa abriu os brinquedos?
+and why my wife opened the toys?
 
-e por que seu amigo tem muito disso?
-and why your friend has a lot of it?
+e porque depois disso Gary vai pagar pela comida?
+and why after that Gary will pay for the food?
 
-eu juro que o menino tem muito disso nas ruas
-i swear the boy has a lot of it in the streets
+toda tarde
+every afternoon
 
-está trabalhando nisso
-is working on it
+Roy estará ocupado toda tarde
+Roy will be busy every afternoon
 
-eu juro que Gary está trabalhando nisso
-i swear Gary is working on it
+depois disso Gary vai pagar pela comida toda tarde
+after that Gary will pay for the food every afternoon
 
-e por que seu amigo está trabalhando nisso?
-and why your friend is working on it?
+mudou o discurso
+changed the speech
 
-no palácio
-in the palace
+Roy mudou o discurso todas as tardes
+Roy changed the speech every afternoon
 
-o menino está trabalhando nisso no palácio
-the boy is working on it in the palace
+e porque depois disso minha esposa mudou o discurso?
+and why after that my wife changed the speech?
 
-eu juro que Gary tem muitos cachorros no palácio
-i swear Gary has many dogs in the palace
+tem muitos cachorros
+has many dogs
 
-Gary vai ajudar a consertar pelo menos uma vez por semana
-Gary will help to fix at least once a week
+e por que Roy tem muitos cachorros?
+and why Roy has many dogs?
 
-uns meses atrás
-a few months ago
+tenho certeza
+i'm sure
 
-seu amigo fez a tarefa no palácio uns meses atrás
-your friend did the task in the palace a few months ago
+tenho certeza que depois disso Roy estará ocupado
+i'm sure after that Roy will be busy
 
-e porque o menino fez a tarefa uns meses atrás?
-and why the boy did the task a few months ago?
+tenho certeza que minha esposa tem muitos cachorros
+i'm sure my wife has many dogs
 
-as regras
-the rules
+costumava correr
+used to run
 
-me disse
-told me
+Gary costumava correr tanto quanto ele
+Gary used to run as much as he
 
-o menino me disse as regras alguns meses atrás
-the boy told me the rules a few months ago
+tenho certeza que Roy costumava correr toda a tarde
+i'm sure Roy used to run every afternoon
 
-e por que seu amigo me disse as regras?
-and why your friend told me the rules?
+eu não acho
+i don't think
 
-Gary me disse as regras no palácio uns meses atrás
-Gary told me the rules in the palace a few months ago
+eu não acho que Gary costumava correr
+i don't think Gary used to run
 
-eu juro que o menino está mostrando suas fotos
-i swear the boy is showing your pictures
+eu não acho que minha esposa tem muitos cachorros
+i don't think my wife has many dogs
 
-vai comer sozinho
-will eat alone
+suas instruções
+your instructions
 
-e por que seu amigo vai comer sozinho?
-and why your friend will eat alone?
+está praticando
+is practicing
 
-eu juro que o menino vai comer sozinho
-i swear the boy will eat alone
+eu não acho que Gary está praticando suas instruções
+i don't think Gary is practicing your instructions
 
-e por que Gary está trabalhando nisso nas ruas?
-and why Gary is working on it in the streets?
+e por que Gary está praticando suas instruções?
+and why Gary is practicing your instructions?
 
-e por que seu amigo tem muitos cachorros no palácio?
-and why your friend has many dogs in the palace?
+Roy mudou o discurso tanto quanto ele
+Roy changed the speech as much as he
+
+eu não acho que Gary costumava correr tanto quanto ele
+i don't think Gary used to run as much as he
+
+no aeroporto
+in the airport
+
+Roy vai pagar a comida no aeroporto
+Roy will pay for the food in the airport
+
+e porque Gary mudou o discurso no aeroporto?
+and why Gary changed the speech in the airport?
+
+minha esposa estará ocupada no aeroporto
+my wife will be busy in the airport
+
+antes
+before
+
+como eu expliquei
+as i explained
+
+como eu expliquei antes Gary estará ocupado no aeroporto
+as i explained before Gary will be busy in the airport
+
+como eu expliquei antes minha esposa tem muitos cachorros
+as i explained before my wife has many dogs
+
+verdade seja dita
+truth be told
+
+verdade seja dita Roy costumava correr no aeroporto
+truth be told Roy used to run in the airport
+
+como eu expliquei antes Roy abriu os brinquedos
+as i explained before Roy opened the toys
+
+verdade seja dita Gary está praticando suas instruções
+truth be told Gary is practicing your instructions
+
+verdade seja dita Roy mudou o discurso todas as tardes
+truth be told Roy changed the speech every afternoon
+
+e porque Roy está praticando suas instruções?
+and why Roy is practicing your instructions?
+
+eu não acho que Roy costumava correr no aeroporto
+i don't think Roy used to run in the airport
 
 `
 
 export const teach = `
-your friend
-is showing your pictures
-the boy
-will lie to them
-I swear
-has many dogs
-is talking about it
-did the task
-in the streets
+after that
+my wife
+will pay for the food
 Gary
-at least once a week
-will help to fix
-In the last week
-is improving your english
-and why
-has a lot of it
-is working on it
-in the palace
-told me the rules
-a few months ago
+opened the toys
 as much as he
-will eat alone
-is reading your poems
+Roy
+will be busy
+and why
+changed the speech
+every afternoon
+has many dogs
+in the airport
 I'm sure
+used to run
+is practicing your instructions
+I don't think
+guess what when
+as I explained before
+truth be told
+at home
 
-
-seu amigo
-está mostrando suas fotos
-o menino
-vai mentir para eles
-Juro
-tem muitos cachorros
-está falando sobre isso
-fez a tarefa
-nas ruas
+depois disso
+minha esposa
+vai pagar pela comida
 Gary
-pelo menos uma vez por semana
-vai ajudar a consertar
-Na última semana
-está melhorando seus inglês
-e porque
-tem muito disso
-está trabalhando nisso
-no palácio
-me disse as regras
-uns meses atrás
-adora comprar
+abriu os brinquedos
 tanto quanto ele
-vai comer sozinho
-está lendo seus poemas
+Roy
+estará ocupado
+e porque
+mudou o discurso
+toda tarde
+tem muitos cachorros
+no aeroporto
 Tenho certeza
+costumava correr
+está praticando suas instruções
+eu não acho
+adivinhe quando
+como eu expliquei antes
+verdade seja dita
+em casa
 `

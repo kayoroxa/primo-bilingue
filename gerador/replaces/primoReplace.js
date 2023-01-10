@@ -263,6 +263,9 @@ está usando suas gorjeta
 {{todas as tardes}}
 {todas as tardes}
 
+toda a tarde
+{todas as tardes}
+
 {{a pouco tempo atrás} atrás}
 {a pouco tempo atrás atrás}
 
@@ -739,6 +742,43 @@ fez a tarefa
 
 {told me the rules}
 {told me} {the rules}
+
+{está praticando suas instruções}
+{está praticando} {suas instruções}
+
+{is practicing your instructions}
+{is practicing} {your instructions}
+
+{verdad{se}ja dita}
+{verdade seja dita}
+
+{verdade seja dita},
+{verdade seja dita}
+
+vai pagar a comida
+{vai pagar pela comida}
+
+pagará pela comida
+{vai pagar pela comida}
+
+{vai pagar pela comida}
+{vai pagar} {pela comida}
+
+{will pay for the food}
+{will pay} {for the food}
+
+{como eu expliquei antes}
+{como eu expliquei} {antes}
+
+{as i explained before}
+{as i explained} {before}
+
+o {roy}
+{roy}
+
+{tenho certeza} que
+{tenho certeza que}
+
 
 `.replace(/\n{3,}/g, '\n\n')
 
