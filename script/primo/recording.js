@@ -67,11 +67,11 @@ Roy changed the speech every afternoon
 e porque depois disso minha esposa mudou o discurso?
 and why after that my wife changed the speech?
 
-tem muitos cachorros
-has many dogs
+tem muitos amigos
+has many friends
 
-e por que Roy tem muitos cachorros?
-and why Roy has many dogs?
+e por que Roy tem muitos amigos?
+and why Roy has many friends?
 
 tenho certeza
 i'm sure
@@ -79,8 +79,8 @@ i'm sure
 tenho certeza que depois disso Roy estará ocupado
 i'm sure after that Roy will be busy
 
-tenho certeza que minha esposa tem muitos cachorros
-i'm sure my wife has many dogs
+tenho certeza que minha esposa tem muitos amigos
+i'm sure my wife has many friends
 
 costumava correr
 used to run
@@ -97,8 +97,8 @@ i don't think
 eu não acho que Gary costumava correr
 i don't think Gary used to run
 
-eu não acho que minha esposa tem muitos cachorros
-i don't think my wife has many dogs
+eu não acho que minha esposa tem muitos amigos
+i don't think my wife has many friends
 
 suas instruções
 your instructions
@@ -139,8 +139,8 @@ as i explained
 como eu expliquei antes Gary estará ocupado no aeroporto
 as i explained before Gary will be busy in the airport
 
-como eu expliquei antes minha esposa tem muitos cachorros
-as i explained before my wife has many dogs
+como eu expliquei antes minha esposa tem muitos amigos
+as i explained before my wife has many friends
 
 verdade seja dita
 truth be told
@@ -177,7 +177,7 @@ will be busy
 and why
 changed the speech
 every afternoon
-has many dogs
+has many friends
 in the airport
 I'm sure
 used to run
@@ -199,7 +199,7 @@ estará ocupado
 e porque
 mudou o discurso
 toda tarde
-tem muitos cachorros
+tem muitos amigos
 no aeroporto
 Tenho certeza
 costumava correr
